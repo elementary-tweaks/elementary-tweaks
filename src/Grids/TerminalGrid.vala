@@ -207,6 +207,18 @@ namespace ElementaryTweaks {
                     );
             this.add (natural_copy_paste_switch);
             
+            var follow_last_tab = new TweakWidget.with_switch (
+                        _("Follow last tab:"),
+                        _("If the user opens a new tab either take the current workdirectory of the previous tab or the default one."),
+                        null,
+                        (() => { return TerminalSettings.get_default ().follow_last_tab; }), // get
+                        ((val) => {
+                                TerminalSettings.get_default ().follow_last_tab = val;
+                            }), // set
+                        (() => { TerminalSettings.get_default ().schema.reset ("follow-last-tab"); }) // reset
+                    );
+            this.add (follow_last_tab);
+            
             var cursor_map = new Gee.HashMap<string, string> ();
             cursor_map.set ("Block", _("Block"));
             cursor_map.set ("I-Beam", _("I-Beam"));
