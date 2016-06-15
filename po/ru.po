@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-15 03:20+0300\n"
-"PO-Revision-Date: 2016-06-15 03:20+0300\n"
+"POT-Creation-Date: 2016-06-16 00:45+0300\n"
+"PO-Revision-Date: 2016-06-16 00:52+0300\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -86,9 +86,17 @@ msgstr "Сбросить по умолчанию"
 msgid "Disabled"
 msgstr "Отключено"
 
-#: ../src/Panes/MiscPane.vala:22
+#: ../src/Panes/MiscPane.vala:25
 msgid "Miscellaneous"
 msgstr "Прочее"
+
+#: ../src/Panes/MiscPane.vala:37
+msgid "Sound Indicator"
+msgstr "Индикатор звука"
+
+#: ../src/Panes/MiscPane.vala:39
+msgid "Max volume"
+msgstr "Максимальная громкость"
 
 #: ../src/Panes/AnimationsPane.vala:35
 msgid "Animations"
@@ -254,9 +262,29 @@ msgstr "Кнопки управления окном"
 msgid "Layout"
 msgstr "Расположение"
 
-#: ../src/Panes/CerberePane.vala:23
+#: ../src/Panes/CerberePane.vala:24
 msgid "Cerbere"
 msgstr "Сервис Cerbere"
+
+#: ../src/Panes/CerberePane.vala:69 ../src/Panes/CerberePane.vala:315
+msgid "Custom command"
+msgstr "Своя команда"
+
+#: ../src/Panes/CerberePane.vala:131
+msgid "Keep these applications open:"
+msgstr "Отслеживаемые приложения:"
+
+#: ../src/Panes/CerberePane.vala:142
+msgid "Add watched app…"
+msgstr "Добавить отслеживаемое приложение…"
+
+#: ../src/Panes/CerberePane.vala:146
+msgid "Remove selected app"
+msgstr "Удалить выбранное приложение"
+
+#: ../src/Panes/CerberePane.vala:311
+msgid "Search Applications"
+msgstr "Поиск приложений"
 
 #: ../src/Panes/FilesPane.vala:28
 msgid "Files"
