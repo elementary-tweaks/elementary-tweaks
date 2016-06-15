@@ -39,7 +39,7 @@ namespace ElementaryTweaks {
 
             background = new Gtk.ColorButton ();
 
-            box.add_widget ("Background color", background);
+            box.add_widget (_("Background color"), background);
             natural_copy_paste = box.add_switch (_("Natural copy paste"));
             follow_last_tab = box.add_switch (_("Follow last tab"));
 
