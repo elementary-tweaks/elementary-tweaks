@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-15 02:19+0300\n"
-"PO-Revision-Date: 2016-06-15 03:10+0300\n"
+"POT-Creation-Date: 2016-06-15 03:20+0300\n"
+"PO-Revision-Date: 2016-06-15 03:20+0300\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -277,6 +277,10 @@ msgstr "Формат даты"
 #: ../src/Panes/TerminalPane.vala:26
 msgid "Terminal"
 msgstr "Терминал"
+
+#: ../src/Panes/TerminalPane.vala:42
+msgid "Background color"
+msgstr "Цвет фона"
 
 #: ../src/Panes/TerminalPane.vala:43
 msgid "Natural copy paste"
