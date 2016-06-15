@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-15 02:19+0300\n"
-"PO-Revision-Date: 2016-06-15 03:06+0300\n"
+"PO-Revision-Date: 2016-06-15 03:10+0300\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -140,7 +140,7 @@ msgstr "Показывать переключатель"
 
 #: ../src/Panes/SlingshotPane.vala:48
 msgid "Show category view by default"
-msgstr "В виде категорий по умолчанию"
+msgstr "Вид категорий по умолчанию"
 
 #: ../src/Panes/FontsPane.vala:27
 msgid "Fonts"
@@ -232,7 +232,7 @@ msgstr "Настройки темы"
 
 #: ../src/Panes/AppearancePane.vala:49
 msgid "GTK+"
-msgstr "GTK+"
+msgstr "Тема GTK+"
 
 #: ../src/Panes/AppearancePane.vala:51
 msgid "Icons"
