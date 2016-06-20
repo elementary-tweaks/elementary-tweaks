@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-16 00:45+0300\n"
-"PO-Revision-Date: 2016-06-16 00:52+0300\n"
+"POT-Creation-Date: 2016-06-16 15:04+0300\n"
+"PO-Revision-Date: 2016-06-16 15:05+0300\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -302,21 +302,25 @@ msgstr "Восстанавливать вкладки"
 msgid "Date format"
 msgstr "Формат даты"
 
-#: ../src/Panes/TerminalPane.vala:26
+#: ../src/Panes/TerminalPane.vala:27
 msgid "Terminal"
 msgstr "Терминал"
 
-#: ../src/Panes/TerminalPane.vala:42
+#: ../src/Panes/TerminalPane.vala:43
 msgid "Background color"
 msgstr "Цвет фона"
 
-#: ../src/Panes/TerminalPane.vala:43
+#: ../src/Panes/TerminalPane.vala:44
 msgid "Natural copy paste"
 msgstr "Натуральные копирование/вставка"
 
-#: ../src/Panes/TerminalPane.vala:44
+#: ../src/Panes/TerminalPane.vala:45
 msgid "Follow last tab"
 msgstr "Придеживаться последней вкладки"
+
+#: ../src/Panes/TerminalPane.vala:46
+msgid "Unsafe paste alert"
+msgstr "Предупреждение о небезопасной вставке"
 
 #~ msgid "Shadows"
 #~ msgstr "Тени"
