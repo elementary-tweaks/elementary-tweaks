@@ -21,6 +21,7 @@ namespace ElementaryTweaks {
         private Gtk.ColorButton background;
         private Gtk.Switch natural_copy_paste;
         private Gtk.Switch follow_last_tab;
+        private Gtk.Switch unsafe_paste_alert;
 
         public TerminalPane () {
             base (_("Terminal"), "utilities-terminal");
@@ -42,6 +43,7 @@ namespace ElementaryTweaks {
             box.add_widget (_("Background color"), background);
             natural_copy_paste = box.add_switch (_("Natural copy paste"));
             follow_last_tab = box.add_switch (_("Follow last tab"));
+            unsafe_paste_alert = box.add_switch (_("Unsafe paste alert"));
 
             grid.add (box);
 
@@ -55,6 +57,7 @@ namespace ElementaryTweaks {
             background.rgba = rgba;
             natural_copy_paste.set_state (TerminalSettings.get_default ().natural_copy_paste);
             follow_last_tab.set_state (TerminalSettings.get_default ().follow_last_tab);
+            unsafe_paste_alert.set_state (TerminalSettings.get_default ().unsafe_paste_alert);
         }
 
         private void connect_signals () {
@@ -68,6 +71,10 @@ namespace ElementaryTweaks {
 
             follow_last_tab.notify["active"].connect (() => {
                 TerminalSettings.get_default ().follow_last_tab = follow_last_tab.state;
+            });
+
+            unsafe_paste_alert.notify["active"].connect (() => {
+                TerminalSettings.get_default ().unsafe_paste_alert = unsafe_paste_alert.state;
             });
 
             connect_reset_button (() => {TerminalSettings.get_default ().reset();});

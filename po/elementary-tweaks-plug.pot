@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-16 00:45+0300\n"
+"POT-Creation-Date: 2016-06-16 15:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -301,18 +301,22 @@ msgstr ""
 msgid "Date format"
 msgstr ""
 
-#: ../src/Panes/TerminalPane.vala:26
+#: ../src/Panes/TerminalPane.vala:27
 msgid "Terminal"
 msgstr ""
 
-#: ../src/Panes/TerminalPane.vala:42
+#: ../src/Panes/TerminalPane.vala:43
 msgid "Background color"
 msgstr ""
 
-#: ../src/Panes/TerminalPane.vala:43
+#: ../src/Panes/TerminalPane.vala:44
 msgid "Natural copy paste"
 msgstr ""
 
-#: ../src/Panes/TerminalPane.vala:44
+#: ../src/Panes/TerminalPane.vala:45
 msgid "Follow last tab"
+msgstr ""
+
+#: ../src/Panes/TerminalPane.vala:46
+msgid "Unsafe paste alert"
 msgstr ""
