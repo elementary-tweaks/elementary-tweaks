@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-16 15:04+0300\n"
+"POT-Creation-Date: 2016-07-16 11:37+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,15 +69,15 @@ msgstr ""
 msgid "Informal"
 msgstr ""
 
-#: ../src/Widgets/Categories.vala:74
+#: ../src/Widgets/Categories.vala:77
 msgid "General"
 msgstr ""
 
-#: ../src/Widgets/Categories.vala:76
+#: ../src/Widgets/Categories.vala:79
 msgid "Applications"
 msgstr ""
 
-#: ../src/Widgets/Categories.vala:160
+#: ../src/Widgets/Categories.vala:163
 msgid "Reset to default"
 msgstr ""
 
@@ -201,7 +201,7 @@ msgstr ""
 msgid "Hide delay"
 msgstr ""
 
-#: ../src/Panes/PlankPane.vala:58 ../src/Panes/AppearancePane.vala:35
+#: ../src/Panes/PlankPane.vala:58 ../src/Panes/AppearancePane.vala:36
 msgid "Appearance"
 msgstr ""
 
@@ -233,32 +233,36 @@ msgstr ""
 msgid "Offset"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:46
+#: ../src/Panes/AppearancePane.vala:47
 msgid "Theme Settings"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:49
+#: ../src/Panes/AppearancePane.vala:50
 msgid "GTK+"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:51
+#: ../src/Panes/AppearancePane.vala:52
 msgid "Icons"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:52
+#: ../src/Panes/AppearancePane.vala:53
 msgid "Cursor"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:53
+#: ../src/Panes/AppearancePane.vala:54
 msgid "Prefer dark variant"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:58
+#: ../src/Panes/AppearancePane.vala:59
 msgid "Window Controls"
 msgstr ""
 
-#: ../src/Panes/AppearancePane.vala:61
+#: ../src/Panes/AppearancePane.vala:62
 msgid "Layout"
+msgstr ""
+
+#: ../src/Panes/AppearancePane.vala:63
+msgid "Show GNOME menu"
 msgstr ""
 
 #: ../src/Panes/CerberePane.vala:24
@@ -319,4 +323,20 @@ msgstr ""
 
 #: ../src/Panes/TerminalPane.vala:46
 msgid "Unsafe paste alert"
+msgstr ""
+
+#: ../src/Panes/AudiencePane.vala:26
+msgid "Videos"
+msgstr ""
+
+#: ../src/Panes/AudiencePane.vala:38
+msgid "Stay on top while playing"
+msgstr ""
+
+#: ../src/Panes/AudiencePane.vala:39
+msgid "Move window from video canvas"
+msgstr ""
+
+#: ../src/Panes/AudiencePane.vala:40
+msgid "Don't instantly start video playback"
 msgstr ""
