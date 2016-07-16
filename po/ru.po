@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-16 15:04+0300\n"
-"PO-Revision-Date: 2016-06-16 15:05+0300\n"
+"POT-Creation-Date: 2016-07-16 11:43+0300\n"
+"PO-Revision-Date: 2016-07-16 12:14+0300\n"
 "Last-Translator: Maxim Taranov <png2378@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
@@ -70,15 +70,15 @@ msgstr "Стандарт ISO"
 msgid "Informal"
 msgstr "Информативный"
 
-#: ../src/Widgets/Categories.vala:74
+#: ../src/Widgets/Categories.vala:77
 msgid "General"
 msgstr "Общие"
 
-#: ../src/Widgets/Categories.vala:76
+#: ../src/Widgets/Categories.vala:79
 msgid "Applications"
 msgstr "Приложения"
 
-#: ../src/Widgets/Categories.vala:160
+#: ../src/Widgets/Categories.vala:163
 msgid "Reset to default"
 msgstr "Сбросить по умолчанию"
 
@@ -202,7 +202,7 @@ msgstr "Режим скрытия"
 msgid "Hide delay"
 msgstr "Задержка скрытия"
 
-#: ../src/Panes/PlankPane.vala:58 ../src/Panes/AppearancePane.vala:35
+#: ../src/Panes/PlankPane.vala:58 ../src/Panes/AppearancePane.vala:36
 msgid "Appearance"
 msgstr "Оформление"
 
@@ -234,33 +234,37 @@ msgstr "Выравнивание элементов"
 msgid "Offset"
 msgstr "Смещение"
 
-#: ../src/Panes/AppearancePane.vala:46
+#: ../src/Panes/AppearancePane.vala:47
 msgid "Theme Settings"
 msgstr "Настройки темы"
 
-#: ../src/Panes/AppearancePane.vala:49
+#: ../src/Panes/AppearancePane.vala:50
 msgid "GTK+"
 msgstr "Тема GTK+"
 
-#: ../src/Panes/AppearancePane.vala:51
+#: ../src/Panes/AppearancePane.vala:52
 msgid "Icons"
 msgstr "Иконки"
 
-#: ../src/Panes/AppearancePane.vala:52
+#: ../src/Panes/AppearancePane.vala:53
 msgid "Cursor"
 msgstr "Курсор"
 
-#: ../src/Panes/AppearancePane.vala:53
+#: ../src/Panes/AppearancePane.vala:54
 msgid "Prefer dark variant"
 msgstr "Предпочитать тёмный вариант"
 
-#: ../src/Panes/AppearancePane.vala:58
+#: ../src/Panes/AppearancePane.vala:59
 msgid "Window Controls"
 msgstr "Кнопки управления окном"
 
-#: ../src/Panes/AppearancePane.vala:61
+#: ../src/Panes/AppearancePane.vala:62
 msgid "Layout"
 msgstr "Расположение"
+
+#: ../src/Panes/AppearancePane.vala:63
+msgid "Show GNOME menu"
+msgstr "Показывать меню GNOME"
 
 #: ../src/Panes/CerberePane.vala:24
 msgid "Cerbere"
@@ -321,6 +325,22 @@ msgstr "Придеживаться последней вкладки"
 #: ../src/Panes/TerminalPane.vala:46
 msgid "Unsafe paste alert"
 msgstr "Предупреждение о небезопасной вставке"
+
+#: ../src/Panes/AudiencePane.vala:26
+msgid "Videos"
+msgstr "Видео"
+
+#: ../src/Panes/AudiencePane.vala:38
+msgid "Stay on top while playing"
+msgstr "Поверх всех окон во время проигрывания"
+
+#: ../src/Panes/AudiencePane.vala:39
+msgid "Move window from video canvas"
+msgstr "Перемещение окна путём перетаскивания за холст"
+
+#: ../src/Panes/AudiencePane.vala:40
+msgid "Don't instantly start video playback"
+msgstr "Не начинать проигрывание мгновенно"
 
 #~ msgid "Shadows"
 #~ msgstr "Тени"
