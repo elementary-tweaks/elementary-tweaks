@@ -32,6 +32,12 @@ namespace ElementaryTweaks {
         private Gtk.ListStore cursor_store;
         private Gtk.ListStore controls_store;
 
+        private int gtk_index = 0;
+        //private int metacity_index = 0;
+        private int icon_index = 0;
+        private int cursor_index = 0;
+        private int controls_index = 0;
+
         public AppearancePane () {
             base (_("Appearance"), "applications-graphics");
         }
@@ -69,12 +75,6 @@ namespace ElementaryTweaks {
         }
 
         private void make_stores () {
-            var gtk_index = 0;
-            var controls_index = 0;
-            var metacity_index = 0;
-            var icon_index = 0;
-            var cursor_index = 0;
-
             gtk_store = Util.get_themes_store ("themes", "gtk-3.0", InterfaceSettings.get_default ().gtk_theme, out gtk_index);
             //metacity_store = Util.get_themes_store ("themes", "metacity-1", WindowSettings.get_default ().theme, out metacity_index);
             icon_store = Util.get_themes_store ("icons", "index.theme", InterfaceSettings.get_default ().icon_theme, out icon_index);
@@ -89,18 +89,6 @@ namespace ElementaryTweaks {
         }
 
         protected override void init_data () {
-            var gtk_index = 0;
-            //var metacity_index = 0;
-            var icon_index = 0;
-            var cursor_index = 0;
-            var controls_index = 0;
-
-            Util.get_themes_store ("themes", "gtk-3.0", InterfaceSettings.get_default ().gtk_theme, out gtk_index);
-            //Util.get_themes_store ("themes", "metacity-1", WindowSettings.get_default ().theme, out metacity_index);
-            Util.get_themes_store ("icons", "index.theme", InterfaceSettings.get_default ().icon_theme, out icon_index);
-            Util.get_themes_store ("icons", "cursors", InterfaceSettings.get_default ().cursor_theme, out cursor_index);
-            AppearanceSettings.get_button_layouts (out controls_index);
-
             gtk_combobox.set_active (gtk_index);
             //metacity_combobox.set_active (metacity_index);
             icon_combobox.set_active (icon_index);
