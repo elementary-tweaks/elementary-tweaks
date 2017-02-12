@@ -153,6 +153,12 @@ namespace ElementaryTweaks {
                 });
             }
 
+            protected void connect_scale (Gtk.Scale button, SetValue<double?> set_func) {
+                button.value_changed.connect (() => {
+                    set_func (button.get_value ());
+                });
+            }
+
             protected void connect_spin_button (Gtk.SpinButton button, SetValue<int> set_func) {
                 button.value_changed.connect (() => {
                     set_func (button.get_value_as_int ());

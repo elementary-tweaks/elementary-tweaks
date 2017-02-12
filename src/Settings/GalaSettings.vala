@@ -54,6 +54,7 @@ namespace ElementaryTweaks {
 
     public class AppearanceSettings : Granite.Services.Settings
     {
+        public double alt_tab_window_opacity { get; set; }
         public string button_layout { get; set; }
         public bool attach_modal_dialogs { get; set; }
         public bool dim_parents { get; set; }
@@ -77,6 +78,10 @@ namespace ElementaryTweaks {
 
         public void reset () {
             schema.reset ("button-layout");
+        }
+
+        public void reset_window_opacity (){
+            schema.reset ("alt-tab-window-opacity");
         }
 
         public static Gee.HashMap<string, string> get_preset_button_layouts () {
