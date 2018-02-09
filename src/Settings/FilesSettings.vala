@@ -27,7 +27,7 @@ namespace ElementaryTweaks {
         static FilesSettings? instance = null;
 
         private FilesSettings () {
-            base ("io.elementary.files.preferences");
+            base ((Util.schema_exists ("io.elementary.files.preferences"))?"io.elementary.files.preferences":"org.pantheon.files.preferences");
         }
 
         public static FilesSettings get_default () {

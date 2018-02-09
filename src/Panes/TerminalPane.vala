@@ -28,7 +28,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.terminal.settings")) {
+            if (Util.schema_exists ("org.pantheon.terminal.settings") || Util.schema_exists ("io.elementary.terminal.settings")) {
                 build_ui ();
                 init_data ();
                 connect_signals ();

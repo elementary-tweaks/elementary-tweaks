@@ -29,7 +29,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.files.preferences")) {
+            if (Util.schema_exists ("org.pantheon.files.preferences") || Util.schema_exists ("io.elementary.files.preferences")) {
                 build_ui ();
                 make_stores ();
                 init_data ();

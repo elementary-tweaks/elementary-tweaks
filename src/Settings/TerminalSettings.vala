@@ -34,7 +34,7 @@ namespace ElementaryTweaks {
         static TerminalSettings? instance = null;
 
         private TerminalSettings () {
-            base ("io.elementary.terminal.settings");
+            base ((Util.schema_exists ("io.elementary.terminal.settings"))?"io.elementary.terminal.settings":"org.pantheon.terminal.settings");
         }
 
         public static TerminalSettings get_default () {
