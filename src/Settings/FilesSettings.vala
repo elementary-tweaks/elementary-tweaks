@@ -20,7 +20,6 @@ namespace ElementaryTweaks {
 
     public class FilesSettings : Granite.Services.Settings {
         public string date_format { get; set; }
-        public string sidebar_zoom_level { get; set; }
         public bool single_click { get; set; }
         public bool restore_tabs { get; set; }
 
