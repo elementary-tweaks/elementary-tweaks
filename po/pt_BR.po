@@ -127,7 +127,7 @@ msgstr "Minimizar"
 
 #: ../src/Panes/AnimationsPane.vala:57
 msgid "Workspace switch"
-msgstr "Alternador de Espaço de Trabalho"
+msgstr "Alternar o Espaço de Trabalho"
 
 #: ../src/Panes/SlingshotPane.vala:31
 msgid "Launcher"
@@ -143,11 +143,11 @@ msgstr "Colunas"
 
 #: ../src/Panes/SlingshotPane.vala:47
 msgid "Show category switch"
-msgstr "Mostrar alternador de categoria"
+msgstr "Exibir alternador de categoria"
 
 #: ../src/Panes/SlingshotPane.vala:48
 msgid "Show category view by default"
-msgstr "Mostrar modo Visualizar por Categoria por padrão"
+msgstr "Exibir modo Visualizar por Categoria por padrão"
 
 #: ../src/Panes/FontsPane.vala:27
 msgid "Fonts"
@@ -187,7 +187,7 @@ msgstr "Bloquear itens"
 
 #: ../src/Panes/PlankPane.vala:52
 msgid "Show Unpinned"
-msgstr "Mostrar Não-Fixados"
+msgstr "Exibir Não-Fixados"
 
 #: ../src/Panes/PlankPane.vala:53
 msgid "Restrict to Workspace"
@@ -315,7 +315,7 @@ msgstr "Cor de fundo"
 
 #: ../src/Panes/TerminalPane.vala:44
 msgid "Natural copy paste"
-msgstr "Copiar e Colar Simples"
+msgstr "Copiar e Colar natural"
 
 #: ../src/Panes/TerminalPane.vala:45
 msgid "Follow last tab"
@@ -323,7 +323,7 @@ msgstr "Siga a última aba"
 
 #: ../src/Panes/TerminalPane.vala:46
 msgid "Unsafe paste alert"
-msgstr "Alerta de colar não-seguro"
+msgstr "Alerta de colagem não-segura"
 
 #: ../src/Panes/AudiencePane.vala:26
 msgid "Videos"
