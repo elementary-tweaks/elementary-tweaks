@@ -167,7 +167,7 @@ msgstr "Fonte do documento"
 
 #: ../src/Panes/FontsPane.vala:47
 msgid "Monospace font"
-msgstr "Fonte mono-espaçada"
+msgstr "Fonte monoespaçada"
 
 #: ../src/Panes/FontsPane.vala:48
 msgid "Titlebar font"
