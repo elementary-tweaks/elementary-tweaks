@@ -26,7 +26,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.desktop.wingpanel.indicators.sound")) {
+            if (Util.schema_exists ("io.elementary.desktop.wingpanel.sound")) {
                 build_ui ();
                 init_data ();
                 connect_signals ();

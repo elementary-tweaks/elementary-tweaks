@@ -31,7 +31,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.desktop.slingshot")) {
+            if (Util.schema_exists ("io.elementary.desktop.wingpanel.applications-menu")) {
                 build_ui ();
                 init_data ();
                 connect_signals ();

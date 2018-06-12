@@ -25,7 +25,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.desktop.cerbere")) {
+            if (Util.schema_exists ("io.elementary.desktop.cerbere")) {
                 build_ui ();
                 connect_signals ();
             }

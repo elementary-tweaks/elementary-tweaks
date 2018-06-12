@@ -28,7 +28,7 @@ namespace ElementaryTweaks {
 
         private SlingshotSettings ()
         {
-            base ("org.pantheon.desktop.slingshot");
+            base ("io.elementary.desktop.wingpanel.applications-menu");
         }
 
         public static SlingshotSettings get_default ()
