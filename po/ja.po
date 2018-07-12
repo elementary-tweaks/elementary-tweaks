@@ -1,21 +1,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# ryonakano <ryonakaknock@gmail.com>, 2018.
+# ryonakano <ryonakaknock3@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-16 11:37+0300\n"
-"PO-Revision-Date: 2018-05-04 21:30+0900\n"
-"Last-Translator: ryonakano <ryonakaknock@gmail.com>\n"
-"Language-Team: Japanese <kde-i18n-doc@kde.org>\n"
-"Language: ja_JP\n"
+"PO-Revision-Date: 2018-06-12 21:22+0900\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../src/Tweaks.vala:32
 msgid "Tweaks"
@@ -107,7 +107,7 @@ msgstr "アニメーションを有効にする"
 
 #: ../src/Panes/AnimationsPane.vala:51
 msgid "Duration"
-msgstr "デュレーション"
+msgstr "アニメーションの長さ"
 
 #: ../src/Panes/AnimationsPane.vala:53
 msgid "Open"
@@ -187,7 +187,7 @@ msgstr "アイテムをロック"
 
 #: ../src/Panes/PlankPane.vala:52
 msgid "Show Unpinned"
-msgstr "固定していないアイテムも表示:"
+msgstr "固定していないアイテムも表示"
 
 #: ../src/Panes/PlankPane.vala:53
 msgid "Restrict to Workspace"
@@ -303,7 +303,7 @@ msgstr "タブの復元"
 
 #: ../src/Panes/FilesPane.vala:45
 msgid "Date format"
-msgstr "日付のフォーマット"
+msgstr "日付の書式"
 
 #: ../src/Panes/TerminalPane.vala:27
 msgid "Terminal"
@@ -340,5 +340,3 @@ msgstr "ビデオキャンバスからウィンドウを移動"
 #: ../src/Panes/AudiencePane.vala:40
 msgid "Don't instantly start video playback"
 msgstr "すぐにビデオの再生を開始しない"
-
-
