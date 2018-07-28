@@ -14,3 +14,5 @@ add_global_arguments(
 subdir('data')
 subdir('po')
 subdir('src')
+
+meson.add_install_script('meson/post_install.py')
