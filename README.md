@@ -2,7 +2,7 @@
 elementary tweaks is a system settings panel for elementary OS **Juno** that lets you easily and safely customise your desktop's appearance 
 
 
-![sample](docs/screenshot.png)
+![screenshot](data/docs/screenshot.png)
 
  
 ## What's New?
