@@ -10,5 +10,6 @@ add_global_arguments(
     language:'c'
 )
 
+subdir('data')
 subdir('po')
 subdir('src')
