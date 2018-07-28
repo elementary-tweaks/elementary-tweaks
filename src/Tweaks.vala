@@ -30,7 +30,7 @@ namespace ElementaryTweaks {
             var settings = new Gee.TreeMap<string, string?> (null, null);
             settings.set ("Tweaks", null);
             Object (category: Category.PERSONAL,
-                    code_name: Build.PROJECT_NAME,
+                    code_name: "elementary-tweaks",
                     display_name: _("Tweaks"),
                     description: _("Tweak elementary OS settings"),
                     icon: "preferences-desktop-tweaks",
