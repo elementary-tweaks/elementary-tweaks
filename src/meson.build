@@ -50,5 +50,6 @@ shared_module(
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep
     ],
-    install: true
+    install: true,
+    install_dir: pkgdatadir
 )
