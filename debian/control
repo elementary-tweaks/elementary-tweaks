@@ -2,7 +2,8 @@ Source: elementary-tweaks
 Section: x11
 Priority: optional
 Maintainer: Felipe Escoto. <felescoto95@hotmail.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 9),
                libgranite-dev,
                libgtk-3-dev (>= 3.10),
                libglib2.0-dev,
@@ -10,7 +11,6 @@ Build-Depends: debhelper (>= 9),
                libgconf2-dev,
                libswitchboard-2.0-dev,
                libpolkit-gobject-1-dev,
-               meson,
                valac (>= 0.30)
 Standards-Version: 3.9.5
 Homepage: https://github.com/elementary-tweaks/elementary-tweaks
@@ -33,4 +33,5 @@ Pre-Depends: dpkg (>= 1.15.6)
 Enhances: elementary-tweaks
 Description: Change hidden desktop settings (debugging symbols)
  Switchboard plug for controlling hidden options.
+ .
  This package contains debugging symbols for switchboard-plug-template.
