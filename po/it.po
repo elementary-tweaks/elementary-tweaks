@@ -7,601 +7,570 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-28 16:08+0900\n"
+"POT-Creation-Date: 2014-08-28 07:48-0500\n"
 "PO-Revision-Date: 2014-10-27 10:27+0000\n"
 "Last-Translator: Matteo Formenti <matteoformenti1998@gmail.com>\n"
 "Language-Team: Italian <it@li.org>\n"
-"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-10-28 07:58+0000\n"
 "X-Generator: Launchpad (build 17203)\n"
+"Language: it\n"
 
-#: src/Tweaks.vala:34
+#: ../src/Tweaks.vala:38
 msgid "Tweaks"
 msgstr "Tweaks"
 
-#: src/Tweaks.vala:35
+#: ../src/Tweaks.vala:39
 msgid "Tweak elementary OS settings"
 msgstr "Modifica le impostazioni di elementary OS"
 
-#: src/Settings/FilesSettings.vala:47
-msgid "Locale"
-msgstr "Lingua"
-
-#: src/Settings/FilesSettings.vala:48
-msgid "ISO"
-msgstr "ISO"
-
-#: src/Settings/FilesSettings.vala:49
-msgid "Informal"
-msgstr "Informale"
-
-#: src/Settings/GalaSettings.vala:81
-msgid "elementary"
-msgstr ""
-
-#: src/Settings/GalaSettings.vala:82
-msgid "Close Only Right"
-msgstr ""
-
-#: src/Settings/GalaSettings.vala:83
-msgid "Close Only Left"
-msgstr ""
-
-#: src/Settings/GalaSettings.vala:84
-msgid "Minimize Left"
-msgstr "Minimizza a sinistra"
-
-#: src/Settings/GalaSettings.vala:85
-msgid "Minimize Right"
-msgstr "Minimizza a destra"
-
-#: src/Settings/GalaSettings.vala:86
-msgid "Windows"
-msgstr "Windows"
-
-#: src/Settings/GalaSettings.vala:87
-msgid "OS X"
-msgstr "OS X"
-
-#: src/Settings/GalaSettings.vala:88
-msgid "Ubuntu"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:26
-msgid "Videos"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:40
-msgid "Stay on top while playing"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:41
-msgid "Move window from video canvas"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:42
-msgid "Don't instantly start video playback"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:35
-msgid "Animations"
-msgstr "Animazioni"
-
-#: src/Panes/AnimationsPane.vala:50
-#, fuzzy
-msgid "Enable animations"
-msgstr "Animazioni"
-
-#: src/Panes/AnimationsPane.vala:53
-#, fuzzy
-msgid "Duration"
-msgstr "Tempo di apertura"
-
-#: src/Panes/AnimationsPane.vala:55
-msgid "Open"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:56
-msgid "Close"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:57
-msgid "Snap"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:58
-#, fuzzy
-msgid "Minimize"
-msgstr "Minimizza a sinistra"
-
-#: src/Panes/AnimationsPane.vala:59
-#, fuzzy
-msgid "Workspace switch"
-msgstr "Tempo di cambio workspace"
-
-#: src/Panes/AppearancePane.vala:42 src/Panes/PlankPane.vala:58
+#: ../src/Tweaks.vala:49
 msgid "Appearance"
 msgstr "Aspetto"
 
-#: src/Panes/AppearancePane.vala:53
-#, fuzzy
-msgid "Theme Settings"
-msgstr "Modifica le impostazioni di elementary OS"
-
-#: src/Panes/AppearancePane.vala:56
-msgid "GTK+"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:58
-msgid "Icons"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:59
-#, fuzzy
-msgid "Cursor"
-msgstr "Puntatori"
-
-#: src/Panes/AppearancePane.vala:60
-msgid "Prefer dark variant"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:65
-#, fuzzy
-msgid "Window Controls"
-msgstr "Pulsanti di controllo delle finestre"
-
-#: src/Panes/AppearancePane.vala:68
-#, fuzzy
-msgid "Layout"
-msgstr "Layout personalizzato"
-
-#: src/Panes/AppearancePane.vala:69
-msgid "Show GNOME menu"
-msgstr ""
-
-#: src/Panes/FontsPane.vala:27
-msgid "Fonts"
-msgstr "Tipi di carattere"
-
-#: src/Panes/FontsPane.vala:37
-msgid "Font Settings"
-msgstr ""
-
-#: src/Panes/FontsPane.vala:45
-#, fuzzy
-msgid "Default font"
-msgstr "Font di default"
-
-#: src/Panes/FontsPane.vala:46
-#, fuzzy
-msgid "Document font"
-msgstr "Font per i documenti"
-
-#: src/Panes/FontsPane.vala:47
-#, fuzzy
-msgid "Monospace font"
-msgstr "Font monospace"
-
-#: src/Panes/FontsPane.vala:48
-#, fuzzy
-msgid "Titlebar font"
-msgstr "Font per la barra del titolo"
-
-#: src/Panes/MiscPane.vala:25
-msgid "Miscellaneous"
-msgstr "Varie"
-
-#: src/Panes/MiscPane.vala:39
-msgid "Sound Indicator"
-msgstr ""
-
-#: src/Panes/MiscPane.vala:41
-msgid "Max volume"
-msgstr ""
-
-#: src/Panes/FilesPane.vala:28
-msgid "Files"
-msgstr "Files"
-
-#: src/Panes/FilesPane.vala:43
-#, fuzzy
-msgid "Single click"
-msgstr "Clic singolo"
-
-#: src/Panes/FilesPane.vala:44
-msgid "Restore Tabs"
-msgstr ""
-
-#: src/Panes/FilesPane.vala:45
-#, fuzzy
-msgid "Date format"
-msgstr "Formato data:"
-
-#: src/Panes/TerminalPane.vala:27
-msgid "Terminal"
-msgstr "Terminale"
-
-#: src/Panes/TerminalPane.vala:43
-msgid "Background color"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:44
-msgid "Natural copy paste"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:45
-msgid "Follow last tab"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:46
-msgid "Unsafe paste alert"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:24
-msgid "Cerbere"
-msgstr "Cerbere"
-
-#: src/Panes/CerberePane.vala:71 src/Panes/CerberePane.vala:317
-#, fuzzy
-msgid "Custom command"
-msgstr "Comando"
-
-#: src/Panes/CerberePane.vala:133
-#, fuzzy
-msgid "Keep these applications open:"
-msgstr "si riferisce all'apertura di un'applicazione"
-
-#: src/Panes/CerberePane.vala:144
-msgid "Add watched app…"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:148
-msgid "Remove selected app"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:313
-#, fuzzy
-msgid "Search Applications"
-msgstr "Applicazioni"
-
-#: src/Panes/PlankPane.vala:37
-msgid "Dock"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:50
-msgid "Behavior"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:51
-#, fuzzy
-msgid "Lock items"
-msgstr "Blocca elementi:"
-
-#: src/Panes/PlankPane.vala:52
-msgid "Show Unpinned"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:53
-msgid "Restrict to Workspace"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:54
-#, fuzzy
-msgid "Hide mode"
-msgstr "Modalità nascondi"
-
-#: src/Panes/PlankPane.vala:55
-#, fuzzy
-msgid "Hide delay"
-msgstr "Modalità nascondi"
-
-#: src/Panes/PlankPane.vala:59
-#, fuzzy
-msgid "Theme"
-msgstr "Tema:"
-
-#: src/Panes/PlankPane.vala:60
-#, fuzzy
-msgid "Icon size"
-msgstr "Dimensione icone:"
-
-#: src/Panes/PlankPane.vala:61
-#, fuzzy
-msgid "Monitor"
-msgstr "Schermo:"
-
-#: src/Panes/PlankPane.vala:62
-#, fuzzy
-msgid "Screen position"
-msgstr "Posizione dello schermo:"
-
-#: src/Panes/PlankPane.vala:63
-#, fuzzy
-msgid "Alignment"
-msgstr "Allineamento:"
-
-#: src/Panes/PlankPane.vala:64
-#, fuzzy
-msgid "Item alignment"
-msgstr "Allineamento"
-
-#: src/Panes/PlankPane.vala:65
-#, fuzzy
-msgid "Offset"
-msgstr "Scostamento:"
-
-#: src/Panes/SlingshotPane.vala:30
-msgid "Launcher"
-msgstr ""
-
-#: src/Panes/SlingshotPane.vala:45
-#, fuzzy
-msgid "Rows"
-msgstr "Righe:"
-
-#: src/Panes/SlingshotPane.vala:46
-#, fuzzy
-msgid "Columns"
-msgstr "Colonne:"
-
-#: src/Panes/SlingshotPane.vala:48
-msgid "Show category view by default"
-msgstr ""
-
-#: src/Objects/ShortcutObject.vala:58
-msgid "Disabled"
-msgstr "Disabilitato"
-
-#: src/Widgets/Categories.vala:77
+#: ../src/Tweaks.vala:49 ../src/Tweaks.vala:52 ../src/Tweaks.vala:56
+#: ../src/Tweaks.vala:60 ../src/Tweaks.vala:66
 msgid "General"
 msgstr "Impostazioni generali"
 
-#: src/Widgets/Categories.vala:79
+#: ../src/Tweaks.vala:52
+msgid "Fonts"
+msgstr "Tipi di carattere"
+
+#: ../src/Tweaks.vala:56
+msgid "Animations"
+msgstr "Animazioni"
+
+#: ../src/Tweaks.vala:60
+msgid "Shadows"
+msgstr "Ombreggiatura"
+
+#: ../src/Tweaks.vala:66
+msgid "Miscellaneous"
+msgstr "Varie"
+
+#: ../src/Tweaks.vala:70
+msgid "Plank"
+msgstr "Plank"
+
+#: ../src/Tweaks.vala:70 ../src/Tweaks.vala:74 ../src/Tweaks.vala:78
+#: ../src/Tweaks.vala:82 ../src/Tweaks.vala:86
 msgid "Applications"
 msgstr "Applicazioni"
 
-#: src/Widgets/Categories.vala:163
-#, fuzzy
-msgid "Reset to default"
+#: ../src/Tweaks.vala:74
+msgid "Files"
+msgstr "Files"
+
+#: ../src/Tweaks.vala:78
+msgid "Slingshot"
+msgstr "Slingshot"
+
+#: ../src/Tweaks.vala:82
+msgid "Cerbere"
+msgstr "Cerbere"
+
+#: ../src/Tweaks.vala:86
+msgid "Terminal"
+msgstr "Terminale"
+
+#: ../src/Objects/ShortcutObject.vala:58
+#: ../src/Widgets/AcceleratorInputWidget.vala:87
+#: ../src/Widgets/AcceleratorInputWidget.vala:105
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../src/Grids/CerbereGrid.vala:42
+msgid "Watched Processes"
+msgstr "Processi monitorati"
+
+#: ../src/Grids/CerbereGrid.vala:53 ../src/Grids/CerbereGrid.vala:63
+#: ../src/Grids/ShortcutsGrid.vala:95 ../src/Grids/ShortcutsGrid.vala:162
+msgid "Add..."
+msgstr "Aggiungi..."
+
+#: ../src/Grids/CerbereGrid.vala:54 ../src/Grids/CerbereGrid.vala:64
+#: ../src/Grids/ShortcutsGrid.vala:96 ../src/Grids/ShortcutsGrid.vala:163
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ../src/Grids/CerbereGrid.vala:65 ../src/Grids/ShortcutsGrid.vala:164
+msgid "Revert to Default"
 msgstr "Ritorna al valore Predefinito"
 
-#~ msgid "Shadows"
-#~ msgstr "Ombreggiatura"
-
-#~ msgid "Plank"
-#~ msgstr "Plank"
-
-#~ msgid "Slingshot"
-#~ msgstr "Slingshot"
-
-#~ msgid "Watched Processes"
-#~ msgstr "Processi monitorati"
-
-#~ msgid "Add..."
-#~ msgstr "Aggiungi..."
-
-#~ msgid "Remove"
-#~ msgstr "Rimuovi"
-
-#~ msgid "Animations:"
-#~ msgstr "Animazioni:"
-
-#~ msgid "If the animations play at all"
-#~ msgstr "Selezionare per attivare o disattivare le animazioni"
-
-#~ msgid "Close Duration:"
-#~ msgstr "Tempo di chiusura"
-
-#~ msgid "Plays when an application is closed"
-#~ msgstr "si riferisce alla chiusura di un'applicazione"
-
-#~ msgid "Snap Duration:"
-#~ msgstr "Tempo di snap"
-
-#~ msgid "Plays when an application is snapped to the side"
-#~ msgstr "si riferisce alla funzione di snap"
-
-#~ msgid "Minimize Duration:"
-#~ msgstr "Tempo di minimizza"
-
-#~ msgid "Plays when an application is minimized"
-#~ msgstr "si riferisce all'iconizzazione di una finestra"
-
-#~ msgid "Plays when a workspace switch is initiated"
-#~ msgstr "si riferisce al cambio di spazio di lavoro"
-
-#~ msgid "If set off, files will use 'normal' double-click behavior"
-#~ msgstr ""
-#~ "Se disattivato, l'applicazione utilizzerà il normale doppio clic per "
-#~ "l'apertura dei file"
-
-#~ msgid "For date accessed, modified, etc."
-#~ msgstr "Per la data di ultimo accesso, modifica, ecc."
-
-#~ msgid "Smallest"
-#~ msgstr "Minimo"
-
-#~ msgid "Smaller"
-#~ msgstr "Più piccolo"
-
-#~ msgid "Small"
-#~ msgstr "Piccolo"
-
-#~ msgid "Normal"
-#~ msgstr "Normale"
-
-#~ msgid "Large"
-#~ msgstr "Grande"
-
-#~ msgid "Larger"
-#~ msgstr "Più grande"
-
-#~ msgid "Largest"
-#~ msgstr "Massimo"
-
-#~ msgid "Sidebar Icon Size:"
-#~ msgstr "Dimensione icone della sidebar"
-
-#~ msgid "Size of the icons in the sidebar"
-#~ msgstr "Dimensione delle icone nel pannello laterale"
-
-#~ msgid "Used by default by most applications"
-#~ msgstr "Font predefinito per la maggior parte delle applicazioni"
-
-#~ msgid "Used when displaying documents, if no other font was chosen"
-#~ msgstr ""
-#~ "Utilizzato per visualizzare documenti, se non è stato scelto un altro "
-#~ "tipo di carattere"
-
-#~ msgid "Used in the terminal, for code, and sometimes for plain text"
-#~ msgstr ""
-#~ "Utilizzato nel terminale, per le righe di codice, o per altro testo "
-#~ "semplice"
-
-#~ msgid "Used to display window titles"
-#~ msgstr "Usato per visualizzare i titoli delle finestre"
-
-#~ msgid "The number of rows displayed in Slingshot"
-#~ msgstr "Numero di righe visualizzate in Slingshot"
-
-#~ msgid "The number of columns displayed in Slingshot"
-#~ msgstr "Numero di colonne visualizzate in Slingshot"
-
-#~ msgid "Current Workspace Only"
-#~ msgstr "Solo nel Workspace corrente"
-
-#~ msgid "Show only windows on the current workspace"
-#~ msgstr "Visualizza solo nel Workspace corrente"
-
-#~ msgid "The size of each icon in the plank"
-#~ msgstr "Grandezza delle icone in plank"
-
-#~ msgid "Don't hide"
-#~ msgstr "Non nascondere"
-
-#~ msgid "Intelligent hide"
-#~ msgstr "Nascondi intelligente"
-
-#~ msgid "Auto hide"
-#~ msgstr "Nascondi automaticamente"
-
-#~ msgid "Hide on maximize"
-#~ msgstr "Nascondi se tutto schermo"
-
-#~ msgid "Plank's hide mode"
-#~ msgstr "Metodo di scomparza di plank"
-
-#~ msgid "Hide Delay (ms):"
-#~ msgstr "Ritardo nel nascondere (ms)"
-
-#~ msgid "Time to wait before unhiding the dock"
-#~ msgstr "Tempo prima di visualizzare la dock"
-
-#~ msgid "Plank's theme for the dock"
-#~ msgstr "Tema di plank per la dock"
-
-#~ msgid "Primary Monitor"
-#~ msgstr "Schermo Principale"
-
-#~ msgid "Monitor %d"
-#~ msgstr "Schermo %d"
-
-#~ msgid "The monitor that Plank is displayed on"
-#~ msgstr "Il monitor su cui è visualizzato Plank"
-
-#~ msgid "Left"
-#~ msgstr "A sinistra"
-
-#~ msgid "Right"
-#~ msgstr "A destra"
-
-#~ msgid "Top"
-#~ msgstr "In alto"
-
-#~ msgid "Bottom"
-#~ msgstr "In basso"
-
-#~ msgid "Where on the screen Plank is displayed"
-#~ msgstr "Dove visualizzare Plank nello schermo"
-
-#~ msgid "Panel"
-#~ msgstr "Pannello"
-
-#~ msgid "Centered"
-#~ msgstr "Centrato"
-
-#~ msgid "The alignment for the dock on the monitor's edge"
-#~ msgstr "L'allineamento di Plank sul bordo dello schermo"
-
-#~ msgid "Custom"
-#~ msgstr "Personalizzato"
-
-#~ msgid "Opacity:"
-#~ msgstr "Opacità:"
-
-#~ msgid "How transparent the background of the terminal is"
-#~ msgstr "Quanto è trasparente lo sfondo del terminale"
-
-#~ msgid "A set of settings for terminal palette and background color"
-#~ msgstr "Un seti di colori per il terminale"
-
-#~ msgid "Prefer Dark Theme:"
-#~ msgstr "Preferisci il tema scuro"
-
-#~ msgid "GTK+ windows will now prefer the dark GTK+ theme"
-#~ msgstr "Le finestre GTK+ preferiranno il tema scuro"
-
-#~ msgid ""
-#~ "Some applications will not react well with this enabled and can look "
-#~ "terrible"
-#~ msgstr ""
-#~ "Alcune applicazioni potrebbero non reagire bene e potrebbero sembrare "
-#~ "terribili"
-
-#~ msgid "Metacity Theme:"
-#~ msgstr "Tema metacity"
-
-#~ msgid "Used to render windows that do not use GTK+"
-#~ msgstr "Motore di rendering per le finestre che non usano GTK+"
-
-#~ msgid "GTK+ Theme:"
-#~ msgstr "Tema GTK+"
-
-#~ msgid "Used to render GTK+ windows like Switchboard"
-#~ msgstr "Motore di rendering per le finestre GTK+ come Switchboard"
-
-#~ msgid "Icon Theme:"
-#~ msgstr "Icone"
-
-#~ msgid "Used to theme the icon set, including application icons"
-#~ msgstr "Tema di icone"
-
-#~ msgid "Used to theme the cursor"
-#~ msgstr "Tema del cursore"
-
-#~ msgid "Custom window control layout"
-#~ msgstr "Layout dei pulsanti delle finestre"
-
-#~ msgid "Audible Bell:"
-#~ msgstr "Avviso sonoro"
-
-#~ msgid "Sound that plays when an error has been made"
-#~ msgstr "Suono di errore"
-
-#~ msgid "Focused Windows:"
-#~ msgstr "Finestra attiva"
-
-#~ msgid "This may not actually do anything"
-#~ msgstr "Poterebbe non fare niente"
-
-#~ msgid "Unfocused Windows:"
-#~ msgstr "Finestra inattiva"
-
-#~ msgid "Name"
-#~ msgstr "Descrizione"
-
-#~ msgid "Shortcut"
-#~ msgstr "Scorciatoia"
+#: ../src/Grids/AnimationsGrid.vala:43
+msgid "Animations:"
+msgstr "Animazioni:"
+
+#: ../src/Grids/AnimationsGrid.vala:44
+msgid "If the animations play at all"
+msgstr "Selezionare per attivare o disattivare le animazioni"
+
+#: ../src/Grids/AnimationsGrid.vala:60
+msgid "Open Duration:"
+msgstr "Tempo di apertura"
+
+#: ../src/Grids/AnimationsGrid.vala:61
+msgid "Plays when an application is opened"
+msgstr "si riferisce all'apertura di un'applicazione"
+
+#: ../src/Grids/AnimationsGrid.vala:72
+msgid "Close Duration:"
+msgstr "Tempo di chiusura"
+
+#: ../src/Grids/AnimationsGrid.vala:73
+msgid "Plays when an application is closed"
+msgstr "si riferisce alla chiusura di un'applicazione"
+
+#: ../src/Grids/AnimationsGrid.vala:84
+msgid "Snap Duration:"
+msgstr "Tempo di snap"
+
+#: ../src/Grids/AnimationsGrid.vala:85
+msgid "Plays when an application is snapped to the side"
+msgstr "si riferisce alla funzione di snap"
+
+#: ../src/Grids/AnimationsGrid.vala:96
+msgid "Minimize Duration:"
+msgstr "Tempo di minimizza"
+
+#: ../src/Grids/AnimationsGrid.vala:97
+msgid "Plays when an application is minimized"
+msgstr "si riferisce all'iconizzazione di una finestra"
+
+#: ../src/Grids/AnimationsGrid.vala:108
+msgid "Workspace Switch Duration:"
+msgstr "Tempo di cambio workspace"
+
+#: ../src/Grids/AnimationsGrid.vala:109
+msgid "Plays when a workspace switch is initiated"
+msgstr "si riferisce al cambio di spazio di lavoro"
+
+#: ../src/Grids/FilesGrid.vala:32
+msgid "Single Click:"
+msgstr "Clic singolo"
+
+#: ../src/Grids/FilesGrid.vala:33
+msgid "If set off, files will use 'normal' double-click behavior"
+msgstr ""
+"Se disattivato, l'applicazione utilizzerà il normale doppio clic per "
+"l'apertura dei file"
+
+#: ../src/Grids/FilesGrid.vala:43
+msgid "Locale"
+msgstr "Lingua"
+
+#: ../src/Grids/FilesGrid.vala:44
+msgid "ISO"
+msgstr "ISO"
+
+#: ../src/Grids/FilesGrid.vala:45
+msgid "Informal"
+msgstr "Informale"
+
+#: ../src/Grids/FilesGrid.vala:48
+msgid "Date Format:"
+msgstr "Formato data:"
+
+#: ../src/Grids/FilesGrid.vala:49
+msgid "For date accessed, modified, etc."
+msgstr "Per la data di ultimo accesso, modifica, ecc."
+
+#: ../src/Grids/FilesGrid.vala:60
+msgid "Smallest"
+msgstr "Minimo"
+
+#: ../src/Grids/FilesGrid.vala:61
+msgid "Smaller"
+msgstr "Più piccolo"
+
+#: ../src/Grids/FilesGrid.vala:62
+msgid "Small"
+msgstr "Piccolo"
+
+#: ../src/Grids/FilesGrid.vala:63
+msgid "Normal"
+msgstr "Normale"
+
+#: ../src/Grids/FilesGrid.vala:64
+msgid "Large"
+msgstr "Grande"
+
+#: ../src/Grids/FilesGrid.vala:65
+msgid "Larger"
+msgstr "Più grande"
+
+#: ../src/Grids/FilesGrid.vala:66
+msgid "Largest"
+msgstr "Massimo"
+
+#: ../src/Grids/FilesGrid.vala:69
+msgid "Sidebar Icon Size:"
+msgstr "Dimensione icone della sidebar"
+
+#: ../src/Grids/FilesGrid.vala:70
+msgid "Size of the icons in the sidebar"
+msgstr "Dimensione delle icone nel pannello laterale"
+
+#: ../src/Grids/FontsGrid.vala:32
+msgid "Default Font:"
+msgstr "Font di default"
+
+#: ../src/Grids/FontsGrid.vala:33
+msgid "Used by default by most applications"
+msgstr "Font predefinito per la maggior parte delle applicazioni"
+
+#: ../src/Grids/FontsGrid.vala:43
+msgid "Document Font:"
+msgstr "Font per i documenti"
+
+#: ../src/Grids/FontsGrid.vala:44
+msgid "Used when displaying documents, if no other font was chosen"
+msgstr ""
+"Utilizzato per visualizzare documenti, se non è stato scelto un altro tipo "
+"di carattere"
+
+#: ../src/Grids/FontsGrid.vala:54
+msgid "Monospace Font:"
+msgstr "Font monospace"
+
+#: ../src/Grids/FontsGrid.vala:55
+msgid "Used in the terminal, for code, and sometimes for plain text"
+msgstr ""
+"Utilizzato nel terminale, per le righe di codice, o per altro testo semplice"
+
+#: ../src/Grids/FontsGrid.vala:65
+msgid "Titlebar Font:"
+msgstr "Font per la barra del titolo"
+
+#: ../src/Grids/FontsGrid.vala:66
+msgid "Used to display window titles"
+msgstr "Usato per visualizzare i titoli delle finestre"
+
+#: ../src/Grids/SlingshotGrid.vala:32
+msgid "Rows:"
+msgstr "Righe:"
+
+#: ../src/Grids/SlingshotGrid.vala:33
+msgid "The number of rows displayed in Slingshot"
+msgstr "Numero di righe visualizzate in Slingshot"
+
+#: ../src/Grids/SlingshotGrid.vala:44
+msgid "Columns:"
+msgstr "Colonne:"
+
+#: ../src/Grids/SlingshotGrid.vala:45
+msgid "The number of columns displayed in Slingshot"
+msgstr "Numero di colonne visualizzate in Slingshot"
+
+#: ../src/Grids/PlankGrid.vala:32
+msgid "Current Workspace Only"
+msgstr "Solo nel Workspace corrente"
+
+#: ../src/Grids/PlankGrid.vala:33
+msgid "Show only windows on the current workspace"
+msgstr "Visualizza solo nel Workspace corrente"
+
+#: ../src/Grids/PlankGrid.vala:34
+msgid "Will still show pinned items on different workspaces"
+msgstr ""
+
+#: ../src/Grids/PlankGrid.vala:43
+msgid "Lock Items:"
+msgstr "Blocca elementi:"
+
+#: ../src/Grids/PlankGrid.vala:44
+msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
+msgstr ""
+
+#: ../src/Grids/PlankGrid.vala:54
+msgid "Icon Size:"
+msgstr "Dimensione icone:"
+
+#: ../src/Grids/PlankGrid.vala:55
+msgid "The size of each icon in the plank"
+msgstr "Grandezza delle icone in plank"
+
+#: ../src/Grids/PlankGrid.vala:66
+msgid "Don't hide"
+msgstr "Non nascondere"
+
+#: ../src/Grids/PlankGrid.vala:67
+msgid "Intelligent hide"
+msgstr "Nascondi intelligente"
+
+#: ../src/Grids/PlankGrid.vala:68
+msgid "Auto hide"
+msgstr "Nascondi automaticamente"
+
+#: ../src/Grids/PlankGrid.vala:69
+msgid "Hide on maximize"
+msgstr "Nascondi se tutto schermo"
+
+#: ../src/Grids/PlankGrid.vala:72
+msgid "Hide Mode:"
+msgstr "Modalità nascondi"
+
+#: ../src/Grids/PlankGrid.vala:73
+msgid "Plank's hide mode"
+msgstr "Metodo di scomparza di plank"
+
+#: ../src/Grids/PlankGrid.vala:84
+msgid "Hide Delay (ms):"
+msgstr "Ritardo nel nascondere (ms)"
+
+#: ../src/Grids/PlankGrid.vala:85
+msgid "Time to wait before unhiding the dock"
+msgstr "Tempo prima di visualizzare la dock"
+
+#: ../src/Grids/PlankGrid.vala:96 ../src/Grids/TerminalGrid.vala:169
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../src/Grids/PlankGrid.vala:97
+msgid "Plank's theme for the dock"
+msgstr "Tema di plank per la dock"
+
+#: ../src/Grids/PlankGrid.vala:108
+msgid "Primary Monitor"
+msgstr "Schermo Principale"
+
+#: ../src/Grids/PlankGrid.vala:111
+msgid "Monitor %d"
+msgstr "Schermo %d"
+
+#: ../src/Grids/PlankGrid.vala:115
+msgid "Monitor:"
+msgstr "Schermo:"
+
+#: ../src/Grids/PlankGrid.vala:116
+msgid "The monitor that Plank is displayed on"
+msgstr "Il monitor su cui è visualizzato Plank"
+
+#: ../src/Grids/PlankGrid.vala:127 ../src/Grids/PlankGrid.vala:147
+#: ../src/Grids/PlankGrid.vala:164
+msgid "Left"
+msgstr "A sinistra"
+
+#: ../src/Grids/PlankGrid.vala:128 ../src/Grids/PlankGrid.vala:146
+#: ../src/Grids/PlankGrid.vala:163
+msgid "Right"
+msgstr "A destra"
+
+#: ../src/Grids/PlankGrid.vala:129
+msgid "Top"
+msgstr "In alto"
+
+#: ../src/Grids/PlankGrid.vala:130
+msgid "Bottom"
+msgstr "In basso"
+
+#: ../src/Grids/PlankGrid.vala:133
+msgid "Screen Position:"
+msgstr "Posizione dello schermo:"
+
+#: ../src/Grids/PlankGrid.vala:134
+msgid "Where on the screen Plank is displayed"
+msgstr "Dove visualizzare Plank nello schermo"
+
+#: ../src/Grids/PlankGrid.vala:145
+msgid "Panel"
+msgstr "Pannello"
+
+#: ../src/Grids/PlankGrid.vala:148 ../src/Grids/PlankGrid.vala:165
+msgid "Centered"
+msgstr "Centrato"
+
+#: ../src/Grids/PlankGrid.vala:151
+msgid "Alignment:"
+msgstr "Allineamento:"
+
+#: ../src/Grids/PlankGrid.vala:152
+msgid "The alignment for the dock on the monitor's edge"
+msgstr "L'allineamento di Plank sul bordo dello schermo"
+
+#: ../src/Grids/PlankGrid.vala:168
+msgid "Item Alignment:"
+msgstr "Allineamento"
+
+#: ../src/Grids/PlankGrid.vala:169
+msgid "The alignment of the items in this dock if panel-mode is used"
+msgstr ""
+
+#: ../src/Grids/PlankGrid.vala:180
+msgid "Offset:"
+msgstr "Scostamento:"
+
+#: ../src/Grids/PlankGrid.vala:181
+msgid "The offset (in percent) from the alignment point to shift Plank"
+msgstr ""
+
+#: ../src/Grids/TerminalGrid.vala:83 ../src/Settings/GalaSettings.vala:86
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: ../src/Grids/TerminalGrid.vala:150
+msgid "Opacity:"
+msgstr "Opacità:"
+
+#: ../src/Grids/TerminalGrid.vala:151
+msgid "How transparent the background of the terminal is"
+msgstr "Quanto è trasparente lo sfondo del terminale"
+
+#: ../src/Grids/TerminalGrid.vala:170
+msgid "A set of settings for terminal palette and background color"
+msgstr "Un seti di colori per il terminale"
+
+#: ../src/Grids/AppearanceGrid.vala:34
+msgid "Prefer Dark Theme:"
+msgstr "Preferisci il tema scuro"
+
+#: ../src/Grids/AppearanceGrid.vala:35
+msgid "GTK+ windows will now prefer the dark GTK+ theme"
+msgstr "Le finestre GTK+ preferiranno il tema scuro"
+
+#: ../src/Grids/AppearanceGrid.vala:36
+msgid ""
+"Some applications will not react well with this enabled and can look terrible"
+msgstr ""
+"Alcune applicazioni potrebbero non reagire bene e potrebbero sembrare "
+"terribili"
+
+#: ../src/Grids/AppearanceGrid.vala:45
+msgid "Metacity Theme:"
+msgstr "Tema metacity"
+
+#: ../src/Grids/AppearanceGrid.vala:46
+msgid "Used to render windows that do not use GTK+"
+msgstr "Motore di rendering per le finestre che non usano GTK+"
+
+#: ../src/Grids/AppearanceGrid.vala:57
+msgid "GTK+ Theme:"
+msgstr "Tema GTK+"
+
+#: ../src/Grids/AppearanceGrid.vala:58
+msgid "Used to render GTK+ windows like Switchboard"
+msgstr "Motore di rendering per le finestre GTK+ come Switchboard"
+
+#: ../src/Grids/AppearanceGrid.vala:69
+msgid "Icon Theme:"
+msgstr "Icone"
+
+#: ../src/Grids/AppearanceGrid.vala:70
+msgid "Used to theme the icon set, including application icons"
+msgstr "Tema di icone"
+
+#: ../src/Grids/AppearanceGrid.vala:81
+msgid "Cursor Theme:"
+msgstr "Puntatori"
+
+#: ../src/Grids/AppearanceGrid.vala:82
+msgid "Used to theme the cursor"
+msgstr "Tema del cursore"
+
+#: ../src/Grids/AppearanceGrid.vala:95
+msgid "Custom Layout:"
+msgstr "Layout personalizzato"
+
+#: ../src/Grids/AppearanceGrid.vala:96
+msgid "Custom window control layout"
+msgstr "Layout dei pulsanti delle finestre"
+
+#: ../src/Grids/AppearanceGrid.vala:112
+msgid "Window Controls:"
+msgstr "Pulsanti di controllo delle finestre"
+
+#: ../src/Grids/AppearanceGrid.vala:113
+msgid ""
+"Controls located at the top of the window for close, minimize, and maximize"
+msgstr ""
+
+#: ../src/Grids/AppearanceGrid.vala:114
+msgid "May break window controls! May stop working with updates to system!"
+msgstr ""
+
+#: ../src/Grids/MiscGrid.vala:32
+msgid "Audible Bell:"
+msgstr "Avviso sonoro"
+
+#: ../src/Grids/MiscGrid.vala:33
+msgid "Sound that plays when an error has been made"
+msgstr "Suono di errore"
+
+#: ../src/Grids/ShadowsGrid.vala:32
+msgid "Focused Windows:"
+msgstr "Finestra attiva"
+
+#: ../src/Grids/ShadowsGrid.vala:33
+msgid "Shadow beneath windows that you have currently selected"
+msgstr ""
+
+#: ../src/Grids/ShadowsGrid.vala:34 ../src/Grids/ShadowsGrid.vala:49
+msgid "This may not actually do anything"
+msgstr "Poterebbe non fare niente"
+
+#: ../src/Grids/ShadowsGrid.vala:47
+msgid "Unfocused Windows:"
+msgstr "Finestra inattiva"
+
+#: ../src/Grids/ShadowsGrid.vala:48
+msgid "Shadow beneath windows that you do not have selected"
+msgstr ""
+
+#: ../src/Grids/ShortcutsGrid.vala:72
+msgid "Name"
+msgstr "Descrizione"
+
+#: ../src/Grids/ShortcutsGrid.vala:73
+msgid "Shortcut"
+msgstr "Scorciatoia"
+
+#: ../src/Grids/ShortcutsGrid.vala:74
+msgid "Command"
+msgstr "Comando"
+
+#: ../src/Grids/ShortcutsGrid.vala:121
+msgid "Every field must be filled!"
+msgstr ""
+
+#: ../src/Grids/ShortcutsGrid.vala:130
+msgid "Name:"
+msgstr ""
+
+#: ../src/Grids/ShortcutsGrid.vala:133
+msgid "Shortcut:"
+msgstr ""
+
+#: ../src/Grids/ShortcutsGrid.vala:136
+msgid "Command:"
+msgstr ""
+
+#: ../src/Settings/GalaSettings.vala:80
+msgid "elementary"
+msgstr ""
+
+#: ../src/Settings/GalaSettings.vala:81
+msgid "Close Only"
+msgstr ""
+
+#: ../src/Settings/GalaSettings.vala:82
+msgid "Minimize Left"
+msgstr "Minimizza a sinistra"
+
+#: ../src/Settings/GalaSettings.vala:83
+msgid "Minimize Right"
+msgstr "Minimizza a destra"
+
+#: ../src/Settings/GalaSettings.vala:84
+msgid "Windows"
+msgstr "Windows"
+
+#: ../src/Settings/GalaSettings.vala:85
+msgid "OS X"
+msgstr "OS X"
+
+#: ../src/Widgets/TweakWidget.vala:83
+msgid "Revert to default setting"
+msgstr ""

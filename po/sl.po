@@ -2,643 +2,569 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-28 16:08+0900\n"
+"POT-Creation-Date: 2014-08-28 07:48-0500\n"
 "PO-Revision-Date: 2014-08-30 11:33+0000\n"
 "Last-Translator: Blaž Mežnaršič <blazingeek@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-08-31 08:18+0000\n"
 "X-Generator: Launchpad (build 17176)\n"
+"Language: \n"
 
-#: src/Tweaks.vala:34
+#: ../src/Tweaks.vala:38
 msgid "Tweaks"
 msgstr "Prilagoditve"
 
-#: src/Tweaks.vala:35
+#: ../src/Tweaks.vala:39
 msgid "Tweak elementary OS settings"
 msgstr "Prilagodi nastavitve elementary OS"
 
-#: src/Settings/FilesSettings.vala:47
-msgid "Locale"
-msgstr "Jezikovne nastavitve"
-
-#: src/Settings/FilesSettings.vala:48
-msgid "ISO"
-msgstr "ISO"
-
-#: src/Settings/FilesSettings.vala:49
-msgid "Informal"
-msgstr "Neformalno"
-
-#: src/Settings/GalaSettings.vala:81
-msgid "elementary"
-msgstr "elementary"
-
-#: src/Settings/GalaSettings.vala:82
-#, fuzzy
-msgid "Close Only Right"
-msgstr "Samo gumb zapri"
-
-#: src/Settings/GalaSettings.vala:83
-#, fuzzy
-msgid "Close Only Left"
-msgstr "Samo gumb zapri"
-
-#: src/Settings/GalaSettings.vala:84
-msgid "Minimize Left"
-msgstr "Gumb \"Minimiziraj\" na levi"
-
-#: src/Settings/GalaSettings.vala:85
-msgid "Minimize Right"
-msgstr "Gumb \"Minimiziraj\" na desni"
-
-#: src/Settings/GalaSettings.vala:86
-msgid "Windows"
-msgstr "Windows"
-
-#: src/Settings/GalaSettings.vala:87
-msgid "OS X"
-msgstr "OS X"
-
-#: src/Settings/GalaSettings.vala:88
-msgid "Ubuntu"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:26
-msgid "Videos"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:40
-msgid "Stay on top while playing"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:41
-msgid "Move window from video canvas"
-msgstr ""
-
-#: src/Panes/AudiencePane.vala:42
-msgid "Don't instantly start video playback"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:35
-msgid "Animations"
-msgstr "Animacije"
-
-#: src/Panes/AnimationsPane.vala:50
-#, fuzzy
-msgid "Enable animations"
-msgstr "Animacije"
-
-#: src/Panes/AnimationsPane.vala:53
-#, fuzzy
-msgid "Duration"
-msgstr "Trajanje odpiranja:"
-
-#: src/Panes/AnimationsPane.vala:55
-msgid "Open"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:56
-#, fuzzy
-msgid "Close"
-msgstr "Samo gumb zapri"
-
-#: src/Panes/AnimationsPane.vala:57
-msgid "Snap"
-msgstr ""
-
-#: src/Panes/AnimationsPane.vala:58
-#, fuzzy
-msgid "Minimize"
-msgstr "Gumb \"Minimiziraj\" na levi"
-
-#: src/Panes/AnimationsPane.vala:59
-#, fuzzy
-msgid "Workspace switch"
-msgstr "Trajanje menjave delovne površine:"
-
-#: src/Panes/AppearancePane.vala:42 src/Panes/PlankPane.vala:58
+#: ../src/Tweaks.vala:49
 msgid "Appearance"
 msgstr "Videz"
 
-#: src/Panes/AppearancePane.vala:53
-#, fuzzy
-msgid "Theme Settings"
-msgstr "Prilagodi nastavitve elementary OS"
-
-#: src/Panes/AppearancePane.vala:56
-msgid "GTK+"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:58
-msgid "Icons"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:59
-#, fuzzy
-msgid "Cursor"
-msgstr "Tema miškinega kazalca:"
-
-#: src/Panes/AppearancePane.vala:60
-msgid "Prefer dark variant"
-msgstr ""
-
-#: src/Panes/AppearancePane.vala:65
-#, fuzzy
-msgid "Window Controls"
-msgstr "Gumbi za nadzor okenj"
-
-#: src/Panes/AppearancePane.vala:68
-#, fuzzy
-msgid "Layout"
-msgstr "Ureditev po meri:"
-
-#: src/Panes/AppearancePane.vala:69
-msgid "Show GNOME menu"
-msgstr ""
-
-#: src/Panes/FontsPane.vala:27
-msgid "Fonts"
-msgstr "Pisave"
-
-#: src/Panes/FontsPane.vala:37
-msgid "Font Settings"
-msgstr ""
-
-#: src/Panes/FontsPane.vala:45
-#, fuzzy
-msgid "Default font"
-msgstr "Privzeta pisava:"
-
-#: src/Panes/FontsPane.vala:46
-#, fuzzy
-msgid "Document font"
-msgstr "Pisava v dokumentih:"
-
-#: src/Panes/FontsPane.vala:47
-#, fuzzy
-msgid "Monospace font"
-msgstr "Pisava s fiksno širino:"
-
-#: src/Panes/FontsPane.vala:48
-#, fuzzy
-msgid "Titlebar font"
-msgstr "Pisava v naslovni vrstici:"
-
-#: src/Panes/MiscPane.vala:25
-msgid "Miscellaneous"
-msgstr "Razno"
-
-#: src/Panes/MiscPane.vala:39
-msgid "Sound Indicator"
-msgstr ""
-
-#: src/Panes/MiscPane.vala:41
-msgid "Max volume"
-msgstr ""
-
-#: src/Panes/FilesPane.vala:28
-msgid "Files"
-msgstr "Datoteke"
-
-#: src/Panes/FilesPane.vala:43
-#, fuzzy
-msgid "Single click"
-msgstr "Enojni klik:"
-
-#: src/Panes/FilesPane.vala:44
-msgid "Restore Tabs"
-msgstr ""
-
-#: src/Panes/FilesPane.vala:45
-#, fuzzy
-msgid "Date format"
-msgstr "Oblika datuma:"
-
-#: src/Panes/TerminalPane.vala:27
-msgid "Terminal"
-msgstr "Terminal"
-
-#: src/Panes/TerminalPane.vala:43
-msgid "Background color"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:44
-msgid "Natural copy paste"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:45
-msgid "Follow last tab"
-msgstr ""
-
-#: src/Panes/TerminalPane.vala:46
-msgid "Unsafe paste alert"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:24
-msgid "Cerbere"
-msgstr "Cerbere"
-
-#: src/Panes/CerberePane.vala:71 src/Panes/CerberePane.vala:317
-#, fuzzy
-msgid "Custom command"
-msgstr "Ukaz"
-
-#: src/Panes/CerberePane.vala:133
-#, fuzzy
-msgid "Keep these applications open:"
-msgstr "Predvaja se, ko se aplikacija odpre"
-
-#: src/Panes/CerberePane.vala:144
-msgid "Add watched app…"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:148
-msgid "Remove selected app"
-msgstr ""
-
-#: src/Panes/CerberePane.vala:313
-#, fuzzy
-msgid "Search Applications"
-msgstr "Aplikacije"
-
-#: src/Panes/PlankPane.vala:37
-msgid "Dock"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:50
-msgid "Behavior"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:51
-#, fuzzy
-msgid "Lock items"
-msgstr "Zakleni elemente:"
-
-#: src/Panes/PlankPane.vala:52
-msgid "Show Unpinned"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:53
-msgid "Restrict to Workspace"
-msgstr ""
-
-#: src/Panes/PlankPane.vala:54
-#, fuzzy
-msgid "Hide mode"
-msgstr "Način skrivanja:"
-
-#: src/Panes/PlankPane.vala:55
-#, fuzzy
-msgid "Hide delay"
-msgstr "Način skrivanja:"
-
-#: src/Panes/PlankPane.vala:59
-#, fuzzy
-msgid "Theme"
-msgstr "Tema:"
-
-#: src/Panes/PlankPane.vala:60
-#, fuzzy
-msgid "Icon size"
-msgstr "Velikost ikon:"
-
-#: src/Panes/PlankPane.vala:61
-#, fuzzy
-msgid "Monitor"
-msgstr "Monitor:"
-
-#: src/Panes/PlankPane.vala:62
-#, fuzzy
-msgid "Screen position"
-msgstr "Položaj na zaslonu:"
-
-#: src/Panes/PlankPane.vala:63
-#, fuzzy
-msgid "Alignment"
-msgstr "Poravnava:"
-
-#: src/Panes/PlankPane.vala:64
-#, fuzzy
-msgid "Item alignment"
-msgstr "Poravnava elementov:"
-
-#: src/Panes/PlankPane.vala:65
-#, fuzzy
-msgid "Offset"
-msgstr "Odmik:"
-
-#: src/Panes/SlingshotPane.vala:30
-msgid "Launcher"
-msgstr ""
-
-#: src/Panes/SlingshotPane.vala:45
-#, fuzzy
-msgid "Rows"
-msgstr "Vrstice:"
-
-#: src/Panes/SlingshotPane.vala:46
-#, fuzzy
-msgid "Columns"
-msgstr "Stolpci:"
-
-#: src/Panes/SlingshotPane.vala:48
-msgid "Show category view by default"
-msgstr ""
-
-#: src/Objects/ShortcutObject.vala:58
-msgid "Disabled"
-msgstr "Onemogočeno"
-
-#: src/Widgets/Categories.vala:77
+#: ../src/Tweaks.vala:49 ../src/Tweaks.vala:52 ../src/Tweaks.vala:56
+#: ../src/Tweaks.vala:60 ../src/Tweaks.vala:66
 msgid "General"
 msgstr "Splošno"
 
-#: src/Widgets/Categories.vala:79
+#: ../src/Tweaks.vala:52
+msgid "Fonts"
+msgstr "Pisave"
+
+#: ../src/Tweaks.vala:56
+msgid "Animations"
+msgstr "Animacije"
+
+#: ../src/Tweaks.vala:60
+msgid "Shadows"
+msgstr "Sence"
+
+#: ../src/Tweaks.vala:66
+msgid "Miscellaneous"
+msgstr "Razno"
+
+#: ../src/Tweaks.vala:70
+msgid "Plank"
+msgstr "Plank"
+
+#: ../src/Tweaks.vala:70 ../src/Tweaks.vala:74 ../src/Tweaks.vala:78
+#: ../src/Tweaks.vala:82 ../src/Tweaks.vala:86
 msgid "Applications"
 msgstr "Aplikacije"
 
-#: src/Widgets/Categories.vala:163
-#, fuzzy
-msgid "Reset to default"
+#: ../src/Tweaks.vala:74
+msgid "Files"
+msgstr "Datoteke"
+
+#: ../src/Tweaks.vala:78
+msgid "Slingshot"
+msgstr "Slingshot"
+
+#: ../src/Tweaks.vala:82
+msgid "Cerbere"
+msgstr "Cerbere"
+
+#: ../src/Tweaks.vala:86
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../src/Objects/ShortcutObject.vala:58
+#: ../src/Widgets/AcceleratorInputWidget.vala:87
+#: ../src/Widgets/AcceleratorInputWidget.vala:105
+msgid "Disabled"
+msgstr "Onemogočeno"
+
+#: ../src/Grids/CerbereGrid.vala:42
+msgid "Watched Processes"
+msgstr "Nadzorovani procesi"
+
+#: ../src/Grids/CerbereGrid.vala:53 ../src/Grids/CerbereGrid.vala:63
+#: ../src/Grids/ShortcutsGrid.vala:95 ../src/Grids/ShortcutsGrid.vala:162
+msgid "Add..."
+msgstr "Dodaj ..."
+
+#: ../src/Grids/CerbereGrid.vala:54 ../src/Grids/CerbereGrid.vala:64
+#: ../src/Grids/ShortcutsGrid.vala:96 ../src/Grids/ShortcutsGrid.vala:163
+msgid "Remove"
+msgstr "Odstrani"
+
+#: ../src/Grids/CerbereGrid.vala:65 ../src/Grids/ShortcutsGrid.vala:164
+msgid "Revert to Default"
 msgstr "Povrni na privzeto"
 
-#~ msgid "Shadows"
-#~ msgstr "Sence"
-
-#~ msgid "Plank"
-#~ msgstr "Plank"
-
-#~ msgid "Slingshot"
-#~ msgstr "Slingshot"
-
-#~ msgid "Watched Processes"
-#~ msgstr "Nadzorovani procesi"
-
-#~ msgid "Add..."
-#~ msgstr "Dodaj ..."
-
-#~ msgid "Remove"
-#~ msgstr "Odstrani"
-
-#~ msgid "Animations:"
-#~ msgstr "Animacije:"
-
-#~ msgid "If the animations play at all"
-#~ msgstr "Ali se animacije sploh predvajajo"
-
-#~ msgid "Close Duration:"
-#~ msgstr "Trajanje zapiranja:"
-
-#~ msgid "Plays when an application is closed"
-#~ msgstr "Predvaja se, ko se aplikacija zapre"
-
-#~ msgid "Snap Duration:"
-#~ msgstr "Trajanje pritrditve:"
-
-#~ msgid "Plays when an application is snapped to the side"
-#~ msgstr "Predvaja se, ko se aplikacija pritrdi na rob zaslona"
-
-#~ msgid "Minimize Duration:"
-#~ msgstr "Trajanje skrivanja:"
-
-#~ msgid "Plays when an application is minimized"
-#~ msgstr "Predvaja se, ko se aplikacija skrije"
-
-#~ msgid "Plays when a workspace switch is initiated"
-#~ msgstr "Predvaja se, ko zamenja delovna površina"
-
-#~ msgid "If set off, files will use 'normal' double-click behavior"
-#~ msgstr ""
-#~ "Če je nastavitev izklopljena, upravljalnik datotek uporabi \"standardni\" "
-#~ "dvojni klik za odpiranje datotek"
-
-#~ msgid "For date accessed, modified, etc."
-#~ msgstr "Za dostopanje, prilagajanje datuma..."
-
-#~ msgid "Smallest"
-#~ msgstr "Najmanjše"
-
-#~ msgid "Smaller"
-#~ msgstr "Manjše"
-
-#~ msgid "Small"
-#~ msgstr "Majhno"
-
-#~ msgid "Normal"
-#~ msgstr "Običajno"
-
-#~ msgid "Large"
-#~ msgstr "Veliko"
-
-#~ msgid "Larger"
-#~ msgstr "Večje"
-
-#~ msgid "Largest"
-#~ msgstr "Največje"
-
-#~ msgid "Sidebar Icon Size:"
-#~ msgstr "Velikost ikon v stranski vrstici:"
-
-#~ msgid "Size of the icons in the sidebar"
-#~ msgstr "Velikost ikon v stranski vrstici"
-
-#~ msgid "Used by default by most applications"
-#~ msgstr "Privzeto oprabljeno v večini aplikacij"
-
-#~ msgid "Used when displaying documents, if no other font was chosen"
-#~ msgstr ""
-#~ "Uporabljeno pri prikazu dokumentov, če ni bila izbrana nobena druga pisava"
-
-#~ msgid "Used in the terminal, for code, and sometimes for plain text"
-#~ msgstr "Uporabljeno v terminalu, za programsko kodo in za golo besedilo"
-
-#~ msgid "Used to display window titles"
-#~ msgstr "Uporabljeno za prikaz okenskih naslovov"
-
-#~ msgid "The number of rows displayed in Slingshot"
-#~ msgstr "Število vrstic prikazanih v Slingshot"
-
-#~ msgid "The number of columns displayed in Slingshot"
-#~ msgstr "Število stolpcev prikazanih v Slingshot"
-
-#~ msgid "Current Workspace Only"
-#~ msgstr "Samo na trenutni delovni površini"
-
-#~ msgid "Show only windows on the current workspace"
-#~ msgstr "Prikaži samo okna, ki se nahajano na trenutni delovni površini"
-
-#~ msgid "Will still show pinned items on different workspaces"
-#~ msgstr ""
-#~ "Pritrjeni elementi na drugih delovnih površinah bodo vseeno prikazani"
-
-#~ msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
-#~ msgstr "Za preprečitev dodajanja elementov in zaklep elementov na vrstico"
-
-#~ msgid "The size of each icon in the plank"
-#~ msgstr "Velikost vsake ikone na vrstici Plank"
-
-#~ msgid "Don't hide"
-#~ msgstr "Ne skrivaj"
-
-#~ msgid "Intelligent hide"
-#~ msgstr "Pametno skrivanje"
-
-#~ msgid "Auto hide"
-#~ msgstr "Samodejno skrivanje"
-
-#~ msgid "Hide on maximize"
-#~ msgstr "Skrij ob  razprtju"
-
-#~ msgid "Plank's hide mode"
-#~ msgstr "Način skrivanja vrstice Plank"
-
-#~ msgid "Hide Delay (ms):"
-#~ msgstr "Zakasnitev skrivanja (ms):"
-
-#~ msgid "Time to wait before unhiding the dock"
-#~ msgstr "Zakasnitev preden se prikaže vrstica Plank"
-
-#~ msgid "Plank's theme for the dock"
-#~ msgstr "Tema vrstice Plank"
-
-#~ msgid "Primary Monitor"
-#~ msgstr "Primarni zaslon"
-
-#~ msgid "Monitor %d"
-#~ msgstr "Zaaslon %d"
-
-#~ msgid "The monitor that Plank is displayed on"
-#~ msgstr "Zaslon na katerem je vrstica Plank prikazana"
-
-#~ msgid "Left"
-#~ msgstr "Levo"
-
-#~ msgid "Right"
-#~ msgstr "Desno"
-
-#~ msgid "Top"
-#~ msgstr "Na vrhu"
-
-#~ msgid "Bottom"
-#~ msgstr "Na dnu"
-
-#~ msgid "Where on the screen Plank is displayed"
-#~ msgstr "Kje na zaslonu je vrstica Plank prikazana"
-
-#~ msgid "Panel"
-#~ msgstr "Pult"
-
-#~ msgid "Centered"
-#~ msgstr "Na sredi"
-
-#~ msgid "The alignment for the dock on the monitor's edge"
-#~ msgstr "Poravnava vrstice Plank na robu zaslona"
-
-#~ msgid "The alignment of the items in this dock if panel-mode is used"
-#~ msgstr "Poravnava elementov na vrstici Plank, če je izbran Pult"
-
-#~ msgid "The offset (in percent) from the alignment point to shift Plank"
-#~ msgstr "Odmik (v odstotkih) od točke poravnave za premik vrstice Plank"
-
-#~ msgid "Custom"
-#~ msgstr "Po meri"
-
-#~ msgid "Opacity:"
-#~ msgstr "Prosojnost:"
-
-#~ msgid "How transparent the background of the terminal is"
-#~ msgstr "Kako prosojno je ozadje Terminala"
-
-#~ msgid "A set of settings for terminal palette and background color"
-#~ msgstr "Skup nastavitev za paleto barv terminala in njegovega ozadja"
-
-#~ msgid "Prefer Dark Theme:"
-#~ msgstr "Temna tema"
-
-#~ msgid "GTK+ windows will now prefer the dark GTK+ theme"
-#~ msgstr "Okna bodo okrašena s temno GTK+ temo"
-
-#~ msgid ""
-#~ "Some applications will not react well with this enabled and can look "
-#~ "terrible"
-#~ msgstr "Nekatere aplikacije lahko izgledajo slabo."
-
-#~ msgid "Metacity Theme:"
-#~ msgstr "Metacity tema:"
-
-#~ msgid "Used to render windows that do not use GTK+"
-#~ msgstr "Uporabljeno za okna, ki ne uporabljajo GTK+"
-
-#~ msgid "GTK+ Theme:"
-#~ msgstr "GTK+ tema:"
-
-#~ msgid "Used to render GTK+ windows like Switchboard"
-#~ msgstr "Uporabljeno za upodobitev GTK+ oken"
-
-#~ msgid "Icon Theme:"
-#~ msgstr "Tema ikon:"
-
-#~ msgid "Used to theme the icon set, including application icons"
-#~ msgstr "Uporablja se kot tema nabora ikon, vključno z ikonami v aplikacijah"
-
-#~ msgid "Used to theme the cursor"
-#~ msgstr "Uporablja se kot tema miškinega kazalca"
-
-#~ msgid "Custom window control layout"
-#~ msgstr "Po meri postavitev gumbov za nadzor okenj"
-
-#~ msgid ""
-#~ "Controls located at the top of the window for close, minimize, and "
-#~ "maximize"
-#~ msgstr "Gumbi, ki se nahajajo na vrhu okenj (zapri, skrij, razpni)"
-
-#~ msgid "May break window controls! May stop working with updates to system!"
-#~ msgstr ""
-#~ "Lahko pokvari gumbe! Nastavitev lahko preneha delovati ob posodobitvi "
-#~ "sistema!"
-
-#~ msgid "Audible Bell:"
-#~ msgstr "Opozorilni zvonček"
-
-#~ msgid "Sound that plays when an error has been made"
-#~ msgstr "Zvok, ki se predvaja ob napaki"
-
-#~ msgid "Focused Windows:"
-#~ msgstr "Okno v ospredju:"
-
-#~ msgid "Shadow beneath windows that you have currently selected"
-#~ msgstr "Senca pod trenutno izbranim oknom"
-
-#~ msgid "This may not actually do anything"
-#~ msgstr "Morda neuporabno"
-
-#~ msgid "Unfocused Windows:"
-#~ msgstr "Okna v ozadju:"
-
-#~ msgid "Shadow beneath windows that you do not have selected"
-#~ msgstr "Senca pod okni, ki trenutno niso v ospredju"
-
-#~ msgid "Name"
-#~ msgstr "Ime"
-
-#~ msgid "Shortcut"
-#~ msgstr "Bližnjica"
-
-#~ msgid "Every field must be filled!"
-#~ msgstr "Izpolnjena morajo biti vsa polja"
-
-#~ msgid "Name:"
-#~ msgstr "Ime:"
-
-#~ msgid "Shortcut:"
-#~ msgstr "Bližnjica:"
-
-#~ msgid "Command:"
-#~ msgstr "Ukaz:"
-
-#~ msgid "Revert to default setting"
-#~ msgstr "Povrni privzeto nastavitev"
+#: ../src/Grids/AnimationsGrid.vala:43
+msgid "Animations:"
+msgstr "Animacije:"
+
+#: ../src/Grids/AnimationsGrid.vala:44
+msgid "If the animations play at all"
+msgstr "Ali se animacije sploh predvajajo"
+
+#: ../src/Grids/AnimationsGrid.vala:60
+msgid "Open Duration:"
+msgstr "Trajanje odpiranja:"
+
+#: ../src/Grids/AnimationsGrid.vala:61
+msgid "Plays when an application is opened"
+msgstr "Predvaja se, ko se aplikacija odpre"
+
+#: ../src/Grids/AnimationsGrid.vala:72
+msgid "Close Duration:"
+msgstr "Trajanje zapiranja:"
+
+#: ../src/Grids/AnimationsGrid.vala:73
+msgid "Plays when an application is closed"
+msgstr "Predvaja se, ko se aplikacija zapre"
+
+#: ../src/Grids/AnimationsGrid.vala:84
+msgid "Snap Duration:"
+msgstr "Trajanje pritrditve:"
+
+#: ../src/Grids/AnimationsGrid.vala:85
+msgid "Plays when an application is snapped to the side"
+msgstr "Predvaja se, ko se aplikacija pritrdi na rob zaslona"
+
+#: ../src/Grids/AnimationsGrid.vala:96
+msgid "Minimize Duration:"
+msgstr "Trajanje skrivanja:"
+
+#: ../src/Grids/AnimationsGrid.vala:97
+msgid "Plays when an application is minimized"
+msgstr "Predvaja se, ko se aplikacija skrije"
+
+#: ../src/Grids/AnimationsGrid.vala:108
+msgid "Workspace Switch Duration:"
+msgstr "Trajanje menjave delovne površine:"
+
+#: ../src/Grids/AnimationsGrid.vala:109
+msgid "Plays when a workspace switch is initiated"
+msgstr "Predvaja se, ko zamenja delovna površina"
+
+#: ../src/Grids/FilesGrid.vala:32
+msgid "Single Click:"
+msgstr "Enojni klik:"
+
+#: ../src/Grids/FilesGrid.vala:33
+msgid "If set off, files will use 'normal' double-click behavior"
+msgstr ""
+"Če je nastavitev izklopljena, upravljalnik datotek uporabi \"standardni\" "
+"dvojni klik za odpiranje datotek"
+
+#: ../src/Grids/FilesGrid.vala:43
+msgid "Locale"
+msgstr "Jezikovne nastavitve"
+
+#: ../src/Grids/FilesGrid.vala:44
+msgid "ISO"
+msgstr "ISO"
+
+#: ../src/Grids/FilesGrid.vala:45
+msgid "Informal"
+msgstr "Neformalno"
+
+#: ../src/Grids/FilesGrid.vala:48
+msgid "Date Format:"
+msgstr "Oblika datuma:"
+
+#: ../src/Grids/FilesGrid.vala:49
+msgid "For date accessed, modified, etc."
+msgstr "Za dostopanje, prilagajanje datuma..."
+
+#: ../src/Grids/FilesGrid.vala:60
+msgid "Smallest"
+msgstr "Najmanjše"
+
+#: ../src/Grids/FilesGrid.vala:61
+msgid "Smaller"
+msgstr "Manjše"
+
+#: ../src/Grids/FilesGrid.vala:62
+msgid "Small"
+msgstr "Majhno"
+
+#: ../src/Grids/FilesGrid.vala:63
+msgid "Normal"
+msgstr "Običajno"
+
+#: ../src/Grids/FilesGrid.vala:64
+msgid "Large"
+msgstr "Veliko"
+
+#: ../src/Grids/FilesGrid.vala:65
+msgid "Larger"
+msgstr "Večje"
+
+#: ../src/Grids/FilesGrid.vala:66
+msgid "Largest"
+msgstr "Največje"
+
+#: ../src/Grids/FilesGrid.vala:69
+msgid "Sidebar Icon Size:"
+msgstr "Velikost ikon v stranski vrstici:"
+
+#: ../src/Grids/FilesGrid.vala:70
+msgid "Size of the icons in the sidebar"
+msgstr "Velikost ikon v stranski vrstici"
+
+#: ../src/Grids/FontsGrid.vala:32
+msgid "Default Font:"
+msgstr "Privzeta pisava:"
+
+#: ../src/Grids/FontsGrid.vala:33
+msgid "Used by default by most applications"
+msgstr "Privzeto oprabljeno v večini aplikacij"
+
+#: ../src/Grids/FontsGrid.vala:43
+msgid "Document Font:"
+msgstr "Pisava v dokumentih:"
+
+#: ../src/Grids/FontsGrid.vala:44
+msgid "Used when displaying documents, if no other font was chosen"
+msgstr ""
+"Uporabljeno pri prikazu dokumentov, če ni bila izbrana nobena druga pisava"
+
+#: ../src/Grids/FontsGrid.vala:54
+msgid "Monospace Font:"
+msgstr "Pisava s fiksno širino:"
+
+#: ../src/Grids/FontsGrid.vala:55
+msgid "Used in the terminal, for code, and sometimes for plain text"
+msgstr "Uporabljeno v terminalu, za programsko kodo in za golo besedilo"
+
+#: ../src/Grids/FontsGrid.vala:65
+msgid "Titlebar Font:"
+msgstr "Pisava v naslovni vrstici:"
+
+#: ../src/Grids/FontsGrid.vala:66
+msgid "Used to display window titles"
+msgstr "Uporabljeno za prikaz okenskih naslovov"
+
+#: ../src/Grids/SlingshotGrid.vala:32
+msgid "Rows:"
+msgstr "Vrstice:"
+
+#: ../src/Grids/SlingshotGrid.vala:33
+msgid "The number of rows displayed in Slingshot"
+msgstr "Število vrstic prikazanih v Slingshot"
+
+#: ../src/Grids/SlingshotGrid.vala:44
+msgid "Columns:"
+msgstr "Stolpci:"
+
+#: ../src/Grids/SlingshotGrid.vala:45
+msgid "The number of columns displayed in Slingshot"
+msgstr "Število stolpcev prikazanih v Slingshot"
+
+#: ../src/Grids/PlankGrid.vala:32
+msgid "Current Workspace Only"
+msgstr "Samo na trenutni delovni površini"
+
+#: ../src/Grids/PlankGrid.vala:33
+msgid "Show only windows on the current workspace"
+msgstr "Prikaži samo okna, ki se nahajano na trenutni delovni površini"
+
+#: ../src/Grids/PlankGrid.vala:34
+msgid "Will still show pinned items on different workspaces"
+msgstr ""
+"Pritrjeni elementi na drugih delovnih površinah bodo vseeno prikazani"
+
+#: ../src/Grids/PlankGrid.vala:43
+msgid "Lock Items:"
+msgstr "Zakleni elemente:"
+
+#: ../src/Grids/PlankGrid.vala:44
+msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
+msgstr "Za preprečitev dodajanja elementov in zaklep elementov na vrstico"
+
+#: ../src/Grids/PlankGrid.vala:54
+msgid "Icon Size:"
+msgstr "Velikost ikon:"
+
+#: ../src/Grids/PlankGrid.vala:55
+msgid "The size of each icon in the plank"
+msgstr "Velikost vsake ikone na vrstici Plank"
+
+#: ../src/Grids/PlankGrid.vala:66
+msgid "Don't hide"
+msgstr "Ne skrivaj"
+
+#: ../src/Grids/PlankGrid.vala:67
+msgid "Intelligent hide"
+msgstr "Pametno skrivanje"
+
+#: ../src/Grids/PlankGrid.vala:68
+msgid "Auto hide"
+msgstr "Samodejno skrivanje"
+
+#: ../src/Grids/PlankGrid.vala:69
+msgid "Hide on maximize"
+msgstr "Skrij ob  razprtju"
+
+#: ../src/Grids/PlankGrid.vala:72
+msgid "Hide Mode:"
+msgstr "Način skrivanja:"
+
+#: ../src/Grids/PlankGrid.vala:73
+msgid "Plank's hide mode"
+msgstr "Način skrivanja vrstice Plank"
+
+#: ../src/Grids/PlankGrid.vala:84
+msgid "Hide Delay (ms):"
+msgstr "Zakasnitev skrivanja (ms):"
+
+#: ../src/Grids/PlankGrid.vala:85
+msgid "Time to wait before unhiding the dock"
+msgstr "Zakasnitev preden se prikaže vrstica Plank"
+
+#: ../src/Grids/PlankGrid.vala:96 ../src/Grids/TerminalGrid.vala:169
+msgid "Theme:"
+msgstr "Tema:"
+
+#: ../src/Grids/PlankGrid.vala:97
+msgid "Plank's theme for the dock"
+msgstr "Tema vrstice Plank"
+
+#: ../src/Grids/PlankGrid.vala:108
+msgid "Primary Monitor"
+msgstr "Primarni zaslon"
+
+#: ../src/Grids/PlankGrid.vala:111
+msgid "Monitor %d"
+msgstr "Zaaslon %d"
+
+#: ../src/Grids/PlankGrid.vala:115
+msgid "Monitor:"
+msgstr "Monitor:"
+
+#: ../src/Grids/PlankGrid.vala:116
+msgid "The monitor that Plank is displayed on"
+msgstr "Zaslon na katerem je vrstica Plank prikazana"
+
+#: ../src/Grids/PlankGrid.vala:127 ../src/Grids/PlankGrid.vala:147
+#: ../src/Grids/PlankGrid.vala:164
+msgid "Left"
+msgstr "Levo"
+
+#: ../src/Grids/PlankGrid.vala:128 ../src/Grids/PlankGrid.vala:146
+#: ../src/Grids/PlankGrid.vala:163
+msgid "Right"
+msgstr "Desno"
+
+#: ../src/Grids/PlankGrid.vala:129
+msgid "Top"
+msgstr "Na vrhu"
+
+#: ../src/Grids/PlankGrid.vala:130
+msgid "Bottom"
+msgstr "Na dnu"
+
+#: ../src/Grids/PlankGrid.vala:133
+msgid "Screen Position:"
+msgstr "Položaj na zaslonu:"
+
+#: ../src/Grids/PlankGrid.vala:134
+msgid "Where on the screen Plank is displayed"
+msgstr "Kje na zaslonu je vrstica Plank prikazana"
+
+#: ../src/Grids/PlankGrid.vala:145
+msgid "Panel"
+msgstr "Pult"
+
+#: ../src/Grids/PlankGrid.vala:148 ../src/Grids/PlankGrid.vala:165
+msgid "Centered"
+msgstr "Na sredi"
+
+#: ../src/Grids/PlankGrid.vala:151
+msgid "Alignment:"
+msgstr "Poravnava:"
+
+#: ../src/Grids/PlankGrid.vala:152
+msgid "The alignment for the dock on the monitor's edge"
+msgstr "Poravnava vrstice Plank na robu zaslona"
+
+#: ../src/Grids/PlankGrid.vala:168
+msgid "Item Alignment:"
+msgstr "Poravnava elementov:"
+
+#: ../src/Grids/PlankGrid.vala:169
+msgid "The alignment of the items in this dock if panel-mode is used"
+msgstr "Poravnava elementov na vrstici Plank, če je izbran Pult"
+
+#: ../src/Grids/PlankGrid.vala:180
+msgid "Offset:"
+msgstr "Odmik:"
+
+#: ../src/Grids/PlankGrid.vala:181
+msgid "The offset (in percent) from the alignment point to shift Plank"
+msgstr "Odmik (v odstotkih) od točke poravnave za premik vrstice Plank"
+
+#: ../src/Grids/TerminalGrid.vala:83 ../src/Settings/GalaSettings.vala:86
+msgid "Custom"
+msgstr "Po meri"
+
+#: ../src/Grids/TerminalGrid.vala:150
+msgid "Opacity:"
+msgstr "Prosojnost:"
+
+#: ../src/Grids/TerminalGrid.vala:151
+msgid "How transparent the background of the terminal is"
+msgstr "Kako prosojno je ozadje Terminala"
+
+#: ../src/Grids/TerminalGrid.vala:170
+msgid "A set of settings for terminal palette and background color"
+msgstr "Skup nastavitev za paleto barv terminala in njegovega ozadja"
+
+#: ../src/Grids/AppearanceGrid.vala:34
+msgid "Prefer Dark Theme:"
+msgstr "Temna tema"
+
+#: ../src/Grids/AppearanceGrid.vala:35
+msgid "GTK+ windows will now prefer the dark GTK+ theme"
+msgstr "Okna bodo okrašena s temno GTK+ temo"
+
+#: ../src/Grids/AppearanceGrid.vala:36
+msgid ""
+"Some applications will not react well with this enabled and can look terrible"
+msgstr "Nekatere aplikacije lahko izgledajo slabo."
+
+#: ../src/Grids/AppearanceGrid.vala:45
+msgid "Metacity Theme:"
+msgstr "Metacity tema:"
+
+#: ../src/Grids/AppearanceGrid.vala:46
+msgid "Used to render windows that do not use GTK+"
+msgstr "Uporabljeno za okna, ki ne uporabljajo GTK+"
+
+#: ../src/Grids/AppearanceGrid.vala:57
+msgid "GTK+ Theme:"
+msgstr "GTK+ tema:"
+
+#: ../src/Grids/AppearanceGrid.vala:58
+msgid "Used to render GTK+ windows like Switchboard"
+msgstr "Uporabljeno za upodobitev GTK+ oken"
+
+#: ../src/Grids/AppearanceGrid.vala:69
+msgid "Icon Theme:"
+msgstr "Tema ikon:"
+
+#: ../src/Grids/AppearanceGrid.vala:70
+msgid "Used to theme the icon set, including application icons"
+msgstr "Uporablja se kot tema nabora ikon, vključno z ikonami v aplikacijah"
+
+#: ../src/Grids/AppearanceGrid.vala:81
+msgid "Cursor Theme:"
+msgstr "Tema miškinega kazalca:"
+
+#: ../src/Grids/AppearanceGrid.vala:82
+msgid "Used to theme the cursor"
+msgstr "Uporablja se kot tema miškinega kazalca"
+
+#: ../src/Grids/AppearanceGrid.vala:95
+msgid "Custom Layout:"
+msgstr "Ureditev po meri:"
+
+#: ../src/Grids/AppearanceGrid.vala:96
+msgid "Custom window control layout"
+msgstr "Po meri postavitev gumbov za nadzor okenj"
+
+#: ../src/Grids/AppearanceGrid.vala:112
+msgid "Window Controls:"
+msgstr "Gumbi za nadzor okenj"
+
+#: ../src/Grids/AppearanceGrid.vala:113
+msgid ""
+"Controls located at the top of the window for close, minimize, and maximize"
+msgstr "Gumbi, ki se nahajajo na vrhu okenj (zapri, skrij, razpni)"
+
+#: ../src/Grids/AppearanceGrid.vala:114
+msgid "May break window controls! May stop working with updates to system!"
+msgstr ""
+"Lahko pokvari gumbe! Nastavitev lahko preneha delovati ob posodobitvi "
+"sistema!"
+
+#: ../src/Grids/MiscGrid.vala:32
+msgid "Audible Bell:"
+msgstr "Opozorilni zvonček"
+
+#: ../src/Grids/MiscGrid.vala:33
+msgid "Sound that plays when an error has been made"
+msgstr "Zvok, ki se predvaja ob napaki"
+
+#: ../src/Grids/ShadowsGrid.vala:32
+msgid "Focused Windows:"
+msgstr "Okno v ospredju:"
+
+#: ../src/Grids/ShadowsGrid.vala:33
+msgid "Shadow beneath windows that you have currently selected"
+msgstr "Senca pod trenutno izbranim oknom"
+
+#: ../src/Grids/ShadowsGrid.vala:34 ../src/Grids/ShadowsGrid.vala:49
+msgid "This may not actually do anything"
+msgstr "Morda neuporabno"
+
+#: ../src/Grids/ShadowsGrid.vala:47
+msgid "Unfocused Windows:"
+msgstr "Okna v ozadju:"
+
+#: ../src/Grids/ShadowsGrid.vala:48
+msgid "Shadow beneath windows that you do not have selected"
+msgstr "Senca pod okni, ki trenutno niso v ospredju"
+
+#: ../src/Grids/ShortcutsGrid.vala:72
+msgid "Name"
+msgstr "Ime"
+
+#: ../src/Grids/ShortcutsGrid.vala:73
+msgid "Shortcut"
+msgstr "Bližnjica"
+
+#: ../src/Grids/ShortcutsGrid.vala:74
+msgid "Command"
+msgstr "Ukaz"
+
+#: ../src/Grids/ShortcutsGrid.vala:121
+msgid "Every field must be filled!"
+msgstr "Izpolnjena morajo biti vsa polja"
+
+#: ../src/Grids/ShortcutsGrid.vala:130
+msgid "Name:"
+msgstr "Ime:"
+
+#: ../src/Grids/ShortcutsGrid.vala:133
+msgid "Shortcut:"
+msgstr "Bližnjica:"
+
+#: ../src/Grids/ShortcutsGrid.vala:136
+msgid "Command:"
+msgstr "Ukaz:"
+
+#: ../src/Settings/GalaSettings.vala:80
+msgid "elementary"
+msgstr "elementary"
+
+#: ../src/Settings/GalaSettings.vala:81
+msgid "Close Only"
+msgstr "Samo gumb zapri"
+
+#: ../src/Settings/GalaSettings.vala:82
+msgid "Minimize Left"
+msgstr "Gumb \"Minimiziraj\" na levi"
+
+#: ../src/Settings/GalaSettings.vala:83
+msgid "Minimize Right"
+msgstr "Gumb \"Minimiziraj\" na desni"
+
+#: ../src/Settings/GalaSettings.vala:84
+msgid "Windows"
+msgstr "Windows"
+
+#: ../src/Settings/GalaSettings.vala:85
+msgid "OS X"
+msgstr "OS X"
+
+#: ../src/Widgets/TweakWidget.vala:83
+msgid "Revert to default setting"
+msgstr "Povrni privzeto nastavitev"
