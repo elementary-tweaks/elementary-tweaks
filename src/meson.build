@@ -50,6 +50,10 @@ shared_module(
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep
     ],
+    vala_args: [
+        meson.source_root() + '/vapi/polkit-gobject-1.vapi',
+        '--vapidir=' + meson.source_root() + '/vapi/',
+    ],
     install: true,
     install_dir: pkgdatadir
 )
