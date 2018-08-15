@@ -34,4 +34,5 @@ Pre-Depends: dpkg (>= 1.15.6)
 Enhances: elementary-tweaks
 Description: Change hidden desktop settings (debugging symbols)
  Switchboard plug for controlling hidden options.
+ .
  This package contains debugging symbols for switchboard-plug-template.
