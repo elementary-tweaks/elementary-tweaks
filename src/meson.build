@@ -29,14 +29,6 @@ plug_files = files(
     'Widgets/Label.vala',
 )
 
-gettext_data = configuration_data()
-gettext_data.set('GETTEXT_PACKAGE', meson.project_name())
-gettext_declaration = configure_file(
-    configuration: gettext_data,
-    input: 'config.vala.in',
-    output: '@BASENAME@'
-)
-
 shared_module(
     meson.project_name(),
     plug_files,
