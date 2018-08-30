@@ -11,6 +11,7 @@ Build-Depends: cmake (>= 2.8),
                libgconf2-dev,
                libswitchboard-2.0-dev,
                libpolkit-gobject-1-dev,
+               meson,
                valac (>= 0.30)
 Standards-Version: 3.9.5
 Homepage: https://github.com/elementary-tweaks/elementary-tweaks
