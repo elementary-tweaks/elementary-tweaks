@@ -39,7 +39,7 @@ namespace ElementaryTweaks {
 
         public static Settings get_settings () {
             if (settings == null) {
-                settings = new Settings ("org.pantheon.desktop.wingpanel.indicators.sound");
+                settings = new Settings ("io.elementary.desktop.wingpanel.sound");
             }
 
             return settings;
