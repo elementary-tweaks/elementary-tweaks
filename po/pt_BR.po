@@ -3,19 +3,19 @@
 # Este arquivo é distribuído sob a mesma licença que o pacote PACKAGE.
 # Helder Bertoldo <helder.bertoldo@gmail.com>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-16 11:37+0300\n"
-"PO-Revision-Date: 2018-05-26 18:56+0000\n"
+"PO-Revision-Date: 2018-10-14 23:20-0300\n"
 "Last-Translator: Helder Bertoldo <helder.bertoldo@gmail.com>\n"
 "Language-Team: Portuguese Brazilian <LL@li.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../src/Tweaks.vala:32
 msgid "Tweaks"
@@ -324,6 +324,10 @@ msgstr "Siga a última aba"
 #: ../src/Panes/TerminalPane.vala:46
 msgid "Unsafe paste alert"
 msgstr "Alerta de colagem não-segura"
+
+#: ../src/Panes/TerminalPane.vala:47
+msgid "Remember tabs"
+msgstr "Restaurar abas"
 
 #: ../src/Panes/AudiencePane.vala:26
 msgid "Videos"
