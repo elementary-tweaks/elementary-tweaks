@@ -190,7 +190,7 @@ msgid "Show Unpinned"
 msgstr ""
 
 #: ../src/Panes/PlankPane.vala:53
-msgid "Restrict to Workpace"
+msgid "Restrict to Workspace"
 msgstr ""
 
 #: ../src/Panes/PlankPane.vala:54

@@ -23,8 +23,7 @@ namespace ElementaryTweaks {
 
     const string SCHEMA = "org.pantheon.desktop.gala";
 
-    public class BehaviorSettings : Granite.Services.Settings
-    {
+    public class BehaviorSettings : Granite.Services.Settings {
         public bool edge_tiling { get; set; }
         public string panel_main_menu_action { get; set; }
         public string toggle_recording_action { get; set; }
@@ -38,21 +37,20 @@ namespace ElementaryTweaks {
 
         static BehaviorSettings? instance = null;
 
-        private BehaviorSettings ()
-        {
-            base (SCHEMA+".behavior");
+        private BehaviorSettings () {
+            base (SCHEMA + ".behavior");
         }
 
-        public static BehaviorSettings get_default ()
-        {
-            if (instance == null)
+        public static BehaviorSettings get_default () {
+            if (instance == null) {
                 instance = new BehaviorSettings ();
+            }
 
             return instance;
         }
     }
 
-    public class AppearanceSettings : Granite.Services.Settings
+    public class AppearanceSettings : Granite.Services.Settings {
     {
         public double alt_tab_window_opacity { get; set; }
         public string button_layout { get; set; }
@@ -63,15 +61,14 @@ namespace ElementaryTweaks {
         static Gtk.ListStore button_layouts;
         static AppearanceSettings? instance = null;
 
-        private AppearanceSettings ()
-        {
-            base (SCHEMA+".appearance");
+        private AppearanceSettings () {
+            base (SCHEMA + ".appearance");
         }
 
-        public static AppearanceSettings get_default ()
-        {
-            if (instance == null)
+        public static AppearanceSettings get_default () {
+            if (instance == null) {
                 instance = new AppearanceSettings ();
+            }
 
             return instance;
         }
@@ -84,18 +81,19 @@ namespace ElementaryTweaks {
             schema.reset ("alt-tab-window-opacity");
         }
 
-        public static Gee.HashMap<string, string> get_preset_button_layouts () {
+        private static Gee.HashMap<string, string> get_preset_button_layouts () {
             if (preset_button_layouts == null) {
                 preset_button_layouts = new Gee.HashMap<string, string> ();
                 preset_button_layouts["close:maximize"] = _("elementary");
-                preset_button_layouts["close:"] = _("Close Only Right");
-                preset_button_layouts[":close"] = _("Close Only Left");
+                preset_button_layouts[":close"] = _("Close Only Right");
+                preset_button_layouts["close:"] = _("Close Only Left");
                 preset_button_layouts["close,minimize:maximize"] = _("Minimize Left");
                 preset_button_layouts["close:minimize,maximize"] = _("Minimize Right");
                 preset_button_layouts[":minimize,maximize,close"] = _("Windows");
                 preset_button_layouts["close,minimize,maximize"] = _("OS X");
-                preset_button_layouts["custom"] = _("Custom");
+                preset_button_layouts["close,maximize,minimize"] = _("Ubuntu");
             }
+
             return preset_button_layouts;
         }
 
@@ -107,14 +105,7 @@ namespace ElementaryTweaks {
                 int index = 0;
                 active_index = 0;
 
-                var layouts = new Gee.HashMap<string, string> ();
-                layouts["close:maximize"] = _("elementary");
-                layouts[":close"] = _("Close Only Right");
-                layouts["close:"] = _("Close Only Left");
-                layouts["close,minimize:maximize"] = _("Minimize Left");
-                layouts["close:minimize,maximize"] = _("Minimize Right");
-                layouts[":minimize,maximize,close"] = _("Windows");
-                layouts["close,minimize,maximize"] = _("OS X");
+                var layouts = get_preset_button_layouts ();
 
                 foreach (var layout in layouts.entries) {
                     debug ("Adding button layout: %s => %s", layout.key, layout.value);
@@ -123,6 +114,7 @@ namespace ElementaryTweaks {
                     if (AppearanceSettings.get_default ().button_layout == layout.key) {
                         active_index = index;
                     }
+
                     index++;
                 }
             } else {
@@ -133,8 +125,7 @@ namespace ElementaryTweaks {
         }
     }
 
-    public class ShadowSettings : Granite.Services.Settings
-    {
+    public class ShadowSettings : Granite.Services.Settings {
         public string[] menu { get; set; }
         public string[] normal_focused { get; set; }
         public string[] normal_unfocused { get; set; }
@@ -143,22 +134,20 @@ namespace ElementaryTweaks {
 
         static ShadowSettings? instance = null;
 
-        private ShadowSettings ()
-        {
-            base (SCHEMA+".shadows");
+        private ShadowSettings () {
+            base (SCHEMA + ".shadows");
         }
 
-        public static ShadowSettings get_default ()
-        {
-            if (instance == null)
+        public static ShadowSettings get_default () {
+            if (instance == null) {
                 instance = new ShadowSettings ();
+            }
 
             return instance;
         }
     }
 
-    public class AnimationSettings : Granite.Services.Settings
-    {
+    public class AnimationSettings : Granite.Services.Settings {
         public bool enable_animations { get; set; }
         public int open_duration { get; set; }
         public int snap_duration { get; set; }
@@ -168,15 +157,14 @@ namespace ElementaryTweaks {
 
         static AnimationSettings? instance = null;
 
-        private AnimationSettings ()
-        {
-            base (SCHEMA+".animations");
+        private AnimationSettings () {
+            base (SCHEMA + ".animations");
         }
 
-        public static AnimationSettings get_default ()
-        {
-            if (instance == null)
+        public static AnimationSettings get_default () {
+            if (instance == null) {
                 instance = new AnimationSettings ();
+            }
 
             return instance;
         }

@@ -21,13 +21,13 @@ namespace ElementaryTweaks {
         private Gtk.Switch prefer_dark_switch;
         private Gtk.Switch gnome_menu;
         private Gtk.ComboBox gtk_combobox;
-        private Gtk.ComboBox metacity_combobox;
+        //  private Gtk.ComboBox metacity_combobox;
         private Gtk.ComboBox icon_combobox;
         private Gtk.ComboBox cursor_combobox;
         private Gtk.ComboBox controls_combobox;
 
         private Gtk.ListStore gtk_store;
-        private Gtk.ListStore metacity_store;
+        //  private Gtk.ListStore metacity_store;
         private Gtk.ListStore icon_store;
         private Gtk.ListStore cursor_store;
         private Gtk.ListStore controls_store;
@@ -82,7 +82,7 @@ namespace ElementaryTweaks {
             controls_store = AppearanceSettings.get_button_layouts (out controls_index);
 
             gtk_combobox.set_model (gtk_store);
-            metacity_combobox.set_model (metacity_store);
+            //  metacity_combobox.set_model (metacity_store);
             icon_combobox.set_model (icon_store);
             cursor_combobox.set_model (cursor_store);
             controls_combobox.set_model (controls_store);

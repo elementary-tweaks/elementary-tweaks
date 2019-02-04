@@ -27,7 +27,7 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            if (Util.schema_exists ("org.pantheon.audience")) {
+            if (Util.schema_exists ("org.pantheon.audience") || Util.schema_exists("io.elementary.videos")) {
                 build_ui ();
                 init_data ();
                 connect_signals ();

@@ -24,7 +24,6 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Settings/PlankSettings.vala
     Settings/KeyboardSettings.vala
     Settings/SlingshotSettings.vala
-    Settings/CerbereSettings.vala
     Settings/GnomeSettings.vala
     Settings/TerminalSettings.vala
     Settings/XSettings.vala
@@ -35,7 +34,6 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Panes/MiscPane.vala
     Panes/FilesPane.vala
     Panes/TerminalPane.vala
-    Panes/CerberePane.vala
     Panes/PlankPane.vala
     Panes/SlingshotPane.vala
     Objects/ShortcutObject.vala

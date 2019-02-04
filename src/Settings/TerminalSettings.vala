@@ -29,12 +29,14 @@ namespace ElementaryTweaks {
         public bool unsafe_paste_alert { get; set; }
         public bool natural_copy_paste { get; set; }
         public bool follow_last_tab { get; set; }
+        public bool audible_bell { get; set; }
+        public bool remember_tabs { get; set; }
         public string cursor_shape { get; set; }
                 
         static TerminalSettings? instance = null;
 
         private TerminalSettings () {
-            base ("org.pantheon.terminal.settings");
+            base ((Util.schema_exists ("io.elementary.terminal.settings"))?"io.elementary.terminal.settings":"org.pantheon.terminal.settings");
         }
 
         public static TerminalSettings get_default () {
@@ -47,7 +49,7 @@ namespace ElementaryTweaks {
         public void reset () {
             string[] to_reset = {"background", "cursor-color", "font", "foreground", "palette",
                                  "scrollback-lines", "unsafe-paste-alert", "natural-copy-paste",
-                                 "follow-last-tab", "cursor-shape"};
+                                 "follow-last-tab", "cursor-shape", "audible-bell", "remember-tabs"};
 
             foreach (string key in to_reset) {
                 schema.reset (key);

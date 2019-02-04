@@ -52,9 +52,6 @@ namespace ElementaryTweaks {
             var slingshot = new Panes.SlingshotPane ();
             list_box.add (slingshot);
 
-            var cerbere = new Panes.CerberePane ();
-            list_box.add (cerbere);
-
             var terminal = new Panes.TerminalPane ();
             list_box.add (terminal);
 
