@@ -1,564 +1,563 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-28 07:48-0500\n"
-"PO-Revision-Date: 2014-08-22 09:25+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2017-07-24 17:58+0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-08-30 08:41+0000\n"
-"X-Generator: Launchpad (build 17176)\n"
-"Language: \n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: Moo\n"
+"Language-Team: \n"
 
 #: ../src/Tweaks.vala:38
 msgid "Tweaks"
-msgstr ""
+msgstr "Papildomi nustatymai"
 
 #: ../src/Tweaks.vala:39
 msgid "Tweak elementary OS settings"
-msgstr ""
+msgstr "Derinti elementary OS nustatymus"
 
 #: ../src/Tweaks.vala:49
 msgid "Appearance"
-msgstr ""
+msgstr "Išvaizda"
 
 #: ../src/Tweaks.vala:49 ../src/Tweaks.vala:52 ../src/Tweaks.vala:56
 #: ../src/Tweaks.vala:60 ../src/Tweaks.vala:66
 msgid "General"
-msgstr ""
+msgstr "Bendra"
 
 #: ../src/Tweaks.vala:52
 msgid "Fonts"
-msgstr ""
+msgstr "Šriftai"
 
 #: ../src/Tweaks.vala:56
 msgid "Animations"
-msgstr ""
+msgstr "Animacijos"
 
 #: ../src/Tweaks.vala:60
 msgid "Shadows"
-msgstr ""
+msgstr "Šešėliai"
 
 #: ../src/Tweaks.vala:66
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Įvairūs"
 
 #: ../src/Tweaks.vala:70
 msgid "Plank"
-msgstr ""
+msgstr "Apatinis skydelis"
 
 #: ../src/Tweaks.vala:70 ../src/Tweaks.vala:74 ../src/Tweaks.vala:78
 #: ../src/Tweaks.vala:82 ../src/Tweaks.vala:86
 msgid "Applications"
-msgstr ""
+msgstr "Programos"
 
 #: ../src/Tweaks.vala:74
 msgid "Files"
-msgstr ""
+msgstr "Failai"
 
 #: ../src/Tweaks.vala:78
 msgid "Slingshot"
-msgstr ""
+msgstr "Leistukas"
 
 #: ../src/Tweaks.vala:82
 msgid "Cerbere"
-msgstr ""
+msgstr "Cerbere"
 
 #: ../src/Tweaks.vala:86
 msgid "Terminal"
-msgstr ""
+msgstr "Terminalas"
 
 #: ../src/Objects/ShortcutObject.vala:58
 #: ../src/Widgets/AcceleratorInputWidget.vala:87
 #: ../src/Widgets/AcceleratorInputWidget.vala:105
 msgid "Disabled"
-msgstr ""
+msgstr "Išjungta"
 
 #: ../src/Grids/CerbereGrid.vala:42
 msgid "Watched Processes"
-msgstr ""
+msgstr "Stebimi procesai"
 
 #: ../src/Grids/CerbereGrid.vala:53 ../src/Grids/CerbereGrid.vala:63
 #: ../src/Grids/ShortcutsGrid.vala:95 ../src/Grids/ShortcutsGrid.vala:162
 msgid "Add..."
-msgstr ""
+msgstr "Pridėti..."
 
 #: ../src/Grids/CerbereGrid.vala:54 ../src/Grids/CerbereGrid.vala:64
 #: ../src/Grids/ShortcutsGrid.vala:96 ../src/Grids/ShortcutsGrid.vala:163
 msgid "Remove"
-msgstr ""
+msgstr "Šalinti"
 
 #: ../src/Grids/CerbereGrid.vala:65 ../src/Grids/ShortcutsGrid.vala:164
 msgid "Revert to Default"
-msgstr ""
+msgstr "Sugrąžinti į numatytuosius"
 
 #: ../src/Grids/AnimationsGrid.vala:43
 msgid "Animations:"
-msgstr ""
+msgstr "Animacijos:"
 
 #: ../src/Grids/AnimationsGrid.vala:44
 msgid "If the animations play at all"
-msgstr ""
+msgstr "Ar animacijos iš viso bus rodomos"
 
 #: ../src/Grids/AnimationsGrid.vala:60
 msgid "Open Duration:"
-msgstr ""
+msgstr "Atvėrimo trukmė:"
 
 #: ../src/Grids/AnimationsGrid.vala:61
 msgid "Plays when an application is opened"
-msgstr ""
+msgstr "Rodoma, kai programa yra atveriama"
 
 #: ../src/Grids/AnimationsGrid.vala:72
 msgid "Close Duration:"
-msgstr ""
+msgstr "Užvėrimo trukmė"
 
 #: ../src/Grids/AnimationsGrid.vala:73
 msgid "Plays when an application is closed"
-msgstr ""
+msgstr "Rodoma, kai programa yra užveriama"
 
 #: ../src/Grids/AnimationsGrid.vala:84
 msgid "Snap Duration:"
-msgstr ""
+msgstr "Pritraukimo trukmė:"
 
 #: ../src/Grids/AnimationsGrid.vala:85
 msgid "Plays when an application is snapped to the side"
-msgstr ""
+msgstr "Rodoma, kai programa yra pritraukiama prie šono"
 
 #: ../src/Grids/AnimationsGrid.vala:96
 msgid "Minimize Duration:"
-msgstr ""
+msgstr "Suskleidimo trukmė:"
 
 #: ../src/Grids/AnimationsGrid.vala:97
 msgid "Plays when an application is minimized"
-msgstr ""
+msgstr "Rodoma, kai programa yra suskleidžiama"
 
 #: ../src/Grids/AnimationsGrid.vala:108
 msgid "Workspace Switch Duration:"
-msgstr ""
+msgstr "Darbo srities perjungimo trukmė:"
 
 #: ../src/Grids/AnimationsGrid.vala:109
 msgid "Plays when a workspace switch is initiated"
-msgstr ""
+msgstr "Rodoma, kai yra inicijuojamas darbo srities perjungimas"
 
 #: ../src/Grids/FilesGrid.vala:32
 msgid "Single Click:"
-msgstr ""
+msgstr "Vienkartis spustelėjimas:"
 
 #: ../src/Grids/FilesGrid.vala:33
 msgid "If set off, files will use 'normal' double-click behavior"
-msgstr ""
+msgstr "Jeigu išjungta, failai naudos \"normalią\" dvikarčio spustelėjimo elgseną"
 
 #: ../src/Grids/FilesGrid.vala:43
 msgid "Locale"
-msgstr ""
+msgstr "Lokalė"
 
 #: ../src/Grids/FilesGrid.vala:44
 msgid "ISO"
-msgstr ""
+msgstr "ISO"
 
 #: ../src/Grids/FilesGrid.vala:45
 msgid "Informal"
-msgstr ""
+msgstr "Neoficialus"
 
 #: ../src/Grids/FilesGrid.vala:48
 msgid "Date Format:"
-msgstr ""
+msgstr "Datos formatas:"
 
 #: ../src/Grids/FilesGrid.vala:49
 msgid "For date accessed, modified, etc."
-msgstr ""
+msgstr "Prieigos, keitimo ir kt. datoms"
 
 #: ../src/Grids/FilesGrid.vala:60
 msgid "Smallest"
-msgstr ""
+msgstr "Mažiausias"
 
 #: ../src/Grids/FilesGrid.vala:61
 msgid "Smaller"
-msgstr ""
+msgstr "Mažesnis"
 
 #: ../src/Grids/FilesGrid.vala:62
 msgid "Small"
-msgstr ""
+msgstr "Mažas"
 
 #: ../src/Grids/FilesGrid.vala:63
 msgid "Normal"
-msgstr ""
+msgstr "Normalus"
 
 #: ../src/Grids/FilesGrid.vala:64
 msgid "Large"
-msgstr ""
+msgstr "Didelis"
 
 #: ../src/Grids/FilesGrid.vala:65
 msgid "Larger"
-msgstr ""
+msgstr "Didesnis"
 
 #: ../src/Grids/FilesGrid.vala:66
 msgid "Largest"
-msgstr ""
+msgstr "Didžiausias"
 
 #: ../src/Grids/FilesGrid.vala:69
 msgid "Sidebar Icon Size:"
-msgstr ""
+msgstr "Šoninės juostos piktogramų dydis:"
 
 #: ../src/Grids/FilesGrid.vala:70
 msgid "Size of the icons in the sidebar"
-msgstr ""
+msgstr "Šoninėje juostoje esančių piktogramų dydis"
 
 #: ../src/Grids/FontsGrid.vala:32
 msgid "Default Font:"
-msgstr ""
+msgstr "Numatytasis šriftas:"
 
 #: ../src/Grids/FontsGrid.vala:33
 msgid "Used by default by most applications"
-msgstr ""
+msgstr "Pagal numatymą naudojamas daugumos programų"
 
 #: ../src/Grids/FontsGrid.vala:43
 msgid "Document Font:"
-msgstr ""
+msgstr "Dokumentų šriftas:"
 
 #: ../src/Grids/FontsGrid.vala:44
 msgid "Used when displaying documents, if no other font was chosen"
-msgstr ""
+msgstr "Rodomas, atvaizduojant dokumentus, jei nepasirinktas joks kitas šriftas"
 
 #: ../src/Grids/FontsGrid.vala:54
 msgid "Monospace Font:"
-msgstr ""
+msgstr "Lygiaplotis šriftas:"
 
 #: ../src/Grids/FontsGrid.vala:55
 msgid "Used in the terminal, for code, and sometimes for plain text"
-msgstr ""
+msgstr "Naudojamas kodui terminale ir, kartais, grynajam tekstui"
 
 #: ../src/Grids/FontsGrid.vala:65
 msgid "Titlebar Font:"
-msgstr ""
+msgstr "Pavadinimo juostos šriftas:"
 
 #: ../src/Grids/FontsGrid.vala:66
 msgid "Used to display window titles"
-msgstr ""
+msgstr "Naudojamas atvaizduoti langų pavadinimus"
 
 #: ../src/Grids/SlingshotGrid.vala:32
 msgid "Rows:"
-msgstr ""
+msgstr "Eilutės:"
 
 #: ../src/Grids/SlingshotGrid.vala:33
 msgid "The number of rows displayed in Slingshot"
-msgstr ""
+msgstr "Leistuke rodomų eilučių skaičius"
 
 #: ../src/Grids/SlingshotGrid.vala:44
 msgid "Columns:"
-msgstr ""
+msgstr "Stulpeliai:"
 
 #: ../src/Grids/SlingshotGrid.vala:45
 msgid "The number of columns displayed in Slingshot"
-msgstr ""
+msgstr "Leistuke rodomų stulpelių skaičius"
 
 #: ../src/Grids/PlankGrid.vala:32
 msgid "Current Workspace Only"
-msgstr ""
+msgstr "Tik esama darbo sritis"
 
 #: ../src/Grids/PlankGrid.vala:33
 msgid "Show only windows on the current workspace"
-msgstr ""
+msgstr "Rodyti tik esamos darbo srities langus"
 
 #: ../src/Grids/PlankGrid.vala:34
 msgid "Will still show pinned items on different workspaces"
-msgstr ""
+msgstr "Vis tik rodys prisegtus elementus įvairiose darbo srityse"
 
 #: ../src/Grids/PlankGrid.vala:43
 msgid "Lock Items:"
-msgstr ""
+msgstr "Užrakinti elementus:"
 
 #: ../src/Grids/PlankGrid.vala:44
 msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
-msgstr ""
+msgstr "Ar neleisti vilkimo veiksmų ir užrakinti doke esančius elementus"
 
 #: ../src/Grids/PlankGrid.vala:54
 msgid "Icon Size:"
-msgstr ""
+msgstr "Piktogramų dydis:"
 
 #: ../src/Grids/PlankGrid.vala:55
 msgid "The size of each icon in the plank"
-msgstr ""
+msgstr "Kiekvienos apatinio skydelio piktogramos dydis"
 
 #: ../src/Grids/PlankGrid.vala:66
 msgid "Don't hide"
-msgstr ""
+msgstr "Neslėpti"
 
 #: ../src/Grids/PlankGrid.vala:67
 msgid "Intelligent hide"
-msgstr ""
+msgstr "Išmaniai slėpti"
 
 #: ../src/Grids/PlankGrid.vala:68
 msgid "Auto hide"
-msgstr ""
+msgstr "Automatiškai slėpti"
 
 #: ../src/Grids/PlankGrid.vala:69
 msgid "Hide on maximize"
-msgstr ""
+msgstr "Slėpti išskleidus langą"
 
 #: ../src/Grids/PlankGrid.vala:72
 msgid "Hide Mode:"
-msgstr ""
+msgstr "Slėpimo veiksena:"
 
 #: ../src/Grids/PlankGrid.vala:73
 msgid "Plank's hide mode"
-msgstr ""
+msgstr "Apatinio skydelio slėpimo veiksena"
 
 #: ../src/Grids/PlankGrid.vala:84
 msgid "Hide Delay (ms):"
-msgstr ""
+msgstr "Slėpimo delsa (ms):"
 
 #: ../src/Grids/PlankGrid.vala:85
 msgid "Time to wait before unhiding the dock"
-msgstr ""
+msgstr "Kiek laiko laukti prieš nustojant slėpti skydelį"
 
 #: ../src/Grids/PlankGrid.vala:96 ../src/Grids/TerminalGrid.vala:169
 msgid "Theme:"
-msgstr ""
+msgstr "Tema:"
 
 #: ../src/Grids/PlankGrid.vala:97
 msgid "Plank's theme for the dock"
-msgstr ""
+msgstr "Apatinio skydelio doko tema"
 
 #: ../src/Grids/PlankGrid.vala:108
 msgid "Primary Monitor"
-msgstr ""
+msgstr "Pirminis monitorius"
 
 #: ../src/Grids/PlankGrid.vala:111
 msgid "Monitor %d"
-msgstr ""
+msgstr "Monitorius %d"
 
 #: ../src/Grids/PlankGrid.vala:115
 msgid "Monitor:"
-msgstr ""
+msgstr "Monitorius:"
 
 #: ../src/Grids/PlankGrid.vala:116
 msgid "The monitor that Plank is displayed on"
-msgstr ""
+msgstr "Monitorius, kuriame yra rodomas apatinis skydelis"
 
 #: ../src/Grids/PlankGrid.vala:127 ../src/Grids/PlankGrid.vala:147
 #: ../src/Grids/PlankGrid.vala:164
 msgid "Left"
-msgstr ""
+msgstr "Kairėje"
 
 #: ../src/Grids/PlankGrid.vala:128 ../src/Grids/PlankGrid.vala:146
 #: ../src/Grids/PlankGrid.vala:163
 msgid "Right"
-msgstr ""
+msgstr "Dešinėje"
 
 #: ../src/Grids/PlankGrid.vala:129
 msgid "Top"
-msgstr ""
+msgstr "Viršuje"
 
 #: ../src/Grids/PlankGrid.vala:130
 msgid "Bottom"
-msgstr ""
+msgstr "Apačioje"
 
 #: ../src/Grids/PlankGrid.vala:133
 msgid "Screen Position:"
-msgstr ""
+msgstr "Vieta ekrane:"
 
 #: ../src/Grids/PlankGrid.vala:134
 msgid "Where on the screen Plank is displayed"
-msgstr ""
+msgstr "Kur ekrane yra rodomas apatinis skydelis"
 
 #: ../src/Grids/PlankGrid.vala:145
 msgid "Panel"
-msgstr ""
+msgstr "Skydelis"
 
 #: ../src/Grids/PlankGrid.vala:148 ../src/Grids/PlankGrid.vala:165
 msgid "Centered"
-msgstr ""
+msgstr "Centruotas"
 
 #: ../src/Grids/PlankGrid.vala:151
 msgid "Alignment:"
-msgstr ""
+msgstr "Lygiavimas:"
 
 #: ../src/Grids/PlankGrid.vala:152
 msgid "The alignment for the dock on the monitor's edge"
-msgstr ""
+msgstr "Doko lygiavimas monitoriaus krašte"
 
 #: ../src/Grids/PlankGrid.vala:168
 msgid "Item Alignment:"
-msgstr ""
+msgstr "Elementų lygiavimas:"
 
 #: ../src/Grids/PlankGrid.vala:169
 msgid "The alignment of the items in this dock if panel-mode is used"
-msgstr ""
+msgstr "Šiame doke esančių elementų lygiavimas, jei yra naudojama skydelio veiksena"
 
 #: ../src/Grids/PlankGrid.vala:180
 msgid "Offset:"
-msgstr ""
+msgstr "Poslinkis:"
 
 #: ../src/Grids/PlankGrid.vala:181
 msgid "The offset (in percent) from the alignment point to shift Plank"
-msgstr ""
+msgstr "Apatinio skydelio sutraukimo poslinkis (procentine dalimi) nuo lygiavimo taško"
 
 #: ../src/Grids/TerminalGrid.vala:83 ../src/Settings/GalaSettings.vala:86
 msgid "Custom"
-msgstr ""
+msgstr "Tinkintas"
 
 #: ../src/Grids/TerminalGrid.vala:150
 msgid "Opacity:"
-msgstr ""
+msgstr "Nepermatomumas:"
 
 #: ../src/Grids/TerminalGrid.vala:151
 msgid "How transparent the background of the terminal is"
-msgstr ""
+msgstr "Kiek bus permatomas terminalo fonas"
 
 #: ../src/Grids/TerminalGrid.vala:170
 msgid "A set of settings for terminal palette and background color"
-msgstr ""
+msgstr "Terminalo paletės ir fono spalvos nustatymų rinkinys"
 
 #: ../src/Grids/AppearanceGrid.vala:34
 msgid "Prefer Dark Theme:"
-msgstr ""
+msgstr "Teikti pirmenybę tamsiai temai:"
 
 #: ../src/Grids/AppearanceGrid.vala:35
 msgid "GTK+ windows will now prefer the dark GTK+ theme"
-msgstr ""
+msgstr "Dabar, GTK+ langai teiks pirmenybę tamsiai GTK+ temai"
 
 #: ../src/Grids/AppearanceGrid.vala:36
-msgid ""
-"Some applications will not react well with this enabled and can look terrible"
-msgstr ""
+msgid "Some applications will not react well with this enabled and can look terrible"
+msgstr "Kai kurios programos nereaguos į tai tinkamai ir gali atrodyti siaubingai"
 
 #: ../src/Grids/AppearanceGrid.vala:45
 msgid "Metacity Theme:"
-msgstr ""
+msgstr "Metacity tema:"
 
 #: ../src/Grids/AppearanceGrid.vala:46
 msgid "Used to render windows that do not use GTK+"
-msgstr ""
+msgstr "Naudojama atvaizduoti langus, kurie nenaudoja GTK+"
 
 #: ../src/Grids/AppearanceGrid.vala:57
 msgid "GTK+ Theme:"
-msgstr ""
+msgstr "GTK+ tema:"
 
 #: ../src/Grids/AppearanceGrid.vala:58
 msgid "Used to render GTK+ windows like Switchboard"
-msgstr ""
+msgstr "Naudojama atvaizduoti GTK+ langus, tokius kaip Switchboard"
 
 #: ../src/Grids/AppearanceGrid.vala:69
 msgid "Icon Theme:"
-msgstr ""
+msgstr "Piktogramų tema:"
 
 #: ../src/Grids/AppearanceGrid.vala:70
 msgid "Used to theme the icon set, including application icons"
-msgstr ""
+msgstr "Naudojama piktogramų rinkinio apipavidalinimui, įskaitant programų piktogramas"
 
 #: ../src/Grids/AppearanceGrid.vala:81
 msgid "Cursor Theme:"
-msgstr ""
+msgstr "Žymeklio tema:"
 
 #: ../src/Grids/AppearanceGrid.vala:82
 msgid "Used to theme the cursor"
-msgstr ""
+msgstr "Naudojama žymeklio apipavidalinimui"
 
 #: ../src/Grids/AppearanceGrid.vala:95
 msgid "Custom Layout:"
-msgstr ""
+msgstr "Tinkintas išdėstymas:"
 
 #: ../src/Grids/AppearanceGrid.vala:96
 msgid "Custom window control layout"
-msgstr ""
+msgstr "Tinkintas langų valdiklių išdėstymas"
 
 #: ../src/Grids/AppearanceGrid.vala:112
 msgid "Window Controls:"
-msgstr ""
+msgstr "Langų valdikliai:"
 
 #: ../src/Grids/AppearanceGrid.vala:113
-msgid ""
-"Controls located at the top of the window for close, minimize, and maximize"
-msgstr ""
+msgid "Controls located at the top of the window for close, minimize, and maximize"
+msgstr "Lango viršuje esantys užvėrimo, suskleidimo ir išskleidimo valdikliai"
 
 #: ../src/Grids/AppearanceGrid.vala:114
 msgid "May break window controls! May stop working with updates to system!"
-msgstr ""
+msgstr "Gali sugadinti langų valdiklius! Gali nustoti veikti po sistemos atnaujinimo!"
 
 #: ../src/Grids/MiscGrid.vala:32
 msgid "Audible Bell:"
-msgstr ""
+msgstr "Garsinis signalas"
 
 #: ../src/Grids/MiscGrid.vala:33
 msgid "Sound that plays when an error has been made"
-msgstr ""
+msgstr "Garsas, kuris bus grojamas padarius klaidą"
 
 #: ../src/Grids/ShadowsGrid.vala:32
 msgid "Focused Windows:"
-msgstr ""
+msgstr "Fokusuoti langai:"
 
 #: ../src/Grids/ShadowsGrid.vala:33
 msgid "Shadow beneath windows that you have currently selected"
-msgstr ""
+msgstr "Šešėliai po esamu metu pasirinktais langais"
 
 #: ../src/Grids/ShadowsGrid.vala:34 ../src/Grids/ShadowsGrid.vala:49
 msgid "This may not actually do anything"
-msgstr ""
+msgstr "Tai, iš tikrųjų, gali nieko nedaryti"
 
 #: ../src/Grids/ShadowsGrid.vala:47
 msgid "Unfocused Windows:"
-msgstr ""
+msgstr "Nefokusuoti langai:"
 
 #: ../src/Grids/ShadowsGrid.vala:48
 msgid "Shadow beneath windows that you do not have selected"
-msgstr ""
+msgstr "Šešėliai po langais, kurių nesate pasirinkę"
 
 #: ../src/Grids/ShortcutsGrid.vala:72
 msgid "Name"
-msgstr ""
+msgstr "Pavadinimas"
 
 #: ../src/Grids/ShortcutsGrid.vala:73
 msgid "Shortcut"
-msgstr ""
+msgstr "Susiejimas"
 
 #: ../src/Grids/ShortcutsGrid.vala:74
 msgid "Command"
-msgstr ""
+msgstr "Komanda"
 
 #: ../src/Grids/ShortcutsGrid.vala:121
 msgid "Every field must be filled!"
-msgstr ""
+msgstr "Visi laukai privalo būti užpildyti!"
 
 #: ../src/Grids/ShortcutsGrid.vala:130
 msgid "Name:"
-msgstr ""
+msgstr "Pavadinimas:"
 
 #: ../src/Grids/ShortcutsGrid.vala:133
 msgid "Shortcut:"
-msgstr ""
+msgstr "Susiejimas:"
 
 #: ../src/Grids/ShortcutsGrid.vala:136
 msgid "Command:"
-msgstr ""
+msgstr "Komanda:"
 
 #: ../src/Settings/GalaSettings.vala:80
 msgid "elementary"
-msgstr ""
+msgstr "elementary"
 
 #: ../src/Settings/GalaSettings.vala:81
 msgid "Close Only"
-msgstr ""
+msgstr "Tik užverti"
 
 #: ../src/Settings/GalaSettings.vala:82
 msgid "Minimize Left"
-msgstr ""
+msgstr "Suskleisti kairėje"
 
 #: ../src/Settings/GalaSettings.vala:83
 msgid "Minimize Right"
-msgstr ""
+msgstr "Suskleisti dešinėje"
 
 #: ../src/Settings/GalaSettings.vala:84
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../src/Settings/GalaSettings.vala:85
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #: ../src/Widgets/TweakWidget.vala:83
 msgid "Revert to default setting"
-msgstr ""
+msgstr "Sugrąžinti į numatytąjį nustatymą"

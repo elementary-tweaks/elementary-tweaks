@@ -34,14 +34,11 @@ namespace ElementaryTweaks {
             set {
 
                 if (value != "") {
-                    //FIXME: this is so gross, since we're tossing everything else out
-                    VariantBuilder builder = new VariantBuilder (new VariantType ("a{sv}"));
-                    builder.add ("{sv}", "Gtk/DecorationLayout", new Variant.string (value));
-                    builder.add ("{sv}", "Gtk/DialogsUseHeader", new Variant.int32 (0));
-                    builder.add ("{sv}", "Gtk/ShellShowsAppMenu", new Variant.int32 (0));
+                    var overrides = settings.get_value ("overrides");
+                    var dict = new VariantDict (overrides);
 
-                    Variant dictionary = builder.end ();
-                    settings.set_value ("overrides", dictionary);
+                    dict.insert_value ("Gtk/DecorationLayout", new Variant.string (value));
+                    settings.set_value ("overrides", dict.end ());
                 }
             }
         }

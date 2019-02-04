@@ -26,7 +26,7 @@ namespace ElementaryTweaks {
         static AudienceSettings? instance = null;
 
         private AudienceSettings () {
-            base ("org.pantheon.audience");
+            base ((Util.schema_exists ("io.elementary.videos"))?"io.elementary.videos":"org.pantheon.audience");
         }
 
         public static AudienceSettings get_default () {

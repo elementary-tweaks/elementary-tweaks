@@ -50,7 +50,7 @@ namespace ElementaryTweaks {
             var behabiour_label = new Widgets.Label (_("Behavior"));
             lock_items = behabiour.add_switch (_("Lock items"));
             show_unpinned = behabiour.add_switch (_("Show Unpinned"));
-            current_workspace =behabiour.add_switch (_("Restrict to Workpace"));
+            current_workspace =behabiour.add_switch (_("Restrict to Workspace"));
             hide_mode = behabiour.add_combo_box (_("Hide mode"));
             behabiour.add_spin_button (_("Hide delay"), hide_delay);
 

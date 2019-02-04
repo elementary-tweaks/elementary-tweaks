@@ -20,7 +20,6 @@ namespace ElementaryTweaks {
 
     public class SlingshotSettings : Granite.Services.Settings
     {
-        public bool show_category_filter { get; set; }
         public bool use_category { get; set; }
         public int rows { get; set; }
         public int columns { get; set; }
@@ -29,7 +28,7 @@ namespace ElementaryTweaks {
 
         private SlingshotSettings ()
         {
-            base ("org.pantheon.desktop.slingshot");
+            base ("io.elementary.desktop.wingpanel.applications-menu");
         }
 
         public static SlingshotSettings get_default ()
@@ -41,7 +40,6 @@ namespace ElementaryTweaks {
         }
 
         public void reset () {
-            schema.reset ("show-category-filter");
             schema.reset ("use-category");
             schema.reset ("rows");
             schema.reset ("columns");

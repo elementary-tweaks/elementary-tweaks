@@ -20,14 +20,13 @@ namespace ElementaryTweaks {
 
     public class FilesSettings : Granite.Services.Settings {
         public string date_format { get; set; }
-        public string sidebar_zoom_level { get; set; }
         public bool single_click { get; set; }
         public bool restore_tabs { get; set; }
 
         static FilesSettings? instance = null;
 
         private FilesSettings () {
-            base ("org.pantheon.files.preferences");
+            base ((Util.schema_exists ("io.elementary.files.preferences"))?"io.elementary.files.preferences":"org.pantheon.files.preferences");
         }
 
         public static FilesSettings get_default () {
