@@ -1,5 +1,0 @@
-#!/bin/sh
-
-gtk-update-icon-cache -f '/usr/share/icons/elementary/'
-
-exit 0

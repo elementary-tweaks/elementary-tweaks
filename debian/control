@@ -2,15 +2,14 @@ Source: elementary-tweaks
 Section: x11
 Priority: optional
 Maintainer: Felipe Escoto. <felescoto95@hotmail.com>
-Build-Depends: cmake (>= 2.8),
-               debhelper (>= 9),
+Build-Depends: debhelper (>= 9),
                libgranite-dev,
                libgtk-3-dev (>= 3.10),
                libglib2.0-dev,
                libgee-0.8-dev,
-               libgconf2-dev,
                libswitchboard-2.0-dev,
                libpolkit-gobject-1-dev,
+               meson,
                valac (>= 0.30)
 Standards-Version: 3.9.5
 Homepage: https://github.com/elementary-tweaks/elementary-tweaks
