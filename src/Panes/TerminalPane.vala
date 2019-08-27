@@ -19,6 +19,7 @@
 namespace ElementaryTweaks {
     public class Panes.TerminalPane : Categories.Pane {
         private Gtk.ColorButton background;
+        private Gtk.FontButton font;
         private Gtk.Switch natural_copy_paste;
         private Gtk.Switch follow_last_tab;
         private Gtk.Switch unsafe_paste_alert;
@@ -41,8 +42,11 @@ namespace ElementaryTweaks {
             var box = new Widgets.SettingsBox ();
 
             background = new Gtk.ColorButton ();
+            font = new Gtk.FontButton ();
+            font.use_font = true;
 
             box.add_widget (_("Background color"), background);
+            box.add_widget (_("Terminal Font"), font);
             natural_copy_paste = box.add_switch (_("Natural copy paste"));
             follow_last_tab = box.add_switch (_("Follow last tab"));
             unsafe_paste_alert = box.add_switch (_("Unsafe paste alert"));
@@ -59,6 +63,7 @@ namespace ElementaryTweaks {
             rgba.parse (TerminalSettings.get_default ().background);
             background.use_alpha = true;
             background.rgba = rgba;
+            font.font_name = TerminalSettings.get_default ().font;
             natural_copy_paste.set_state (TerminalSettings.get_default ().natural_copy_paste);
             follow_last_tab.set_state (TerminalSettings.get_default ().follow_last_tab);
             unsafe_paste_alert.set_state (TerminalSettings.get_default ().unsafe_paste_alert);
@@ -70,6 +75,8 @@ namespace ElementaryTweaks {
             background.color_set.connect ( () => {
                 TerminalSettings.get_default ().background = background.rgba.to_string ();
             });
+
+            connect_font_button (font, (val) => { TerminalSettings.get_default ().font = val; });
 
             natural_copy_paste.notify["active"].connect (() => {
                 TerminalSettings.get_default ().natural_copy_paste = natural_copy_paste.state;
