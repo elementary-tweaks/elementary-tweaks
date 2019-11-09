@@ -97,7 +97,7 @@ namespace ElementaryTweaks {
             public Widgets.SettingsBox settings_box { public get; private set; }
             protected Gtk.LinkButton reset;
 
-            public Pane (string label_string, string icon_name) {
+            protected Pane (string label_string, string icon_name) {
                 label.label = label_string;
                 image.icon_name = icon_name;
             }
