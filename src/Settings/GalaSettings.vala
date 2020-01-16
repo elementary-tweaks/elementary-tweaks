@@ -64,7 +64,7 @@ namespace ElementaryTweaks {
             base (SCHEMA + ".appearance");
 
             changed.connect (() => {
-                gnome_wm_settings.set_string ("button-layout", AppearanceSettings.get_default ().button_layout);
+                gnome_wm_settings.set_string ("button-layout", button_layout);
             });
         }
 
