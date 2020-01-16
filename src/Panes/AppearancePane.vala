@@ -111,8 +111,6 @@ namespace ElementaryTweaks {
             connect_combobox (controls_combobox, controls_store,
                 (val) => {  AppearanceSettings.get_default ().button_layout = val;
                             XSettings.get_default ().set_gnome_menu (gnome_menu.state, val);
-                            var gnome_wm_settings = new GLib.Settings ("org.gnome.desktop.wm.preferences");
-                            gnome_wm_settings.set_string ("button-layout", AppearanceSettings.get_default ().button_layout);
                             });
 
             gnome_menu.notify["active"].connect (() => {
