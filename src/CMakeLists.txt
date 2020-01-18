@@ -22,7 +22,6 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Settings/GalaSettings.vala
     Settings/GtkSettings.vala
     Settings/PlankSettings.vala
-    Settings/KeyboardSettings.vala
     Settings/SlingshotSettings.vala
     Settings/GnomeSettings.vala
     Settings/TerminalSettings.vala
