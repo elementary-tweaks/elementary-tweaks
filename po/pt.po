@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-28 07:48-0500\n"
-"PO-Revision-Date: 2019-11-03 17:37+0000\n"
+"PO-Revision-Date: 2020-01-18 20:53+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "Outros"
 
 #: ../src/Tweaks.vala:70
 msgid "Plank"
-msgstr "Barra"
+msgstr "Plank"
 
 #: ../src/Tweaks.vala:70 ../src/Tweaks.vala:74 ../src/Tweaks.vala:78
 #: ../src/Tweaks.vala:82 ../src/Tweaks.vala:86
@@ -142,7 +142,7 @@ msgstr "Reproduz quando uma aplicação é minimizada"
 
 #: ../src/Grids/AnimationsGrid.vala:108
 msgid "Workspace Switch Duration:"
-msgstr "Duração da troca da Área de trabalho:"
+msgstr "Duração da troca da área de trabalho:"
 
 #: ../src/Grids/AnimationsGrid.vala:109
 msgid "Plays when a workspace switch is initiated"
@@ -310,7 +310,7 @@ msgstr "Modo Oculto:"
 
 #: ../src/Grids/PlankGrid.vala:73
 msgid "Plank's hide mode"
-msgstr "Modo de ocultação da Barra"
+msgstr "Modo de ocultação da barra"
 
 #: ../src/Grids/PlankGrid.vala:84
 msgid "Hide Delay (ms):"
@@ -326,7 +326,7 @@ msgstr "Tema:"
 
 #: ../src/Grids/PlankGrid.vala:97
 msgid "Plank's theme for the dock"
-msgstr "Tema da Barra para a dock"
+msgstr "Tema da barra para a dock"
 
 #: ../src/Grids/PlankGrid.vala:108
 msgid "Primary Monitor"
@@ -342,7 +342,7 @@ msgstr "Monitor:"
 
 #: ../src/Grids/PlankGrid.vala:116
 msgid "The monitor that Plank is displayed on"
-msgstr "O monitor em que a Barra é exibida"
+msgstr "O monitor em que a barra é exibida"
 
 #: ../src/Grids/PlankGrid.vala:127 ../src/Grids/PlankGrid.vala:147
 #: ../src/Grids/PlankGrid.vala:164
@@ -368,7 +368,7 @@ msgstr "Posição do ecrã:"
 
 #: ../src/Grids/PlankGrid.vala:134
 msgid "Where on the screen Plank is displayed"
-msgstr "Onde no ecrã que a Barra é exibida"
+msgstr "Onde a barra é exibida no ecrã"
 
 #: ../src/Grids/PlankGrid.vala:145
 msgid "Panel"
@@ -400,7 +400,7 @@ msgstr "Desvio:"
 
 #: ../src/Grids/PlankGrid.vala:181
 msgid "The offset (in percent) from the alignment point to shift Plank"
-msgstr "O desvio (em percentagem) do ponto de alinhamento para mudar a Barra"
+msgstr "O desvio (em percentagem) do ponto de alinhamento para mudar a barra"
 
 #: ../src/Grids/TerminalGrid.vala:83 ../src/Settings/GalaSettings.vala:86
 msgid "Custom"
@@ -428,7 +428,7 @@ msgstr "As janelas GTK+ irão agora preferir o tema GTK+ escuro"
 
 #: ../src/Grids/AppearanceGrid.vala:36
 msgid "Some applications will not react well with this enabled and can look terrible"
-msgstr "Algumas aplicações não vão reagir bem com isso ativado e podem parecer terríveis"
+msgstr "Algumas aplicações não vão reagir bem com isto ativado e podem parecer horríveis"
 
 #: ../src/Grids/AppearanceGrid.vala:45
 msgid "Metacity Theme:"
@@ -436,7 +436,7 @@ msgstr "Tema Metacity:"
 
 #: ../src/Grids/AppearanceGrid.vala:46
 msgid "Used to render windows that do not use GTK+"
-msgstr "Usado para renderizar janelas que não usam GTK+"
+msgstr "Usado para corrigir janelas que não usam GTK+"
 
 #: ../src/Grids/AppearanceGrid.vala:57
 msgid "GTK+ Theme:"
@@ -444,11 +444,11 @@ msgstr "Tema GTK+:"
 
 #: ../src/Grids/AppearanceGrid.vala:58
 msgid "Used to render GTK+ windows like Switchboard"
-msgstr "Usado para renderizar janelas GTK+ como o Switchboard"
+msgstr "Usado para corrigir janelas GTK+ como o Switchboard"
 
 #: ../src/Grids/AppearanceGrid.vala:69
 msgid "Icon Theme:"
-msgstr "Tema de Ícones:"
+msgstr "Tema de ícones:"
 
 #: ../src/Grids/AppearanceGrid.vala:70
 msgid "Used to theme the icon set, including application icons"
@@ -456,7 +456,7 @@ msgstr "Usado para tematizar o conjunto de ícones, incluindo ícones de aplica�
 
 #: ../src/Grids/AppearanceGrid.vala:81
 msgid "Cursor Theme:"
-msgstr "Tema do Cursor:"
+msgstr "Tema do cursor:"
 
 #: ../src/Grids/AppearanceGrid.vala:82
 msgid "Used to theme the cursor"
