@@ -58,7 +58,7 @@ namespace ElementaryTweaks {
         static Gee.HashMap<string, string> preset_button_layouts;
         static Gtk.ListStore button_layouts;
         static AppearanceSettings? instance = null;
-        static GLib.Settings gnome_wm_settings = new GLib.Settings ("org.gnome.desktop.wm.preferences");
+        private GLib.Settings gnome_wm_settings = new GLib.Settings ("org.gnome.desktop.wm.preferences");
 
         private AppearanceSettings () {
             base (SCHEMA + ".appearance");
