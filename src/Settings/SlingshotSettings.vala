@@ -21,8 +21,6 @@ namespace ElementaryTweaks {
     public class SlingshotSettings : Granite.Services.Settings
     {
         public bool use_category { get; set; }
-        public int rows { get; set; }
-        public int columns { get; set; }
 
         static SlingshotSettings? instance = null;
 
@@ -41,8 +39,6 @@ namespace ElementaryTweaks {
 
         public void reset () {
             schema.reset ("use-category");
-            schema.reset ("rows");
-            schema.reset ("columns");
         }
     }
 }
