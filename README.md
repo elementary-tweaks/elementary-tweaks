@@ -26,7 +26,7 @@ sudo apt install software-properties-common
 
 ### How to build
 ```
-sudo apt install libgconf2-dev libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
+sudo apt install libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
 meson build --prefix=/usr
 cd build
 ninja
