@@ -6,7 +6,6 @@ src/Settings/FilesSettings.vala
 src/Settings/GalaSettings.vala
 src/Settings/GtkSettings.vala
 src/Settings/PlankSettings.vala
-src/Settings/KeyboardSettings.vala
 src/Settings/SlingshotSettings.vala
 src/Settings/GnomeSettings.vala
 src/Settings/TerminalSettings.vala

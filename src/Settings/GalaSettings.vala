@@ -58,9 +58,14 @@ namespace ElementaryTweaks {
         static Gee.HashMap<string, string> preset_button_layouts;
         static Gtk.ListStore button_layouts;
         static AppearanceSettings? instance = null;
+        private GLib.Settings gnome_wm_settings = new GLib.Settings ("org.gnome.desktop.wm.preferences");
 
         private AppearanceSettings () {
             base (SCHEMA + ".appearance");
+
+            changed.connect (() => {
+                gnome_wm_settings.set_string ("button-layout", button_layout);
+            });
         }
 
         public static AppearanceSettings get_default () {
@@ -73,6 +78,7 @@ namespace ElementaryTweaks {
 
         public void reset () {
             schema.reset ("button-layout");
+            gnome_wm_settings.reset ("button-layout");
         }
 
         private static Gee.HashMap<string, string> get_preset_button_layouts () {
