@@ -1,7 +1,7 @@
 find_package (PkgConfig)
 
 # Add all your dependencies to the list below
-pkg_check_modules (DEPS REQUIRED gthread-2.0 gtk+-3.0 switchboard-2.0 granite gconf-2.0 gee-0.8 polkit-gobject-1 glib-2.0)
+pkg_check_modules (DEPS REQUIRED gthread-2.0 gtk+-3.0 switchboard-2.0 granite gee-0.8 polkit-gobject-1 glib-2.0)
 
 add_definitions (${DEPS_CFLAGS})
 link_libraries (${DEPS_LIBRARIES})
@@ -46,7 +46,6 @@ PACKAGES
     gee-0.8
     switchboard-2.0
     granite
-    gconf-2.0
     polkit-gobject-1
     posix
 OPTIONS
