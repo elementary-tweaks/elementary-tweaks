@@ -13,7 +13,7 @@ elementary tweaks is a system settings panel for elementary OS **Juno** that let
 [Previous Changelog](CHANGELOG.md)
 
 ## Installation
-### Install From PPA (recommended)
+### From PPA (recommended)
 If you have never added a PPA on Juno before, you might need to run this command first: 
 
 ```
@@ -29,7 +29,7 @@ sudo apt install elementary-tweaks
 
 Open System Settings and there should be a new Plug named "Tweaks".
 
-### Install From Source Code
+### From Source Code
 If you want to install from source code, clone this repository and then run the following commands:
 
 ```
