@@ -13,20 +13,27 @@ elementary tweaks is a system settings panel for elementary OS **Juno** that let
 [Previous Changelog](CHANGELOG.md)
 
 ## Installation
+### Install From PPA (recommended)
+If you have never added a PPA on Juno before, you might need to run this command first: 
+
+```
+sudo apt install software-properties-common
+```
+
+Add the PPA of elementary tweaks and then install it:
 
 ```
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt install elementary-tweaks
 ```
 
-If you have never added a PPA on Juno before, you might need to run this command first: 
-```
-sudo apt install software-properties-common
-```
+Open System Settings and there should be a new Plug named "Tweaks".
 
-### How to build
+### Install From Source Code
+If you want to install from source code, clone this repository and then run the following commands:
+
 ```
-sudo apt install libgconf2-dev libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
+sudo apt install libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
 meson build --prefix=/usr
 cd build
 ninja
