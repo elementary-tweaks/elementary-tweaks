@@ -46,8 +46,8 @@ namespace ElementaryTweaks {
             var files = new Panes.FilesPane ();
             list_box.add (files);
 
-            //var plank = new Panes.PlankPane ();
-            //list_box.add (plank);
+            var plank = new Panes.PlankPane ();
+            list_box.add (plank);
 
             var slingshot = new Panes.SlingshotPane ();
             list_box.add (slingshot);
