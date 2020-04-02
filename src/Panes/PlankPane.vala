@@ -38,11 +38,8 @@ namespace ElementaryTweaks {
         }
 
         construct {
-            build_ui ();
-            connect_signals ();
-        }
+            var settings = new Settings.with_path ("net.launchpad.plank.dock.settings", "/net/launchpad/plank/docks/dock1/");
 
-        private void build_ui () {
             var behabiour = new Widgets.SettingsBox ();
             var appearance = new Widgets.SettingsBox ();
 
@@ -69,6 +66,20 @@ namespace ElementaryTweaks {
             grid.add (appearance_label);
             grid.add (appearance);
             grid.show_all ();
+
+            settings.bind ("lock-items", lock_items, "active", SettingsBindFlags.DEFAULT);
+            settings.bind ("pinned-only", show_unpinned, "active", SettingsBindFlags.INVERT_BOOLEAN);
+            settings.bind ("current-workspace-only", current_workspace, "active", SettingsBindFlags.DEFAULT);
+            settings.bind ("hide-mode", hide_mode, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("hide-delay", behabiour, "value", SettingsBindFlags.DEFAULT);
+
+            settings.bind ("theme", theme, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("icon-size", appearance, "value", SettingsBindFlags.DEFAULT);
+            settings.bind ("monitor", monitor, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("position", screen_position, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("alignment", alignment, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("items-alignment", item_alignment, "active_id", SettingsBindFlags.DEFAULT);
+            settings.bind ("offset", offset, "value", SettingsBindFlags.DEFAULT);
         }
 
         protected override void init_data () {}
