@@ -68,7 +68,7 @@ namespace ElementaryTweaks {
 
             //Appearance
             var appearance_label = new Widgets.Label (_("Appearance"));
-            var theme = appearance.add_combo_box (_("Theme"));
+            var theme = appearance.add_combo_box_text (_("Theme"), get_theme_list ());
             appearance.add_spin_button (_("Icon size"), icon_size);
             var monitor = appearance.add_combo_box (_("Monitor"));
             var screen_position = appearance.add_combo_box_text (_("Screen position"), screen_position_hashmap);
@@ -96,5 +96,48 @@ namespace ElementaryTweaks {
             settings.bind ("items-alignment", item_alignment, "active_id", SettingsBindFlags.DEFAULT);
             settings.bind ("offset", offset, "value", SettingsBindFlags.DEFAULT);
         }
+
+        // Modified https://github.com/ricotz/plank/blob/248cc4ae060775c187667e5ce192c3a8f1aff506/lib/Drawing/Theme.vala#L377-L417
+		private Gee.HashMap<string, string> get_theme_list () {
+			var list = new Gee.HashMap<string, string> ();
+            list.set ("Default", "Default");
+			list.set ("Gtk+", "Gtk+");
+
+            // Look in user's themes-folder
+			try {
+                var path = File.new_for_path ("%s/plank/themes/".printf (Environment.get_user_data_dir ()));
+				var enumerator = path.enumerate_children ("standard::name,standard::type",
+					GLib.FileQueryInfoFlags.NONE);
+				FileInfo info;
+				while ((info = enumerator.next_file ()) != null) {
+					if (info.get_is_hidden () || info.get_file_type () != GLib.FileType.DIRECTORY) {
+                        continue;
+                    }
+
+					list.set (info.get_name (), info.get_name ());
+				}
+			} catch (Error e) {
+                warning (e.message);
+            }
+
+			// Look in system's themes-folder
+			try {
+                var path = File.new_for_path ("/usr/share/plank/themes");
+				var enumerator = path.enumerate_children ("standard::name,standard::type",
+					GLib.FileQueryInfoFlags.NONE);
+				FileInfo info;
+				while ((info = enumerator.next_file ()) != null) {
+					if (info.get_is_hidden () || info.get_file_type () != GLib.FileType.DIRECTORY) {
+                        continue;
+                    }
+
+					list.set (info.get_name (), info.get_name ());
+				}
+			} catch (Error e) {
+                warning (e.message);
+            }
+
+			return list;
+		}
     }
 }
