@@ -18,20 +18,9 @@
 
 namespace ElementaryTweaks {
     public class Panes.PlankPane : Categories.Pane {
-        private Gtk.Switch current_workspace;
-        private Gtk.Switch show_unpinned;
-        private Gtk.Switch lock_items;
-
         private Gtk.Adjustment icon_size = new Gtk.Adjustment (0,0,1000,1,10,10);
         private Gtk.Adjustment hide_delay = new Gtk.Adjustment (0,0,1000,1,10,10);
         private Gtk.Adjustment offset = new Gtk.Adjustment (0,0,1000,1,10,10);
-
-        private Gtk.ComboBox hide_mode;
-        private Gtk.ComboBox theme;
-        private Gtk.ComboBox monitor;
-        private Gtk.ComboBox screen_position;
-        private Gtk.ComboBox alignment;
-        private Gtk.ComboBox item_alignment;
 
         public PlankPane () {
             base (_("Dock"), "plank");
@@ -53,10 +42,10 @@ namespace ElementaryTweaks {
 
             //Behavior
             var behabiour_label = new Widgets.Label (_("Behavior"));
-            lock_items = behabiour.add_switch (_("Lock items"));
-            show_unpinned = behabiour.add_switch (_("Show Unpinned"));
-            current_workspace =behabiour.add_switch (_("Restrict to Workspace"));
-            hide_mode = behabiour.add_combo_box_text (_("Hide mode"), hide_mode_hashmap);
+            var lock_items = behabiour.add_switch (_("Lock items"));
+            var show_unpinned = behabiour.add_switch (_("Show Unpinned"));
+            var current_workspace =behabiour.add_switch (_("Restrict to Workspace"));
+            var hide_mode = behabiour.add_combo_box_text (_("Hide mode"), hide_mode_hashmap);
             behabiour.add_spin_button (_("Hide delay"), hide_delay);
 
             var screen_position_hashmap = new Gee.HashMap <string, string> ();
@@ -79,12 +68,12 @@ namespace ElementaryTweaks {
 
             //Appearance
             var appearance_label = new Widgets.Label (_("Appearance"));
-            theme = appearance.add_combo_box (_("Theme"));
+            var theme = appearance.add_combo_box (_("Theme"));
             appearance.add_spin_button (_("Icon size"), icon_size);
-            monitor = appearance.add_combo_box (_("Monitor"));
-            screen_position = appearance.add_combo_box_text (_("Screen position"), screen_position_hashmap);
-            alignment = appearance.add_combo_box_text (_("Alignment"), alignment_hashmap);
-            item_alignment = appearance.add_combo_box_text (_("Item alignment"), alignment_hashmap);
+            var monitor = appearance.add_combo_box (_("Monitor"));
+            var screen_position = appearance.add_combo_box_text (_("Screen position"), screen_position_hashmap);
+            var alignment = appearance.add_combo_box_text (_("Alignment"), alignment_hashmap);
+            var item_alignment = appearance.add_combo_box_text (_("Item alignment"), alignment_hashmap);
             appearance.add_spin_button (_("Offset"), offset);
 
             grid.add (behabiour_label);
@@ -106,12 +95,6 @@ namespace ElementaryTweaks {
             settings.bind ("alignment", alignment, "active_id", SettingsBindFlags.DEFAULT);
             settings.bind ("items-alignment", item_alignment, "active_id", SettingsBindFlags.DEFAULT);
             settings.bind ("offset", offset, "value", SettingsBindFlags.DEFAULT);
-        }
-
-        protected override void init_data () {}
-
-        private void connect_signals () {
-
         }
     }
 }
