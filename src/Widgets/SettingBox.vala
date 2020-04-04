@@ -50,6 +50,18 @@ namespace ElementaryTweaks {
             return combo;
         }
 
+        public Gtk.ComboBoxText add_combo_box_text (string title, Gee.HashMap<string, string> items) {
+            var combo = new Gtk.ComboBoxText ();
+            combo.set_size_request (180, 0);
+            add_widget (title, combo);
+
+            foreach (var item in items.entries) {
+                combo.append (item.key, item.value);
+            }
+
+            return combo;
+        }
+
         public Gtk.Scale add_scale (string title, Gtk.Adjustment adjustment) {
             var scale = new Gtk.Scale (Gtk.Orientation.HORIZONTAL, adjustment);
             scale.set_size_request (250, 0);

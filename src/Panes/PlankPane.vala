@@ -43,22 +43,48 @@ namespace ElementaryTweaks {
             var behabiour = new Widgets.SettingsBox ();
             var appearance = new Widgets.SettingsBox ();
 
+            var hide_mode_hashmap = new Gee.HashMap <string, string> ();
+            hide_mode_hashmap.set ("none", _("Disable Hiding"));
+            hide_mode_hashmap.set ("intelligent", dgettext ("plank", "Intellihide"));
+            hide_mode_hashmap.set ("auto", dgettext ("plank", "Autohide"));
+            hide_mode_hashmap.set ("dodge-maximized", dgettext ("plank", "Dodge maximized window"));
+            hide_mode_hashmap.set ("window-dodge", dgettext ("plank", "Window Dodge"));
+            hide_mode_hashmap.set ("dodge-active", dgettext ("plank", "Dodge active window"));
+
             //Behavior
             var behabiour_label = new Widgets.Label (_("Behavior"));
             lock_items = behabiour.add_switch (_("Lock items"));
             show_unpinned = behabiour.add_switch (_("Show Unpinned"));
             current_workspace =behabiour.add_switch (_("Restrict to Workspace"));
-            hide_mode = behabiour.add_combo_box (_("Hide mode"));
+            hide_mode = behabiour.add_combo_box_text (_("Hide mode"), hide_mode_hashmap);
             behabiour.add_spin_button (_("Hide delay"), hide_delay);
+
+            var screen_position_hashmap = new Gee.HashMap <string, string> ();
+            screen_position_hashmap.set ("left", dgettext ("plank", "Left"));
+            screen_position_hashmap.set ("right", dgettext ("plank", "Right"));
+            screen_position_hashmap.set ("top", dgettext ("plank", "Top"));
+            screen_position_hashmap.set ("bottom", dgettext ("plank", "Bottom"));
+
+            var alignment_hashmap = new Gee.HashMap <string, string> ();
+            alignment_hashmap.set ("fill", dgettext ("plank", "Fill"));
+            alignment_hashmap.set ("start", dgettext ("plank", "Start"));
+            alignment_hashmap.set ("end", dgettext ("plank", "End"));
+            alignment_hashmap.set ("center", dgettext ("plank", "Center"));
+
+            var item_alignment_hashmap = new Gee.HashMap <string, string> ();
+            item_alignment_hashmap.set ("fill", dgettext ("plank", "Fill"));
+            item_alignment_hashmap.set ("start", dgettext ("plank", "Start"));
+            item_alignment_hashmap.set ("end", dgettext ("plank", "End"));
+            item_alignment_hashmap.set ("center", dgettext ("plank", "Center"));
 
             //Appearance
             var appearance_label = new Widgets.Label (_("Appearance"));
             theme = appearance.add_combo_box (_("Theme"));
             appearance.add_spin_button (_("Icon size"), icon_size);
             monitor = appearance.add_combo_box (_("Monitor"));
-            screen_position = appearance.add_combo_box (_("Screen position"));
-            alignment = appearance.add_combo_box (_("Alignment"));
-            item_alignment = appearance.add_combo_box (_("Item alignment"));
+            screen_position = appearance.add_combo_box_text (_("Screen position"), screen_position_hashmap);
+            alignment = appearance.add_combo_box_text (_("Alignment"), alignment_hashmap);
+            item_alignment = appearance.add_combo_box_text (_("Item alignment"), alignment_hashmap);
             appearance.add_spin_button (_("Offset"), offset);
 
             grid.add (behabiour_label);
@@ -71,10 +97,10 @@ namespace ElementaryTweaks {
             settings.bind ("pinned-only", show_unpinned, "active", SettingsBindFlags.INVERT_BOOLEAN);
             settings.bind ("current-workspace-only", current_workspace, "active", SettingsBindFlags.DEFAULT);
             settings.bind ("hide-mode", hide_mode, "active_id", SettingsBindFlags.DEFAULT);
-            settings.bind ("hide-delay", behabiour, "value", SettingsBindFlags.DEFAULT);
+            settings.bind ("hide-delay", hide_delay, "value", SettingsBindFlags.DEFAULT);
 
             settings.bind ("theme", theme, "active_id", SettingsBindFlags.DEFAULT);
-            settings.bind ("icon-size", appearance, "value", SettingsBindFlags.DEFAULT);
+            settings.bind ("icon-size", icon_size, "value", SettingsBindFlags.DEFAULT);
             settings.bind ("monitor", monitor, "active_id", SettingsBindFlags.DEFAULT);
             settings.bind ("position", screen_position, "active_id", SettingsBindFlags.DEFAULT);
             settings.bind ("alignment", alignment, "active_id", SettingsBindFlags.DEFAULT);
