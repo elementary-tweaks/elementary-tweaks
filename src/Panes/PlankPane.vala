@@ -18,6 +18,8 @@
 
 namespace ElementaryTweaks {
     public class Panes.PlankPane : Categories.Pane {
+        private Gtk.ComboBoxText monitor;
+
         private Gtk.Adjustment icon_size = new Gtk.Adjustment (0,0,1000,1,10,10);
         private Gtk.Adjustment hide_delay = new Gtk.Adjustment (0,0,1000,1,10,10);
         private Gtk.Adjustment offset = new Gtk.Adjustment (0,0,1000,1,10,10);
@@ -70,7 +72,7 @@ namespace ElementaryTweaks {
             var appearance_label = new Widgets.Label (_("Appearance"));
             var theme = appearance.add_combo_box_text (_("Theme"), get_theme_list ());
             appearance.add_spin_button (_("Icon size"), icon_size);
-            var monitor = appearance.add_combo_box (_("Monitor"));
+            monitor = appearance.add_combo_box_text (_("Monitor"), get_monitor_list ());
             var screen_position = appearance.add_combo_box_text (_("Screen position"), screen_position_hashmap);
             var alignment = appearance.add_combo_box_text (_("Alignment"), alignment_hashmap);
             var item_alignment = appearance.add_combo_box_text (_("Item alignment"), alignment_hashmap);
@@ -139,5 +141,28 @@ namespace ElementaryTweaks {
 
 			return list;
 		}
+
+        private Gee.HashMap<string, string> get_monitor_list () {
+            var monitor_list = new Gee.HashMap<string, string> ();
+            int pos = 0;
+            var display = Gdk.Display.get_default ();
+            foreach (unowned string plug_name in get_monitor_plug_names (display)) {
+                monitor_list.set (plug_name, plug_name);
+                pos++;
+            }
+
+            return monitor_list;
+        }
+
+        public string[] get_monitor_plug_names (Gdk.Display display) {
+            int n_monitors = display.get_n_monitors ();
+            var result = new string[n_monitors];
+
+            for (int i = 0; i < n_monitors; i++) {
+                result[i] = display.get_monitor (i).get_model () ?? "PLUG_MONITOR_%i".printf (i);
+            }
+
+            return result;
+        }
     }
 }
