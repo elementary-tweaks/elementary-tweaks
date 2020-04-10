@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../src/Tweaks.vala:38
 msgid "Tweaks"
-msgstr ""
+msgstr "Tweaks"
 
 #: ../src/Tweaks.vala:39
 msgid "Tweak elementary OS settings"
@@ -106,7 +106,7 @@ msgstr "Animations :"
 
 #: ../src/Grids/AnimationsGrid.vala:44
 msgid "If the animations play at all"
-msgstr ""
+msgstr "Si animations alors tout jouer"
 
 #: ../src/Grids/AnimationsGrid.vala:60
 msgid "Open Duration:"
@@ -130,7 +130,7 @@ msgstr "Durée des transitions :"
 
 #: ../src/Grids/AnimationsGrid.vala:85
 msgid "Plays when an application is snapped to the side"
-msgstr ""
+msgstr "Joue lorsqu'une application est ancrée sur le côté"
 
 #: ../src/Grids/AnimationsGrid.vala:96
 msgid "Minimize Duration:"
@@ -146,7 +146,7 @@ msgstr "Durée de changement de bureau :"
 
 #: ../src/Grids/AnimationsGrid.vala:109
 msgid "Plays when a workspace switch is initiated"
-msgstr ""
+msgstr "Joue lorsqu'un changement d'espace de travail est initié"
 
 #: ../src/Grids/FilesGrid.vala:32
 msgid "Single Click:"
@@ -155,6 +155,8 @@ msgstr "Simple clic :"
 #: ../src/Grids/FilesGrid.vala:33
 msgid "If set off, files will use 'normal' double-click behavior"
 msgstr ""
+"S'ils sont désactivés, les fichiers utiliseront un comportement "
+"de double-clic 'normal'"
 
 #: ../src/Grids/FilesGrid.vala:43
 msgid "Locale"
@@ -174,7 +176,7 @@ msgstr "Format de date :"
 
 #: ../src/Grids/FilesGrid.vala:49
 msgid "For date accessed, modified, etc."
-msgstr ""
+msgstr "Pour la date consultée, modifiée, etc."
 
 #: ../src/Grids/FilesGrid.vala:60
 msgid "Smallest"
@@ -277,7 +279,7 @@ msgstr ""
 
 #: ../src/Grids/PlankGrid.vala:43
 msgid "Lock Items:"
-msgstr "Itèmes verouillés :"
+msgstr "Éléments verrouillés :"
 
 #: ../src/Grids/PlankGrid.vala:44
 msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
@@ -287,11 +289,11 @@ msgstr ""
 
 #: ../src/Grids/PlankGrid.vala:54
 msgid "Icon Size:"
-msgstr "Taille d'icône:"
+msgstr "Taille de l'icône :"
 
 #: ../src/Grids/PlankGrid.vala:55
 msgid "The size of each icon in the plank"
-msgstr ""
+msgstr "La taille de chaque icône dans Plank"
 
 #: ../src/Grids/PlankGrid.vala:66
 msgid "Don't hide"
@@ -315,7 +317,7 @@ msgstr "Comportement :"
 
 #: ../src/Grids/PlankGrid.vala:73
 msgid "Plank's hide mode"
-msgstr "mode masquer de Plank"
+msgstr "Mode masqué pour Plank"
 
 #: ../src/Grids/PlankGrid.vala:84
 msgid "Hide Delay (ms):"
@@ -398,7 +400,7 @@ msgstr "Alignement des éléments"
 #: ../src/Grids/PlankGrid.vala:169
 msgid "The alignment of the items in this dock if panel-mode is used"
 msgstr ""
-"Alignement des itèmes sur la barre des tâches si le mode panneau est utilisé"
+"Alignement des éléments sur la barre des tâches si le mode panneau est utilisé"
 
 #: ../src/Grids/PlankGrid.vala:180
 msgid "Offset:"
@@ -424,6 +426,8 @@ msgstr "Transparence de l'arrière-plan du terminal"
 #: ../src/Grids/TerminalGrid.vala:170
 msgid "A set of settings for terminal palette and background color"
 msgstr ""
+"Un ensemble de paramètres pour la palette de terminaux et "
+"la couleur d'arrière-plan"
 
 #: ../src/Grids/AppearanceGrid.vala:34
 msgid "Prefer Dark Theme:"
@@ -437,6 +441,8 @@ msgstr "Les fenêtres GTK+ préfèreront à présent le thème GTK+ sombre"
 msgid ""
 "Some applications will not react well with this enabled and can look terrible"
 msgstr ""
+"Certaines applications ne réagiront pas bien avec cette option activée et "
+"peuvent devenir désagréable"
 
 #: ../src/Grids/AppearanceGrid.vala:45
 msgid "Metacity Theme:"
@@ -452,7 +458,7 @@ msgstr "Thème GTK+ :"
 
 #: ../src/Grids/AppearanceGrid.vala:58
 msgid "Used to render GTK+ windows like Switchboard"
-msgstr "Utiliser pour rendre les fenêtres GTK+ comme Standart"
+msgstr "Utiliser pour rendre les fenêtres GTK+ comme standard"
 
 #: ../src/Grids/AppearanceGrid.vala:69
 msgid "Icon Theme:"
@@ -461,8 +467,8 @@ msgstr "Thème des icônes :"
 #: ../src/Grids/AppearanceGrid.vala:70
 msgid "Used to theme the icon set, including application icons"
 msgstr ""
-"Utilisé pour le thème de l'ensemble d'icônes, incuant les icônes "
-"d'aplications"
+"Utilisé pour le thème de l'ensemble d'icônes, incluant les icônes "
+"d'applications"
 
 #: ../src/Grids/AppearanceGrid.vala:81
 msgid "Cursor Theme:"
@@ -494,8 +500,8 @@ msgstr ""
 #: ../src/Grids/AppearanceGrid.vala:114
 msgid "May break window controls! May stop working with updates to system!"
 msgstr ""
-"Peut rompre les contrôles de la fenêtre! Peut arrêter de fonctionner avec "
-"les mises à jour du système!"
+"Peut rompre les contrôles de la fenêtre ! Peut arrêter de fonctionner avec "
+"les mises à jour du système !"
 
 #: ../src/Grids/MiscGrid.vala:32
 msgid "Audible Bell:"
@@ -511,11 +517,11 @@ msgstr "Fenêtres actives :"
 
 #: ../src/Grids/ShadowsGrid.vala:33
 msgid "Shadow beneath windows that you have currently selected"
-msgstr ""
+msgstr "Ombre sous les fenêtres que vous avez actuellement sélectionnées"
 
 #: ../src/Grids/ShadowsGrid.vala:34 ../src/Grids/ShadowsGrid.vala:49
 msgid "This may not actually do anything"
-msgstr ""
+msgstr "Ombre sous les fenêtres que vous avez actuellement sélectionnées"
 
 #: ../src/Grids/ShadowsGrid.vala:47
 msgid "Unfocused Windows:"
@@ -523,7 +529,7 @@ msgstr "Fenêtres inactives :"
 
 #: ../src/Grids/ShadowsGrid.vala:48
 msgid "Shadow beneath windows that you do not have selected"
-msgstr ""
+msgstr "Ombre sous les fenêtres que vous n'avez pas sélectionnées"
 
 #: ../src/Grids/ShortcutsGrid.vala:72
 msgid "Name"
@@ -555,11 +561,11 @@ msgstr "Commande :"
 
 #: ../src/Settings/GalaSettings.vala:80
 msgid "elementary"
-msgstr ""
+msgstr "elementary"
 
 #: ../src/Settings/GalaSettings.vala:81
 msgid "Close Only"
-msgstr "Fermer Seulement"
+msgstr "Fermer seulement"
 
 #: ../src/Settings/GalaSettings.vala:82
 msgid "Minimize Left"
@@ -579,4 +585,5 @@ msgstr "OS X"
 
 #: ../src/Widgets/TweakWidget.vala:83
 msgid "Revert to default setting"
-msgstr ""
+msgstr "Revenir au paramètre par défaut"
+
