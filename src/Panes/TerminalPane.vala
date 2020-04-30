@@ -25,6 +25,12 @@ namespace ElementaryTweaks {
         private Gtk.Switch rem_tabs;
         private Gtk.Switch term_bell;
 
+        private Gtk.ComboBox tab_behaviour;
+        private Gtk.ListStore tab_behaviour_store;
+
+        private Gtk.ComboBox cursor_shape;
+        private Gtk.ListStore cursor_shape_store;
+
         public TerminalPane () {
             base (_("Terminal"), "utilities-terminal");
         }
@@ -32,6 +38,7 @@ namespace ElementaryTweaks {
         construct {
             if (Util.schema_exists ("org.pantheon.terminal.settings") || Util.schema_exists ("io.elementary.terminal.settings")) {
                 build_ui ();
+                make_stores ();
                 init_data ();
                 connect_signals ();
             }
@@ -48,10 +55,20 @@ namespace ElementaryTweaks {
             unsafe_paste_alert = box.add_switch (_("Unsafe paste alert"));
             rem_tabs = box.add_switch (_("Remember tabs"));
             term_bell = box.add_switch (_("Terminal bell"));
+            cursor_shape = box.add_combo_box (_("Cursor shape"));
+            tab_behaviour = box.add_combo_box (_("Tabs behaviour"));
 
             grid.add (box);
 
             grid.show_all ();
+        }
+
+        private void make_stores () {
+            int cursor_shape_index;
+            cursor_shape_store = TerminalSettings.get_cursor_shapes (out cursor_shape_index);
+
+            int behaviour_index;
+            tab_behaviour_store = TerminalSettings.get_tab_behaviours (out behaviour_index);
         }
 
         protected override void init_data () {
@@ -64,6 +81,16 @@ namespace ElementaryTweaks {
             unsafe_paste_alert.set_state (TerminalSettings.get_default ().unsafe_paste_alert);
             rem_tabs.set_state (TerminalSettings.get_default ().remember_tabs);
             term_bell.set_state (TerminalSettings.get_default ().audible_bell);
+
+            int cursor_shape_index;
+            TerminalSettings.get_cursor_shapes (out cursor_shape_index);
+            cursor_shape.set_model (cursor_shape_store);
+            cursor_shape.set_active (cursor_shape_index);
+
+            int behaviour_index;
+            TerminalSettings.get_tab_behaviours (out behaviour_index);
+            tab_behaviour.set_model (tab_behaviour_store);
+            tab_behaviour.set_active (behaviour_index);
         }
 
         private void connect_signals () {
@@ -89,6 +116,14 @@ namespace ElementaryTweaks {
 
             term_bell.notify["active"].connect (() => {
                 TerminalSettings.get_default ().audible_bell = term_bell.state;
+            });
+
+            connect_combobox (tab_behaviour, tab_behaviour_store, (val) => {
+                TerminalSettings.get_default ().tab_bar_behavior = val;
+            });
+
+            connect_combobox (cursor_shape, cursor_shape_store, (val) => {
+                TerminalSettings.get_default ().cursor_shape = val;
             });
 
             connect_reset_button (() => {TerminalSettings.get_default ().reset();});
