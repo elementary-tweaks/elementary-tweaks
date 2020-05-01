@@ -72,21 +72,21 @@ namespace ElementaryTweaks {
             return shape_layouts;
         }
 
-        public static Gtk.ListStore get_tab_behaviours (out int active_index) {
-            var behaviour_layouts = new Gtk.ListStore(2, typeof (string), typeof (string));
+        public static Gtk.ListStore get_tab_behaviors (out int active_index) {
+            var behavior_layouts = new Gtk.ListStore(2, typeof (string), typeof (string));
             Gtk.TreeIter iter;
 
             int index = 0;
             active_index = 0;
 
-            var behaviour_map = new Gee.HashMap<string, string> ();
-            behaviour_map.set ("Always Show Tabs", _("Always Show Tabs"));
-            behaviour_map.set ("Hide When Single Tab", _("Hide When Single Tab"));
-            behaviour_map.set ("Never Show Tabs", _("Never Show Tabs"));
+            var behavior_map = new Gee.HashMap<string, string> ();
+            behavior_map.set ("Always Show Tabs", _("Always Show Tabs"));
+            behavior_map.set ("Hide When Single Tab", _("Hide When Single Tab"));
+            behavior_map.set ("Never Show Tabs", _("Never Show Tabs"));
 
-            foreach (var layout in behaviour_map.entries) {
-                behaviour_layouts.append (out iter);
-                behaviour_layouts.set (iter, 0, layout.value, 1, layout.key);
+            foreach (var layout in behavior_map.entries) {
+                behavior_layouts.append (out iter);
+                behavior_layouts.set (iter, 0, layout.value, 1, layout.key);
                 if (TerminalSettings.get_default ().tab_bar_behavior == layout.key) {
                     active_index = index;
                 }
@@ -94,7 +94,7 @@ namespace ElementaryTweaks {
                 index++;
             }
 
-            return behaviour_layouts;
+            return behavior_layouts;
         }
 
         public void reset () {

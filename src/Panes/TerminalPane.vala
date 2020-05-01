@@ -25,8 +25,8 @@ namespace ElementaryTweaks {
         private Gtk.Switch rem_tabs;
         private Gtk.Switch term_bell;
 
-        private Gtk.ComboBox tab_behaviour;
-        private Gtk.ListStore tab_behaviour_store;
+        private Gtk.ComboBox tab_behavior;
+        private Gtk.ListStore tab_behavior_store;
 
         private Gtk.ComboBox cursor_shape;
         private Gtk.ListStore cursor_shape_store;
@@ -56,7 +56,7 @@ namespace ElementaryTweaks {
             rem_tabs = box.add_switch (_("Remember tabs"));
             term_bell = box.add_switch (_("Terminal bell"));
             cursor_shape = box.add_combo_box (_("Cursor shape"));
-            tab_behaviour = box.add_combo_box (_("Tabs behaviour"));
+            tab_behavior = box.add_combo_box (_("Tabs behavior"));
 
             grid.add (box);
 
@@ -67,8 +67,8 @@ namespace ElementaryTweaks {
             int cursor_shape_index;
             cursor_shape_store = TerminalSettings.get_cursor_shapes (out cursor_shape_index);
 
-            int behaviour_index;
-            tab_behaviour_store = TerminalSettings.get_tab_behaviours (out behaviour_index);
+            int behavior_index;
+            tab_behavior_store = TerminalSettings.get_tab_behaviors (out behavior_index);
         }
 
         protected override void init_data () {
@@ -87,10 +87,10 @@ namespace ElementaryTweaks {
             cursor_shape.set_model (cursor_shape_store);
             cursor_shape.set_active (cursor_shape_index);
 
-            int behaviour_index;
-            TerminalSettings.get_tab_behaviours (out behaviour_index);
-            tab_behaviour.set_model (tab_behaviour_store);
-            tab_behaviour.set_active (behaviour_index);
+            int behavior_index;
+            TerminalSettings.get_tab_behaviors (out behavior_index);
+            tab_behavior.set_model (tab_behavior_store);
+            tab_behavior.set_active (behavior_index);
         }
 
         private void connect_signals () {
@@ -118,7 +118,7 @@ namespace ElementaryTweaks {
                 TerminalSettings.get_default ().audible_bell = term_bell.state;
             });
 
-            connect_combobox (tab_behaviour, tab_behaviour_store, (val) => {
+            connect_combobox (tab_behavior, tab_behavior_store, (val) => {
                 TerminalSettings.get_default ().tab_bar_behavior = val;
             });
 
