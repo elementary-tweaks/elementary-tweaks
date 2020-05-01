@@ -33,7 +33,7 @@ Open System Settings and there should be a new Plug named "Tweaks".
 If you want to install from source code, clone this repository and then run the following commands:
 
 ```
-sudo apt install libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
+sudo apt install libgconf2-dev libpolkit-gobject-1-dev libswitchboard-2.0-dev elementary-sdk
 meson build --prefix=/usr
 cd build
 ninja
