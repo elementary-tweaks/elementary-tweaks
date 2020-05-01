@@ -62,7 +62,7 @@ namespace ElementaryTweaks {
             foreach (var layout in shapes_map.entries) {
                 shape_layouts.append (out iter);
                 shape_layouts.set (iter, 0, layout.value, 1, layout.key);
-                if (TerminalSettings.get_default ().tab_bar_behavior == layout.key) {
+                if (TerminalSettings.get_default ().cursor_shape == layout.key) {
                     active_index = index;
                 }
 
