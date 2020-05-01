@@ -23,7 +23,6 @@ plug_files = files(
     'src/Settings/GalaSettings.vala',
     'src/Settings/GtkSettings.vala',
     'src/Settings/PlankSettings.vala',
-    'src/Settings/KeyboardSettings.vala',
     'src/Settings/SlingshotSettings.vala',
     'src/Settings/GnomeSettings.vala',
     'src/Settings/TerminalSettings.vala',
@@ -47,7 +46,6 @@ shared_module(
     meson.project_name(),
     plug_files,
     dependencies: [
-        dependency('gconf-2.0'),
         dependency('gee-0.8'),
         dependency('glib-2.0'),
         dependency('granite'),
