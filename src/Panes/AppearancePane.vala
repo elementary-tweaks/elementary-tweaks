@@ -18,7 +18,6 @@
 
 namespace ElementaryTweaks {
     public class Panes.AppearancePane : Categories.Pane {
-        private Gtk.Switch prefer_dark_switch;
         private Gtk.Switch gnome_menu;
         private Gtk.ComboBox gtk_combobox;
         //  private Gtk.ComboBox metacity_combobox;
@@ -57,7 +56,6 @@ namespace ElementaryTweaks {
             //metacity_combobox = theme_box.add_combo_box (_("Metacity (Non-GTK+ applications)"));
             icon_combobox = theme_box.add_combo_box (_("Icons"));
             cursor_combobox = theme_box.add_combo_box (_("Cursor"));
-            prefer_dark_switch = theme_box.add_switch (_("Prefer dark variant"));
 
             grid.add (theme_label);
             grid.add (theme_box);
@@ -96,14 +94,9 @@ namespace ElementaryTweaks {
             controls_combobox.set_active (controls_index);
 
             gnome_menu.set_state (XSettings.get_default ().has_gnome_menu ());
-            prefer_dark_switch.set_state (GtkSettings.get_default ().prefer_dark_theme);
         }
 
         private void connect_signals () {
-            prefer_dark_switch.notify["active"].connect (() => {
-                GtkSettings.get_default ().prefer_dark_theme = prefer_dark_switch.state;
-            });
-
             connect_combobox (gtk_combobox, gtk_store, (val) => { InterfaceSettings.get_default ().gtk_theme = val; });
             //connect_combobox (metacity_combobox, metacity_store, (val) => { WindowSettings.get_default ().theme = val; });
             connect_combobox (icon_combobox, icon_store, (val) => { InterfaceSettings.get_default ().icon_theme = val; });
@@ -118,7 +111,6 @@ namespace ElementaryTweaks {
             });
 
             connect_reset_button (()=> {
-                GtkSettings.get_default().prefer_dark_theme = false;
                 //WindowSettings.get_default ().reset_appearance ();
                 InterfaceSettings.get_default ().reset_appearance ();
                 AppearanceSettings.get_default ().reset ();

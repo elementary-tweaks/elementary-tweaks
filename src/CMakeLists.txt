@@ -20,7 +20,6 @@ vala_precompile (VALA_C ${CMAKE_PROJECT_NAME}
     Settings/IndicatorSoundSettings.vala
     Settings/FilesSettings.vala
     Settings/GalaSettings.vala
-    Settings/GtkSettings.vala
     Settings/PlankSettings.vala
     Settings/SlingshotSettings.vala
     Settings/GnomeSettings.vala

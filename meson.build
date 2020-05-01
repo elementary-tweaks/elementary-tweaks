@@ -21,7 +21,6 @@ plug_files = files(
     'src/Settings/IndicatorSoundSettings.vala',
     'src/Settings/FilesSettings.vala',
     'src/Settings/GalaSettings.vala',
-    'src/Settings/GtkSettings.vala',
     'src/Settings/PlankSettings.vala',
     'src/Settings/SlingshotSettings.vala',
     'src/Settings/GnomeSettings.vala',
