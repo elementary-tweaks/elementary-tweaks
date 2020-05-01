@@ -50,7 +50,6 @@ shared_module(
         dependency('glib-2.0'),
         dependency('granite'),
         dependency('gtk+-3.0'),
-        dependency('polkit-gobject-1'),
         meson.get_compiler('vala').find_library('posix'),
         switchboard_dep
     ],

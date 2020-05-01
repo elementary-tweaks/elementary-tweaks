@@ -8,7 +8,6 @@ Build-Depends: debhelper (>= 9),
                libglib2.0-dev,
                libgee-0.8-dev,
                libswitchboard-2.0-dev,
-               libpolkit-gobject-1-dev,
                meson,
                valac (>= 0.30)
 Standards-Version: 3.9.5
