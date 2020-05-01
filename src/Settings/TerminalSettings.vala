@@ -100,7 +100,7 @@ namespace ElementaryTweaks {
         public void reset () {
             string[] to_reset = {"background", "cursor-color", "font", "foreground", "palette",
                                  "scrollback-lines", "unsafe-paste-alert", "natural-copy-paste",
-                                 "tab-bar-behaviour",
+                                 "tab-bar-behavior",
                                  "follow-last-tab", "cursor-shape", "audible-bell", "remember-tabs"};
 
             foreach (string key in to_reset) {
