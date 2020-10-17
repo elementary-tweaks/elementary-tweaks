@@ -1,7 +1,7 @@
 # elementary tweaks
 elementary tweaks is a system settings panel for elementary OS **Juno** that lets you easily and safely customise your desktop's appearance 
 
-Future releases and support for elementary OS **Odin** is available here: https://github.com/pantheon-tweaks/pantheon-tweaks/
+Future releases and support for elementary OS **Odin** will be available here: https://github.com/pantheon-tweaks/pantheon-tweaks/
 
 ![sample](docs/screenshot.png)
 
