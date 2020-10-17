@@ -1,16 +1,10 @@
 # elementary tweaks
 elementary tweaks is a system settings panel for elementary OS **Juno** that lets you easily and safely customise your desktop's appearance 
 
+Future releases and support for elementary OS **Odin** will be available here: https://github.com/pantheon-tweaks/pantheon-tweaks/
 
 ![sample](docs/screenshot.png)
 
- 
-## What's New?
-- Fully updated and working to reflect the changes of elementary OS Juno
-- elementary-tweaks now looks more "elementary"! We've rebuilt elementary tweaks from the ground up to make it look like a native plug for your system's settings.
-- Fixed: Removed theme-patcher and other more dangerous settings that were [causing problems](https://github.com/I-hate-farms/elementary-tweaks/issues/14)
-
-[Previous Changelog](CHANGELOG.md)
 
 ## Installation
 
