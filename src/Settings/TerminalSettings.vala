@@ -32,6 +32,7 @@ namespace ElementaryTweaks {
         public bool audible_bell { get; set; }
         public bool remember_tabs { get; set; }
         public string cursor_shape { get; set; }
+        public string tab_bar_behavior { get; set; }
                 
         static TerminalSettings? instance = null;
 
@@ -46,9 +47,60 @@ namespace ElementaryTweaks {
             return instance;
         }
 
+        public static Gtk.ListStore get_cursor_shapes (out int active_index) {
+            var shape_layouts = new Gtk.ListStore(2, typeof (string), typeof (string));
+            Gtk.TreeIter iter;
+
+            int index = 0;
+            active_index = 0;
+
+            var shapes_map = new Gee.HashMap<string, string> ();
+            shapes_map.set ("Block", _("Block"));
+            shapes_map.set ("I-Beam", _("I-Beam"));
+            shapes_map.set ("Underline", _("Underline"));
+
+            foreach (var layout in shapes_map.entries) {
+                shape_layouts.append (out iter);
+                shape_layouts.set (iter, 0, layout.value, 1, layout.key);
+                if (TerminalSettings.get_default ().cursor_shape == layout.key) {
+                    active_index = index;
+                }
+
+                index++;
+            }
+
+            return shape_layouts;
+        }
+
+        public static Gtk.ListStore get_tab_behaviors (out int active_index) {
+            var behavior_layouts = new Gtk.ListStore(2, typeof (string), typeof (string));
+            Gtk.TreeIter iter;
+
+            int index = 0;
+            active_index = 0;
+
+            var behavior_map = new Gee.HashMap<string, string> ();
+            behavior_map.set ("Always Show Tabs", _("Always Show Tabs"));
+            behavior_map.set ("Hide When Single Tab", _("Hide When Single Tab"));
+            behavior_map.set ("Never Show Tabs", _("Never Show Tabs"));
+
+            foreach (var layout in behavior_map.entries) {
+                behavior_layouts.append (out iter);
+                behavior_layouts.set (iter, 0, layout.value, 1, layout.key);
+                if (TerminalSettings.get_default ().tab_bar_behavior == layout.key) {
+                    active_index = index;
+                }
+
+                index++;
+            }
+
+            return behavior_layouts;
+        }
+
         public void reset () {
             string[] to_reset = {"background", "cursor-color", "font", "foreground", "palette",
                                  "scrollback-lines", "unsafe-paste-alert", "natural-copy-paste",
+                                 "tab-bar-behavior",
                                  "follow-last-tab", "cursor-shape", "audible-bell", "remember-tabs"};
 
             foreach (string key in to_reset) {
