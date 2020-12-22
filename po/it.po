@@ -1,21 +1,21 @@
 # Italian translation for elementary-community
 # Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
 # This file is distributed under the same license as the elementary-community package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+# Matteo Formenti <matteoformenti1998@gmail.com>, 2014
+# Mirko Brombin <send@mirko.pm>, 2020
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: elementary-community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-28 07:48-0500\n"
-"PO-Revision-Date: 2014-10-27 10:27+0000\n"
-"Last-Translator: Matteo Formenti <matteoformenti1998@gmail.com>\n"
-"Language-Team: Italian <it@li.org>\n"
+"PO-Revision-Date: 2020-04-24 15:56+0200\n"
+"Last-Translator: Mirko Brombin <send@mirko.pm>\n"
+"Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-10-28 07:58+0000\n"
-"X-Generator: Launchpad (build 17203)\n"
+"X-Generator: Poedit 2.0.6\n"
 "Language: it\n"
 
 #: ../src/Tweaks.vala:38
@@ -275,7 +275,7 @@ msgstr "Visualizza solo nel Workspace corrente"
 
 #: ../src/Grids/PlankGrid.vala:34
 msgid "Will still show pinned items on different workspaces"
-msgstr ""
+msgstr "Continua a mostrare elementi fissati su spazi di lavoro diversi"
 
 #: ../src/Grids/PlankGrid.vala:43
 msgid "Lock Items:"
@@ -283,7 +283,7 @@ msgstr "Blocca elementi:"
 
 #: ../src/Grids/PlankGrid.vala:44
 msgid "Whether to prevent drag'n'drop actions and lock items on the dock"
-msgstr ""
+msgstr "Previeni le azioni di drag'n'drop e bloccare gli oggetti nella dock"
 
 #: ../src/Grids/PlankGrid.vala:54
 msgid "Icon Size:"
@@ -397,7 +397,7 @@ msgstr "Allineamento"
 
 #: ../src/Grids/PlankGrid.vala:169
 msgid "The alignment of the items in this dock if panel-mode is used"
-msgstr ""
+msgstr "Allinea gli elementi nella dock se si utilizza la modalità a pannello"
 
 #: ../src/Grids/PlankGrid.vala:180
 msgid "Offset:"
@@ -406,6 +406,8 @@ msgstr "Scostamento:"
 #: ../src/Grids/PlankGrid.vala:181
 msgid "The offset (in percent) from the alignment point to shift Plank"
 msgstr ""
+"Lo scostamento (in percentuale) dal punto di allineamento allo spostamento "
+"di Plank"
 
 #: ../src/Grids/TerminalGrid.vala:83 ../src/Settings/GalaSettings.vala:86
 msgid "Custom"
@@ -486,10 +488,14 @@ msgstr "Pulsanti di controllo delle finestre"
 msgid ""
 "Controls located at the top of the window for close, minimize, and maximize"
 msgstr ""
+"Controlli posizionati nella parte altra della finestra per chiudere, "
+"minimizzare e massimizzare"
 
 #: ../src/Grids/AppearanceGrid.vala:114
 msgid "May break window controls! May stop working with updates to system!"
 msgstr ""
+"Può rompere i controlli delle finestre! Potrebbero smettere di funzionare "
+"con gli aggiornamenti di sistema!"
 
 #: ../src/Grids/MiscGrid.vala:32
 msgid "Audible Bell:"
@@ -505,7 +511,7 @@ msgstr "Finestra attiva"
 
 #: ../src/Grids/ShadowsGrid.vala:33
 msgid "Shadow beneath windows that you have currently selected"
-msgstr ""
+msgstr "Ombra sotto le finestre attualmente selezionate"
 
 #: ../src/Grids/ShadowsGrid.vala:34 ../src/Grids/ShadowsGrid.vala:49
 msgid "This may not actually do anything"
@@ -517,7 +523,7 @@ msgstr "Finestra inattiva"
 
 #: ../src/Grids/ShadowsGrid.vala:48
 msgid "Shadow beneath windows that you do not have selected"
-msgstr ""
+msgstr "Ombra sotto le finestre non selezionate"
 
 #: ../src/Grids/ShortcutsGrid.vala:72
 msgid "Name"
@@ -533,27 +539,27 @@ msgstr "Comando"
 
 #: ../src/Grids/ShortcutsGrid.vala:121
 msgid "Every field must be filled!"
-msgstr ""
+msgstr "Ogni campo deve essere completato!"
 
 #: ../src/Grids/ShortcutsGrid.vala:130
 msgid "Name:"
-msgstr ""
+msgstr "Nome:"
 
 #: ../src/Grids/ShortcutsGrid.vala:133
 msgid "Shortcut:"
-msgstr ""
+msgstr "Scorciatoia:"
 
 #: ../src/Grids/ShortcutsGrid.vala:136
 msgid "Command:"
-msgstr ""
+msgstr "Commando:"
 
 #: ../src/Settings/GalaSettings.vala:80
 msgid "elementary"
-msgstr ""
+msgstr "elementary"
 
 #: ../src/Settings/GalaSettings.vala:81
 msgid "Close Only"
-msgstr ""
+msgstr "Chiudi solo"
 
 #: ../src/Settings/GalaSettings.vala:82
 msgid "Minimize Left"
@@ -573,4 +579,4 @@ msgstr "OS X"
 
 #: ../src/Widgets/TweakWidget.vala:83
 msgid "Revert to default setting"
-msgstr ""
+msgstr "Ripristina le impostazioni di base"
