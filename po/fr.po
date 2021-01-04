@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../src/Tweaks.vala:39
 msgid "Tweak elementary OS settings"
-msgstr "Modifier es paramètres d'elementary OS"
+msgstr "Modifier les paramètres d'elementary OS"
 
 #: ../src/Tweaks.vala:49
 msgid "Appearance"
